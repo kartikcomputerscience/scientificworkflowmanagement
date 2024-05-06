@@ -1,0 +1,1595 @@
+2861,OPEN,wrong python path is used when running python script with named conda environment,bug,2024-05-03T07:12:25Z
+2848,OPEN,document ChildIOException,enhancement,2024-04-26T07:11:56Z
+2846,CLOSED,`snakemake.io._IOFile.open` method doesn't use it's keyword arguments,bug,2024-04-29T12:47:05Z
+2844,OPEN,`keep_local` does not keep remote files locally,bug,2024-04-29T14:40:30Z
+2841,OPEN,ModuleNotFoundError: No module named 'asyncore',bug,2024-05-06T10:25:37Z
+2838,OPEN,incompatibility with using `rules.rulename.output` and importing snakefile as a module, using `use rule a from somemodule as a with...`,bug,2024-04-25T10:36:28Z
+2837,OPEN,Bind current working directory to container,enhancement,2024-04-23T11:03:45Z
+2836,OPEN,Error when using wrappers and `use rule as`,bug,2024-04-23T06:15:06Z
+2835,OPEN,question: SFTP options,,2024-04-23T06:22:40Z
+2834,OPEN,carbon footprint in report,enhancement,2024-05-02T20:48:29Z
+2832,OPEN,Incorrect shell command executed when defined within a loop.,bug,2024-04-24T20:23:29Z
+2828,OPEN,--cluster-config BsubInvocation Error,bug,2024-05-03T12:14:12Z
+2826,OPEN,`--show-failed-logs` if binary file used as `log` file,bug,2024-04-19T21:13:20Z
+2825,CLOSED,--dry-run --quiet fails on 8,bug,2024-04-28T18:55:34Z
+2824,OPEN,--until not working with checkpoints,bug,2024-04-29T14:33:16Z
+2822,OPEN,Incomplete DAG with checkpoints,bug,2024-04-22T16:06:08Z
+2821,OPEN,Make --cores a forbidden parameter if an executor is used.,enhancement,2024-04-18T08:47:24Z
+2820,OPEN,Add possibility to provide empty default resources in a profile (as was possible with SnakeMake 7.x.x),enhancement,2024-04-18T07:35:57Z
+2819,OPEN,Using option --drmaa_logs crashes snakemake,bug,2024-04-18T05:44:02Z
+2818,CLOSED,Key Error: workflow/rules/common.smk, line 25: 'resource_config',bug,2024-04-17T19:58:56Z
+2816,OPEN,Services setup and teardown procedures with specific scripts and warmup time,enhancement,2024-04-16T16:06:18Z
+2813,CLOSED,Missing All Flags section in Snakemake docs in at least several 8.x versions,bug,2024-04-19T06:46:19Z
+2812,CLOSED,CreateRuleException: The name xxxxx is already used by another rule,bug,2024-04-16T14:32:42Z
+2808,OPEN,Snakemake 8.9.0 on a singularity slurm cluster combination error,,2024-04-27T18:43:12Z
+2807,OPEN,software deployment conda confusion,bug,2024-04-12T14:56:28Z
+2804,OPEN,Split a report using Snakefile,enhancement,2024-04-11T18:16:08Z
+2802,CLOSED,"module command not found" using Snakemake with Slurm,bug,2024-05-03T12:09:28Z
+2801,CLOSED,SpawnedJobsArgFactory should allow executor more control over CLI options,enhancement,2024-04-10T20:36:08Z
+2798,OPEN,Shell comand within if-else statement do not print when use "--print-compilation" arguemnt,bug,2024-04-08T20:33:13Z
+2797,OPEN,Duplicate Calls to log_handler in log-handler-script,bug,2024-04-13T22:00:32Z
+2792,OPEN,Working example for new version 8 API,,2024-04-03T12:29:30Z
+2791,OPEN,snakemake function import error,,2024-04-03T08:18:46Z
+2789,OPEN,Alternative Solutions for Running Snakemake on Slurm without Configuring MySQL Database,bug,2024-05-03T12:24:49Z
+2788,OPEN,CreateCondaEnvironmentException with Mamba when creating a Conda environment from a Snakemake workflow,bug,2024-04-01T10:30:21Z
+2787,OPEN,Can only use unpack() on list and dict,,,2024-04-01T21:13:43Z
+2786,OPEN,The Workflow class cannot be imported due to a circular import,bug,2024-03-27T21:40:09Z
+2783,CLOSED,Use profile to send jobs on different partition (slurm cluster),enhancement,2024-05-06T14:03:41Z
+2782,OPEN,Top of report.html pages not viewable when page is longer than screen,bug,2024-03-26T23:58:23Z
+2779,CLOSED,Improving modularisation by allowing inputs from the main workflow into subworkflows,enhancement,2024-03-28T16:36:29Z
+2774,OPEN,`mem_mb` and `mem_mib` do not match `mem` when `mem` is specified with unit.,bug,2024-03-22T18:39:23Z
+2773,OPEN,rule all or default_target directive not working for included rule files,bug,2024-03-22T18:24:28Z
+2771,OPEN,Logo under images/ is out of date,question,2024-03-21T12:32:40Z
+2769,OPEN,Ability to configure workflow using TOML in addition to currently supported YAML and JSON,enhancement,2024-03-21T08:44:06Z
+2768,OPEN,Remote storage input removed,bug,2024-03-19T20:46:21Z
+2767,OPEN,snakemake: error: argument --executor/-e: invalid choice:,enhancement,2024-04-02T18:51:46Z
+2766,OPEN,Add missing quotes around configfile in unit test template,,2024-03-19T14:50:21Z
+2765,CLOSED,Moving workflow to version 8 gives `IndentationError´ on Windows.,bug,2024-04-23T20:13:05Z
+2763,OPEN,Trace back fails due to spelling mistake in exceptions.py,bug,2024-03-17T17:22:39Z
+2762,OPEN,When checkpoints are nested, the second checkpoint does not seem to run the rule,bug,2024-04-09T23:10:11Z
+2758,OPEN,AmbiguousRuleException:,enhancement,2024-03-15T15:15:47Z
+2757,CLOSED,Errors to stdout or to stderr?,bug,2024-03-15T15:43:37Z
+2756,OPEN,Windows path too long: Failed to set marker file for job started,bug,2024-04-23T14:00:06Z
+2755,OPEN,Using wildcards or params in the wrapper identifier,bug,2024-03-14T09:01:14Z
+2753,OPEN,Passing arguments to Jupyter notebooks differs between directly passed and function-generated arguments,bug,2024-03-12T21:55:13Z
+2750,OPEN,Wildcards in script specifier not parsed when checking whether the output is older,bug,2024-03-12T13:39:24Z
+2748,CLOSED,Snakemake should ignore conda's default pacakges,enhancement,2024-03-26T21:21:42Z
+2744,OPEN,Self referencing job consumes all memory and crashes (oom),bug,2024-03-10T15:19:19Z
+2742,OPEN,Bring --draft-notebook to basic python scripts,enhancement,2024-03-09T15:15:28Z
+2739,CLOSED,snakemake waiting for files much longer than latency-wait (slurm, NFS),bug,2024-03-14T09:04:54Z
+2734,OPEN,Ignore missing variable `snakemake` in common IDEs and LSP,enhancement,2024-03-07T08:02:17Z
+2732,CLOSED,Temp files get deleted before time,bug,2024-03-07T16:16:28Z
+2731,CLOSED,Snakemake storage plugin: gcs: WorkflowError,bug,2024-03-07T16:23:00Z
+2729,OPEN,Overwriting module rules leads to unexpected behavior,bug,2024-04-25T09:33:07Z
+2728,CLOSED,OSError: [Errno 39] Directory not empty: 'envs',bug, awaiting-test-with-latest-release,2024-05-03T09:53:53Z
+2727,OPEN,info messages logged as warnings,enhancement,2024-03-07T16:15:59Z
+2726,OPEN,Is it possible to use local input files when running on kubernetes?,enhancement,2024-02-27T16:36:46Z
+2725,OPEN,improved --quiet granularity,enhancement,2024-02-27T16:15:34Z
+2724,OPEN,AttributeError: 'str' object has no attribute 'get',,2024-03-01T21:50:05Z
+2723,CLOSED,`mtime` comparison between remote and local storage incompatible,bug,2024-03-11T13:53:48Z
+2709,OPEN,Snakemake print path to logs or stderr with onerror,enhancement,2024-02-19T20:45:10Z
+2704,OPEN,"--generate-unit-tests" feature do not copy index files for genomes vcf, etc.,enhancement,2024-02-22T18:43:16Z
+2703,OPEN,pass function to rule-specific `wildcard_constraints`,enhancement,2024-02-17T22:10:42Z
+2701,CLOSED,Snakemake 8 not usable with Slurm clusters offering GPUs,bug,2024-03-18T11:17:16Z
+2698,CLOSED,Update docs,bug,2024-02-24T09:27:31Z
+2697,OPEN,State location of ruleorder definition in UnknownRuleException,enhancement,2024-02-14T15:22:54Z
+2696,CLOSED,'runtime' not correctly parsed with --workflow-profile,bug,2024-02-26T14:09:58Z
+2693,OPEN,Containerization fails when workflow has global Conda directive,bug,2024-02-20T06:31:37Z
+2688,OPEN,FileNotFoundError when attempting to inject global conda env from remote module,bug,2024-02-09T11:36:46Z
+2686,CLOSED,command not found in `.post-deploy.sh`,bug,2024-02-09T01:44:04Z
+2685,CLOSED,Using `collect()` and `lookup()` raises `AttributeError` if and only if lookup returns only one element,bug,2024-02-09T16:30:14Z
+2684,OPEN,write_source_archive issue on windows when using a remote executor,bug,2024-02-08T00:23:45Z
+2682,OPEN,Not clear how to set non-standard cluster resource settings with Profiles,,2024-02-07T15:34:54Z
+2678,CLOSED,snakemake cannot run multithreading scripts,help wanted,2024-02-26T14:08:27Z
+2672,CLOSED,Cluster Configuration Rule Missing,bug,2024-03-07T16:22:08Z
+2669,CLOSED,script directive: explicit error message when file is not found,enhancement,2024-02-03T14:18:57Z
+2668,OPEN,calling checkpoints in input function causes upstream checkpoints in same function to be ignored,bug,2024-02-01T23:29:26Z
+2667,OPEN,The information of 'min threads' and 'max threads' do not shown in the Job stats panel.,bug,2024-01-31T16:35:02Z
+2666,CLOSED,re-run a snakemake pipeline from a given rule omitting upstream dependencies,enhancement,2024-02-02T10:39:22Z
+2664,OPEN,An option to limit cluster submission by total threads,enhancement,2024-02-28T12:00:41Z
+2663,OPEN,SNAKEMAKE_PROFILE not being passed to job env prevents Snakemake workflows from executing other Snakemake workflows,bug,2024-01-30T18:07:58Z
+2662,OPEN,Python API of Snakemake 8,,2024-01-30T16:16:15Z
+2661,OPEN,Loop in snakemake,enhancement,2024-01-31T10:06:12Z
+2657,OPEN,parsing fstring with if else on params,bug,2024-04-25T09:25:36Z
+2656,CLOSED,--rulegraph yields no output except "Building DAG of jobs..." while --dag works successfully,bug,2024-02-05T09:00:11Z
+2655,OPEN,Using Snakemake in GCP VM,enhancement,2024-01-30T14:35:21Z
+2648,CLOSED,Python 3.12 f-strings still introduce unwanted whitespace in Snakemake 8,bug,2024-01-29T08:12:11Z
+2645,OPEN,Script execution fails if path to Python executable contains whitespace,bug,2024-03-17T12:07:27Z
+2644,OPEN,A tree_expand function that constrains format string combinations to stem-to-leaf YAML paths,enhancement,2024-01-23T18:28:18Z
+2643,CLOSED,--batch cli argument error,bug,2024-01-25T21:12:12Z
+2637,OPEN,AttributeError: 'NoneType' object has no attribute 'ignore_incomplete' during conda_create_envs,bug,2024-02-04T11:34:58Z
+2635,CLOSED,Installing snakemake-storage-plugin-azure results in unworkable snakemake,bug,2024-03-06T17:27:04Z
+2633,OPEN,Detecting kill signal by server when running on HPC,enhancement,2024-03-07T15:58:25Z
+2632,OPEN,Doesn't snakemake leaking the outer environment into the container hamper with reproducibility?,,2024-01-18T20:11:45Z
+2631,CLOSED,Slurm constraint not working,bug,2024-03-26T17:14:44Z
+2626,OPEN,confusing rerun behavior,bug,2024-03-04T07:24:16Z
+2624,OPEN,wall of text when activating conda environment via conda directive,bug,2024-02-09T20:39:13Z
+2623,OPEN,Not ending with semicolon in script subprocess.run creates race condition,bug,2024-01-16T18:02:38Z
+2621,OPEN,Docs Github icon should link to snakemake Github rather than the Sphinx theme's github,enhancement,2024-01-17T18:24:31Z
+2619,OPEN,ValueError: a coroutine was expected, got <async_generator object DAG.summary at 0x7f63aa615b40>,bug,2024-03-08T09:44:39Z
+2615,CLOSED,unrecognized arguments: --cluster,bug,2024-01-22T22:22:58Z
+2614,OPEN,Snakemake Stacking Conda Environments Leading to Unexpected Errors,bug,2024-01-14T03:55:18Z
+2609,OPEN,Resources specification in profiles is inconsistent with CLI and unclear overall,enhancement,2024-03-15T14:13:22Z
+2608,OPEN,Download dependencies when running CI jobs,bug,2024-04-12T11:07:23Z
+2607,CLOSED,AttributeError: module 'pulp' has no attribute 'list_solvers',bug,2024-04-12T11:05:42Z
+2606,CLOSED,Snakemake conda recipe broken due to a pulp dependency update,bug,2024-01-13T13:15:29Z
+2604,CLOSED,ReadTheDocs: All Options subheader display error,bug,2024-02-22T13:30:20Z
+2602,OPEN,Containerized workflow not able to access programs in container,bug,2024-05-02T21:17:24Z
+2601,OPEN,schema validation doesn't work for arrays in tabular configuration files,bug,2024-01-10T22:41:04Z
+2598,CLOSED,ImportError from snakemake.executors.flux (no 'sleep' in snakemake_interface_executor_plugins.utils),bug,2024-01-11T15:36:55Z
+2596,CLOSED,`snakemake.workflow` circular import error,bug,2024-01-16T13:56:48Z
+2595,OPEN,Depth first execution.,enhancement,2024-01-12T15:08:34Z
+2593,OPEN,XRootD Storage Plugin,enhancement,2024-01-08T17:26:32Z
+2590,OPEN,Requirements for python version for interfaces / plugins too strict,,2024-01-10T21:03:09Z
+2589,OPEN,Automatically double the initial allocated memory amount for a rule for each retry attempt,enhancement,2024-04-23T14:04:55Z
+2587,OPEN,Error from `min_version` should be prioritized,enhancement,2024-02-15T13:37:43Z
+2586,CLOSED,f-strings no longer accepted in shell commands,bug,2024-01-08T08:18:08Z
+2585,OPEN,Wildcards keyword retention request,enhancement,2024-01-05T15:25:30Z
+2582,OPEN,Latest docker image does not include conda/mamba,bug,2024-01-05T11:09:39Z
+2581,CLOSED,In the snakemake rule, the path to load the conda file is incorrect！,bug,2024-01-06T05:24:10Z
+2580,OPEN,Suggestion for alternative "key='value'" envvars syntax,enhancement,2024-01-05T07:34:12Z
+2579,CLOSED,Failure to evaluate default resources,bug,2024-01-05T19:46:04Z
+2578,OPEN,Adressing rules that have been named via the `name` attribute,,2024-01-10T14:19:28Z
+2577,CLOSED,Snakemake 8.01 --rulegraph error,bug,2024-01-29T20:57:12Z
+2576,OPEN,Decentralized Caching via IPFS or Torrent,enhancement,2024-01-05T15:23:29Z
+2575,CLOSED,Dry run doesn't work with input-based resource allocation,bug,2024-02-15T10:15:42Z
+2574,OPEN,Wrong error line numbers reported in version 8.0.1,bug,2024-04-08T14:48:28Z
+2572,OPEN,[BUG] Snakemake fails to detect the correct path of config.yaml file when `executor` plugin is used.,bug,2024-01-03T09:30:51Z
+2571,CLOSED,IsADirectoryError on .snakemake/metadata in persistence.py: _read_record_uncached method (line564),bug,2024-01-04T14:41:35Z
+2570,OPEN,Link from preivous repo broken,bug,2024-01-02T13:34:05Z
+2569,CLOSED,Version 8.0 no longer support python 3.10?,bug,2024-05-03T12:26:36Z
+2568,OPEN,404 error for snakemake azure tutorial,bug,2024-01-18T02:13:51Z
+2567,OPEN,Unable to parse tmpdir in default-resources,bug,2023-12-29T04:47:27Z
+2566,CLOSED,Error when visualizing the workflow dag,bug,2024-01-29T17:30:46Z
+2565,OPEN,v8 traceback line numbers incorrect,bug,2024-01-06T09:48:04Z
+2564,OPEN,snakemake command line cannot run after installing storage plugin,bug,2024-01-08T19:20:14Z
+2563,OPEN,Using a parent directory of an output of one rule as the input to another rule,,2023-12-27T04:51:07Z
+2562,OPEN,Allow for multiple executors for one Snakefile,enhancement,2024-02-22T22:01:53Z
+2560,OPEN,lambda functions for priority,enhancement,2023-12-24T04:26:16Z
+2559,CLOSED,Clarify `mem_mb` and `disk_mb`,enhancement,2024-02-22T23:25:00Z
+2558,OPEN,Docs: incorrect or maybe incomplete profile link,enhancement,2023-12-23T17:01:04Z
+2557,OPEN,Missing :All Options" content in docs,bug,2024-04-17T09:52:15Z
+2556,CLOSED,`--conda-create-envs-only` causes an `AttributeError`,bug,2024-01-29T08:11:09Z
+2555,CLOSED,input-dependent resource specification fails,bug,2024-02-15T10:15:43Z
+2552,OPEN,Bug or undocumented v8 breaking change: `snakemake: error: unrecognized arguments: --reason=True`,bug,2024-01-07T03:06:41Z
+2549,CLOSED,OSError: [Errno 5] Input/output error,bug,2024-01-03T15:24:44Z
+2548,CLOSED,The project homepage, https://snakemake.github.io/, is empty,bug,2023-12-20T19:49:32Z
+2544,OPEN,Improve message `one of the commands exited with non-zero exit code`,enhancement,2024-01-11T03:43:40Z
+2543,OPEN,Option to ignore ProtectedOutputException,enhancement,2023-12-12T20:38:32Z
+2540,CLOSED,strings get extra whitespaces,bug,2023-12-18T09:21:48Z
+2539,OPEN,Snakemake self.jobs has string job at end of dict keys,bug,2023-12-08T02:14:54Z
+2538,OPEN,Conda error while using conda envs within container,bug,2023-12-07T18:38:57Z
+2536,OPEN,Workflow terminates after job submission error even with --keep-going,bug,2023-12-07T09:29:48Z
+2533,OPEN,More useful exceptions for wildcard_constraints,enhancement,2023-12-05T14:07:11Z
+2532,OPEN,threads does not work,bug,2023-12-14T01:34:44Z
+2531,OPEN,name attribute ValueError when running on the cluster,bug,2023-12-05T03:50:54Z
+2530,OPEN,checkpoint inheritance,enhancement,2023-12-04T21:12:02Z
+2526,OPEN,Can we set an input to `None` such that the rule can never be used to avoid conditions that include/exclude rules from scope,enhancement,2023-12-13T23:28:01Z
+2524,OPEN,Workfow exit with 0 code but not completely finish,bug,2023-11-27T08:44:17Z
+2523,OPEN,Using an external conda environment with `run` for complex rules,bug,2023-11-30T11:38:15Z
+2522,CLOSED,conda env export --name fails after own code successfully runs,bug,2023-11-23T13:50:55Z
+2520,OPEN,Snakemake does not find already installed conda environemnt,bug,2023-11-28T13:24:33Z
+2518,CLOSED,Issue with the conda install step,bug,2023-11-17T01:04:23Z
+2517,OPEN,`snakemake --touch` is slow/handicapped for unclear reasons,bug,2024-04-03T07:06:44Z
+2515,OPEN,LSF executor plugin,enhancement,2024-05-03T16:38:20Z
+2514,OPEN,Module object is not defined in the module-defining workflow,bug,2023-11-14T19:53:43Z
+2513,CLOSED,Wildcards could not read special characters,bug,2023-11-13T20:09:46Z
+2512,CLOSED,Help: empty conda env folder,,2023-11-21T08:34:06Z
+2511,OPEN,"shadow: full" mode skip symbolic links,bug,2023-11-11T04:50:48Z
+2510,OPEN,Postpone parsing of resources,bug,2024-04-22T09:52:47Z
+2508,OPEN,Option to keep-going for other jobs when a job in group fails,enhancement,2023-11-10T08:17:30Z
+2507,OPEN,Unique identifier for a workflow?,enhancement,2023-11-09T22:31:27Z
+2501,OPEN,Bug with storage interface no argument `--storage-http-allow-redirects`,bug,2023-11-03T19:48:41Z
+2500,OPEN,Bug with storage interface: 'Plugin' object has no attribute 'validate_settings',bug,2023-11-02T21:59:59Z
+2499,OPEN,Global variables in modules are resolved incorrectly,bug,2023-12-13T22:48:08Z
+2496,OPEN,Snakemake hangs with --slurm and doesnt recognize neither failed nor completed jobs,bug,2023-10-28T12:26:20Z
+2495,OPEN,Lmod support,enhancement,2023-11-10T20:48:51Z
+2494,CLOSED,Job names in slurm mode too cryptic,bug,2024-04-02T14:48:07Z
+2493,OPEN,Can the input.size API return the max size of all input files rather than the total size?,,2023-10-24T21:22:39Z
+2492,CLOSED,snakemake --help broken?,bug,2023-11-29T21:17:06Z
+2483,OPEN,Should params be re-evaluated for retries?,bug,2023-10-16T04:58:02Z
+2481,OPEN,Bug in 7.32.4 trying to access outputs with the `rules` object: 'Namedlist' object has no attribute <x>,bug,2024-01-17T20:28:15Z
+2480,CLOSED,Python 3.12 break f string inside Snakemake,bug,2024-01-25T13:32:11Z
+2478,OPEN,mem_mb not allocating memory as expected (version 7.32.4),bug,2023-10-25T11:04:48Z
+2477,CLOSED,`--cluster-status` not compatible with `--slurm`?,bug,2024-05-06T09:03:35Z
+2475,OPEN,'inf' value cannot pass to R script,bug,2023-10-11T02:46:13Z
+2473,CLOSED,On windows, the new storage plugin functionality seems to fail to properly match s3 objects between input and output of rules,bug, help wanted,2023-11-21T20:20:54Z
+2472,OPEN,Rule with Nextflow workflow not being executed concurrently for multiple samples on SLURM,bug,2023-10-08T09:35:07Z
+2471,CLOSED,Snakemake prints job information multiple times,bug,2023-10-08T09:40:12Z
+2470,OPEN,Using formated wildcards in output leads to MissingInputException,bug,2023-10-05T14:00:11Z
+2468,OPEN,DeprecationWarning when using `snakemake.utils.validate`,bug,2023-10-03T12:04:21Z
+2466,CLOSED,lazy_property missing in snakemake_executor_plugin_interface,bug,2023-12-08T02:01:18Z
+2465,OPEN,`snakemake --lint` improperly flags `+` in `wildcard_constraints` regex,bug,2023-09-30T13:11:02Z
+2464,OPEN,Allow specification of when temp files are deleted,enhancement,2024-03-06T09:16:38Z
+2463,OPEN,In-snakefile style conda env and schema,enhancement,2023-10-03T11:23:09Z
+2462,OPEN,Request for slightly more documentation/guidance in the distribution & reproducibility docs,enhancement,2023-09-28T16:18:38Z
+2459,OPEN,Python 3.12 can not parse mixing tabs and spaces as indentation,bug,2024-01-02T15:18:09Z
+2458,OPEN,Print `--cluster` command for each execution when run with `--verbose`,enhancement,2023-09-27T06:36:15Z
+2457,OPEN,Wildcards not present in group job properties,bug,2023-09-26T11:59:55Z
+2455,OPEN,Wildcards in input files cannot be determined from output files: 'sample',bug,2023-10-05T04:18:23Z
+2451,OPEN,Google life sciences executor down,bug,2023-11-23T22:19:22Z
+2447,OPEN,Executing with --slurm always runs tasks with 1 core,bug,2024-02-29T11:04:09Z
+2446,OPEN,Service rules on different nodes than their consumers,enhancement,2023-09-15T23:01:58Z
+2445,OPEN,Add support for specifying rule timeouts,enhancement,2023-09-15T17:18:22Z
+2443,OPEN,Load envmodules when using Rscript,enhancement,2023-09-13T15:15:31Z
+2442,OPEN,snakemake-tutorial software setup leads to conflict,bug, documentation,2023-09-12T13:47:21Z
+2441,OPEN,more control on the retry behaviour,enhancement,2023-10-09T19:44:53Z
+2439,OPEN,WorkflowError with empty `--configfile=config.yaml`,,2023-09-10T17:48:15Z
+2438,OPEN,Proposal: Respect semantic versioning requirements or stop using it,enhancement,2023-09-09T10:47:20Z
+2437,OPEN,Alternate way to check Torque jobs,enhancement,2023-09-09T07:39:05Z
+2436,OPEN,HTTPRemote checks for wrong value of `insecure` when using `http://`,bug,2023-09-08T09:38:56Z
+2435,CLOSED,MissingOutputException error in snakemake,bug,2023-09-11T07:32:30Z
+2434,OPEN,Setting `workflow.use_conda = True` in Snakefile stopped working,bug,2023-09-09T10:27:39Z
+2433,OPEN,Add zsh completion,enhancement,2023-09-07T06:04:43Z
+2431,CLOSED,snakemake parse a wrong int like parameter.,bug,2023-09-07T04:15:21Z
+2430,OPEN,Wrong number of threads with dry-run,bug,2023-08-31T17:53:29Z
+2429,OPEN,UnicodeDecodeError,bug,2023-08-31T15:17:55Z
+2428,CLOSED,Frequency of workflow catalogue stats updates,,2023-11-27T15:46:45Z
+2427,OPEN,Non-html report,enhancement,2023-08-29T09:27:38Z
+2426,OPEN,The latest snakemake-interface-executor-plugins release will cause snakemake import error,bug,2023-08-31T07:56:57Z
+2423,OPEN,cannot set tmpdir default resource on SLURM,bug,2023-09-12T11:29:27Z
+2422,OPEN,Support for Lambda Functions in Singularity Field for Dynamic Container URLs,enhancement,2023-08-24T18:52:08Z
+2420,OPEN,resolving python RecursionError,bug,2023-08-22T20:55:43Z
+2418,OPEN,KeyError disrupt ruleorder silently,bug,2023-08-22T16:56:09Z
+2415,OPEN,user input, persistence of locals(), and saving results from `onstart`,enhancement,2023-08-18T13:00:19Z
+2414,OPEN,Podman support,enhancement,2023-09-20T09:18:43Z
+2411,CLOSED,SACCT Error.,bug,2023-11-23T11:03:17Z
+2410,OPEN,Profiles all use different resource names and formats for time,bug,2023-08-15T16:13:09Z
+2409,OPEN,Announcement: Snakemake 8.0 released, including the removal of deprecated syntax,enhancement,2023-12-21T15:55:10Z
+2407,OPEN,Interruptible rules,enhancement,2023-08-13T07:59:13Z
+2406,OPEN,[packit] Pull from upstream failed for release v7.32.2,,2023-08-09T18:37:35Z
+2405,OPEN,Documentation for providing an Executor plugin,enhancement,2023-08-08T18:05:29Z
+2400,OPEN,Dynamically assign rule name,enhancement,2023-11-20T14:59:21Z
+2398,OPEN,Print wildcards for "SyntaxError: Not all output, log and benchmark files of rule __ contain the same wildcards.",enhancement,2023-11-04T23:19:19Z
+2392,OPEN,script loses track of source Snakefile when locally renaming rule imported from external module,bug,2023-08-04T11:04:42Z
+2390,CLOSED,`TypeError` exception thrown with `--wms-monitor` pointing to Panoptes server,bug,2024-01-15T08:39:31Z
+2389,CLOSED,Conda environments executing Python scripts require Python versions compatible with the workflow's Snakemake version,bug,2023-08-02T18:40:40Z
+2387,OPEN,docs: reference to "report" in tutorial, but no mention of that earlier,bug,2023-08-02T13:29:09Z
+2384,CLOSED,Is there a way to run a snakemake rule only after another rule has finished without linking them by input/output?,,2023-08-07T13:12:28Z
+2383,OPEN,shadow: copy-minimal causes IsADirectoryError when input is directory,bug,2023-09-04T08:12:24Z
+2381,OPEN,Kubernetes execution with GS remote fails to recognize remote "directory" and download it as a file,bug,2023-08-02T07:10:28Z
+2380,CLOSED,Apptainer not recognised,bug,2023-08-21T09:07:18Z
+2379,OPEN,Shadowing not working as intended with absolute paths,enhancement,2023-08-01T10:19:00Z
+2378,CLOSED,SLURM: Do not test empty account,,2024-05-03T12:21:48Z
+2376,OPEN,Wildcard constraints across modules,bug,2023-07-31T06:40:12Z
+2374,OPEN,🐛 Nested config parsed as string when using --config,bug,2024-01-30T22:29:24Z
+2373,OPEN,Adding a param with a lambda that accesses `resources` to a rule that consumes a pipe causes a resource error in the subsequent rule when run with `--slurm`,bug,2023-11-29T22:56:27Z
+2369,CLOSED,Add minimum Python version requirement bump to changelog,,2023-08-02T06:22:13Z
+2366,OPEN,Error caused by inconsistent parsing of wildcards containing commas in Snakemake,bug,2023-09-11T08:00:15Z
+2363,OPEN,FTP.remote fails to download file.,bug,2023-08-19T12:24:50Z
+2362,OPEN,OSError: [Errno 22] Invalid argument: '.../google/protobuf/internal' + error breaks snakemake env,bug,2023-07-18T11:39:34Z
+2361,CLOSED,Attribute Error: 'str' object has no attribute 'get',bug,2023-07-20T09:22:03Z
+2360,CLOSED,Google Cloud Life Sciences Deprecation,bug,2023-10-24T23:02:18Z
+2357,CLOSED,Job continuation. Keep output files,enhancement,2023-07-28T11:11:16Z
+2355,OPEN,Improve description of standard structure,bug,2023-07-14T09:13:21Z
+2354,OPEN,Snakemake very slow on large workflow,bug,2023-09-20T01:42:08Z
+2351,OPEN,support for ORAS artifacts as a form of storage,enhancement,2023-07-11T20:04:20Z
+2350,OPEN,Snakefile is run a second time if rule contains `run` directive,bug,2024-03-06T08:50:37Z
+2349,OPEN,Custom attributes?,bug,2023-07-10T22:36:54Z
+2348,OPEN,Use envmodules in python based rules,enhancement,2023-07-10T08:39:28Z
+2346,OPEN,Cluster execution without invoking snakemake on execution node,,2023-07-07T23:56:54Z
+2345,OPEN,Clarify use of paths when specifying a conda environment (using a yml file),bug,2023-07-06T10:51:16Z
+2343,CLOSED,Snakemake should not require mamba,bug,2023-07-25T09:03:33Z
+2339,OPEN,Workflow not being executed in parallel on batch computing nodes (SLURM cluster grouped execution),,2024-05-06T09:34:24Z
+2336,OPEN,Since 7.29.0, snakemake --bash-completion no longer works without a Snakefile,bug,2023-06-29T16:46:25Z
+2334,CLOSED,singularity version issue,bug,2023-07-25T11:34:05Z
+2331,OPEN,workflow.source_path does not work as expected,bug,2024-03-25T13:59:40Z
+2330,OPEN,Existence of conda environment file is checked even though conda is not activated,bug,2023-06-28T13:12:56Z
+2328,OPEN,Ignore updated input files,enhancement,2023-07-18T01:09:55Z
+2327,OPEN,too many resources with grouped jobs,bug,2023-06-28T07:38:25Z
+2326,CLOSED,v7.29 error in new profile yaml loading,,2023-06-29T06:58:29Z
+2323,OPEN,replace `pyyaml` config parsing with parser that respects YAML specs on duplicate keys,enhancement,2023-06-27T19:05:29Z
+2322,OPEN,Add "micromamba" as an option for --conda-frontend,enhancement,2024-02-05T17:24:11Z
+2321,OPEN,Snakemake incorrectly reports code as changed due to cpython and bytecode changes between python 3.9 and 3.11,bug,2023-06-26T22:53:29Z
+2320,OPEN,Slurm account names with spaces in result in "The given account {account} appears to be invalid",bug,2024-05-06T08:11:53Z
+2319,CLOSED,Some Singularity versions cannot be parsed in v7.29.0,bug,2023-06-30T13:51:05Z
+2317,CLOSED,Slurm resource allocation and usage,enhancement,2024-05-03T12:39:55Z
+2316,OPEN,Bad scope management in modules in the python "rules.my_rule.output" when used in run sections or input functions,bug,2023-06-22T06:43:48Z
+2315,OPEN,Shadow TMPDIR,enhancement,2023-06-22T02:07:20Z
+2314,OPEN,MOSEK error caused by MOSEK installed in another environment,bug,2023-06-22T01:44:43Z
+2308,OPEN,MissingOutputException in rule metabat in file /Snakefile_test, line 24:,bug,2023-06-20T06:19:43Z
+2307,CLOSED,params do not parse wildcards when the string is the result of a function.,bug,2023-06-20T06:12:37Z
+2304,CLOSED,snakemake python 3.12 support,bug,2024-03-08T23:39:14Z
+2302,OPEN,conda and script directive examples in the docs show paths that are inconsistent with the recommended directory structure,bug,2023-06-15T21:49:11Z
+2296,OPEN,Snakemake `notebook` error with Jupyter notebooks created in VSCode,bug,2023-06-13T07:00:19Z
+2292,CLOSED,Question: How can I ensure "Nothing to be done" on a fresh clone of the repo without needing to issue "snakemake --forceall --touch",enhancement,2023-06-10T21:00:32Z
+2290,CLOSED,Specification of default_resources in a profile cannot contain = signs,bug,2023-08-03T07:19:06Z
+2288,CLOSED,Error trying to use conda env by name if Snakemake is not installed in base,bug,2023-07-25T09:03:32Z
+2287,OPEN,Add an option to print shell errors that do not make it into the log files,enhancement,2023-06-08T21:44:57Z
+2286,OPEN,Snakemake can't find config file in path with spaces,bug,2023-06-06T08:33:59Z
+2283,OPEN,PermissionError from super().handle_job_success(job) when output of rule is owned by another user,bug,2023-06-01T15:26:34Z
+2282,OPEN,`--max_jobs_per_second` is ignored.,bug,2023-12-15T08:50:02Z
+2281,CLOSED,Type check for `cpus_per_task` does not work,bug,2024-05-04T19:12:18Z
+2280,CLOSED,slurm hang in SLURM mode,bug,2024-05-06T08:27:10Z
+2279,CLOSED,Add "walltime" as an alias for the "runtime" resource,enhancement,2024-05-06T08:47:34Z
+2277,OPEN,Incorrect warning raised with local git repos (snakemake-wrappers),bug,2023-05-26T06:55:05Z
+2276,OPEN,:bug: Snakemake-minimal error reading config file,bug,2023-06-05T11:54:59Z
+2274,OPEN,Snakemake crashes with a KeyError when using `--immediate-submit`,,2024-01-29T09:48:58Z
+2273,OPEN,`snakemake --lint` throwing segmentation fault on Travis,bug,2023-05-24T17:20:17Z
+2271,OPEN,--list-version-changes should become --list-software-env-changes,enhancement,2023-05-23T14:01:28Z
+2267,OPEN,Add mem_mib to documentation,enhancement,2023-07-28T12:46:42Z
+2262,OPEN,Offline option for using wrappers,enhancement,2023-05-17T15:19:07Z
+2261,OPEN,snakemake long benchmark name results in "Removing output files of failed job generate since they might be corrupted:",bug,2023-05-17T13:13:55Z
+2260,OPEN,Minimal monitoring support,enhancement,2023-08-03T07:49:40Z
+2259,OPEN,Permission denied: '/Diting',bug,2023-05-22T08:35:26Z
+2257,CLOSED,Snakemake does not terminate after cluster is done,bug,2023-05-15T07:31:03Z
+2256,OPEN,protect a directory output,enhancement,2023-05-11T12:02:19Z
+2255,OPEN,Snakemake crashes with comment in modified rule,bug,2024-01-03T11:00:24Z
+2253,OPEN,Support custom Service Account Name for Kuberenetes to enable use of GKE Autopilot,enhancement,2023-09-02T22:31:10Z
+2251,CLOSED,fix error in logging section of docs,bug,2023-05-12T13:02:34Z
+2250,OPEN,Variable number of output files known beforehand / programatically creating rules,enhancement,2023-05-08T05:23:07Z
+2247,OPEN,Lint error & suggestion incompatible with pandas column concatenation,enhancement,2023-05-05T16:15:14Z
+2245,OPEN,installing via bioconda still only works for Python <= 3.7,bug,2023-05-08T20:57:11Z
+2244,OPEN,No warning when script not found,bug,2023-05-04T10:06:15Z
+2241,OPEN,"class" column name in Paramspace is incorrectly parsed ?,bug,2023-05-05T20:29:36Z
+2240,CLOSED,singularity pull a github container registry image,enhancement,2023-05-02T15:54:25Z
+2239,OPEN,Document the Remote API,enhancement,2023-05-01T12:13:39Z
+2238,OPEN,cache is not compatible with benchmark,bug,2023-04-30T10:38:21Z
+2236,CLOSED,Question regarding multithreading in rules,bug,2023-04-27T22:36:42Z
+2234,CLOSED,Resume failed rules without wiping existing output files,enhancement,2023-05-15T15:28:58Z
+2233,OPEN,Checkpoints incompatible with `--until` and `--omit-from` dag-filtering,bug,2023-04-26T23:30:00Z
+2232,CLOSED,Output files saved in Jupyter notebook are marked as incompleted,bug,2023-10-11T07:28:04Z
+2231,CLOSED,How can I use group and params at the same time when submiting to cluster?,enhancement,2023-04-28T01:48:39Z
+2230,CLOSED,--slurm option works when in srun but fails in sbatch,bug,2024-01-20T00:37:23Z
+2224,OPEN,doc: Grammar out of date with recent directive additions,bug,2023-04-19T16:33:37Z
+2223,OPEN,The `--forcerun` argument only executes the first upstream dependency,bug,2023-04-22T07:34:47Z
+2222,OPEN,snakemake wrapper has a problem with Python version. leading to No module named 'snakemake_wrapper_utils',bug,2023-04-18T14:33:51Z
+2221,CLOSED,advanced tutorial - reasoning behind using an input function instead of expand() in the bwa_map rule,enhancement,2023-04-19T14:51:43Z
+2219,OPEN,Historical snakemake versions error: AttributeError: 'str' object has no attribute 'name',bug,2023-04-18T08:04:49Z
+2216,CLOSED,`--summary` does not report rule for missing files,bug,2023-04-28T10:27:33Z
+2215,OPEN,No way to set Julia packages,bug,2023-10-04T15:32:49Z
+2214,OPEN,ModuleNotFoundError: No module named 'yappi',bug,2023-04-18T00:11:34Z
+2213,OPEN,Module rules fail when they contain wrappers,bug,2023-04-13T11:40:23Z
+2212,OPEN,More robust params comparison,enhancement,2023-04-20T12:55:13Z
+2210,OPEN,add --update-metadata to the cli,enhancement,2023-04-12T16:16:54Z
+2209,OPEN,Custom log file permisson in .snakemake,enhancement,2023-04-26T13:16:45Z
+2208,OPEN,Add example test run to the doc about the `--generate-unit-tests` flag,enhancement,2023-04-11T17:40:55Z
+2207,OPEN,Report: enhanced search capabilities,enhancement,2023-04-10T14:15:26Z
+2206,OPEN,Report: Overview of results in a (sub) category using thumbnails (similar to previous report version),enhancement,2023-04-10T14:13:48Z
+2205,OPEN,Error in rule with Rscript from imported module,bug,2023-04-10T14:11:07Z
+2201,CLOSED,User friendly HPC scheduling using persistent workers,enhancement,2023-04-02T23:49:36Z
+2200,OPEN,Add a SQL/relational database remote provider,enhancement,2023-03-30T08:10:31Z
+2199,OPEN,enable specific conda prefix for module,enhancement,2023-03-29T06:03:40Z
+2197,OPEN,long account names prevent jobs from executing under slurm,bug,2023-03-28T22:31:54Z
+2195,OPEN,snakemake linting cannot deal with double quotes in `os.environ` variable assignments,bug,2023-03-27T15:09:17Z
+2192,OPEN,Rules that are based on scripts ignore metadata for code-change trigger,bug,2023-03-29T07:49:10Z
+2185,CLOSED,I'd like to make a case for `--lu` not always listing `config.yml` as an untracked file,,2023-04-04T19:37:52Z
+2184,OPEN,Feature: Please add support for enroot as an alternative to singularity,enhancement,2023-03-23T13:10:04Z
+2178,OPEN,Anonymous rules override shell directives,bug,2023-03-17T16:15:25Z
+2175,OPEN,BUG snakemake will repeatedly rerun a rule after `--touch` when using two checkpoints,bug,2023-04-18T20:11:44Z
+2173,OPEN,Params reference in wrapper directive fails,bug,2023-03-14T20:22:31Z
+2168,CLOSED,Using a for loop to access inputs in snakemake for arguments that don't accept lists,,2023-03-17T20:16:16Z
+2166,CLOSED,Using environment variables as configuration parameters,bug,2023-03-13T13:13:22Z
+2165,OPEN,Uninformative error when script not found,bug,2023-10-23T16:37:18Z
+2164,OPEN,Temporary output directory is removed when its child directory is still required by other jobs,bug,2023-03-09T10:40:03Z
+2163,OPEN,`R_LIBS_USER` not blocked for conda environments,bug,2023-03-13T12:29:16Z
+2160,OPEN,The DAG snakemake ignores the rule instead of throwing `MissingInputException`,bug,2023-03-22T08:27:55Z
+2159,CLOSED,The DAG snakemake ignores the rule instead of throwing MissingInputException,enhancement,2023-03-08T13:44:42Z
+2158,OPEN,How to read Snakefile in Python and access to rules information,,2023-03-17T16:56:49Z
+2156,OPEN,Makefile does not work for documentation `latexpdf`,bug,2023-03-06T18:37:18Z
+2155,OPEN,Feature: Please add more report documentation,enhancement,2023-04-05T11:44:40Z
+2154,CLOSED,WorkflowError: Cannot parse runtime value into minutes for setting runtime resource: 00:30:00,bug,2023-06-05T12:43:19Z
+2153,OPEN,ENH: Add Snakemake as a language to Linguist, so snakemake files are distinguishable from Python,enhancement,2023-03-09T13:12:36Z
+2151,OPEN,job groups and a checkpoint gives a KeyError expectation,bug,2023-03-05T15:30:51Z
+2150,OPEN,Bug on creating Kaiju DB using snakemake,bug,2023-03-17T17:06:38Z
+2147,CLOSED,Benchmark only counts CPU time for the last subprocess of the rules,bug,2024-02-15T13:44:15Z
+2146,OPEN,In cases where the pipeline uses the run keyword, is there any way to make the pipeline run on the cluster,,2023-03-18T00:23:37Z
+2142,OPEN,Add a 'log' directive to 'all' rule causes it to skip tasks,bug,2023-12-18T23:47:54Z
+2141,OPEN,Passing env variables to cluster-sidecar,enhancement,2023-02-24T19:43:11Z
+2140,CLOSED,Opinion: too many dependencies/installation cumbersome,enhancement,2023-02-25T08:59:44Z
+2138,OPEN,Automatically re-organising a project,enhancement,2023-02-24T08:30:56Z
+2135,OPEN,Insufficient parallelization when the system runs out of memory,,2023-06-28T07:59:04Z
+2134,CLOSED,Lot of time spend on toposort in a large workflow,bug,2023-02-28T20:31:50Z
+2130,CLOSED,File Not Found Error when using a protected output that contains at least one file inside a subdirectory,bug,2023-02-28T08:50:32Z
+2129,OPEN,Support conda-lock files,enhancement,2023-02-22T02:48:44Z
+2127,OPEN,Cluster jobname and log specified for each rule,,2023-02-21T14:22:29Z
+2126,CLOSED,Extremely slow DAG building,bug,2023-03-13T12:23:48Z
+2124,OPEN,Benchmark filename: interpolate rule name and job id,enhancement,2023-05-27T19:31:22Z
+2123,OPEN,Cluster retry get failure reason,enhancement,2023-03-17T19:54:28Z
+2122,OPEN,pepschema issue,bug,2023-02-20T09:36:23Z
+2120,OPEN,Error during a rule due to low python version in a wrapper #2,bug,2023-02-20T14:49:05Z
+2115,CLOSED,Percentage calculation could be more accurate,enhancement,2023-03-17T21:10:19Z
+2113,CLOSED,Slurm executer overuses scancel,bug,2023-02-18T20:03:03Z
+2106,OPEN,iRODS remote provider: Connection attempted for ALL remote jobs,bug,2023-02-13T15:39:48Z
+2104,OPEN,A problem with regular expression matching in wildcard_constraints,bug,2023-03-17T20:09:38Z
+2102,OPEN,Report in table format not possible,bug,2023-02-09T15:59:07Z
+2101,CLOSED,`--show-failed-logs` creates excessive output,bug,2023-03-13T15:39:26Z
+2099,OPEN,Arrays of integers passed via --config are interpreted as strings, breaking validation,bug,2023-02-07T14:51:18Z
+2097,CLOSED,Remove input and output from properties in jobscript,enhancement,2023-03-01T21:12:12Z
+2096,OPEN,Undocumented breaking change: `--jobs all` no longer accepted since v7.20.0,bug,2023-02-06T15:29:47Z
+2093,OPEN,[Discussion] Why snakemake module is flattened into main workflow rather than nested?,,2023-10-18T20:32:15Z
+2091,CLOSED,continuously fewer jobs scheduled by snakemake on cluster (slurm), as jobs very slowly registered as finished by snakemake,bug,2024-04-25T09:59:41Z
+2090,CLOSED,printshellcmnds does not work,bug,2023-02-10T20:03:55Z
+2089,OPEN,Certain log messages are printed outside of a configured custom log_handler,bug,2023-02-02T08:32:29Z
+2087,CLOSED,temp function with tempdir,enhancement,2023-10-24T20:19:09Z
+2086,OPEN,Custom execution wrappers like `localrule`,enhancement,2023-02-01T16:09:21Z
+2085,OPEN,[Linting] Add option to ignore something,enhancement,2024-02-05T17:13:34Z
+2084,OPEN,Unintuitive and limiting behavior in naming and prefixing nested modules,bug,2023-08-05T08:34:59Z
+2083,OPEN,Tibanna instance type error with snakemake,bug,2023-02-28T00:54:48Z
+2079,OPEN,false warning to set strict channel priorities,bug,2023-01-27T17:46:14Z
+2078,CLOSED,Cleanup containers,enhancement,2023-02-12T19:48:39Z
+2077,OPEN,Allow generation of PROV-JSON for output files,enhancement,2023-02-02T20:50:38Z
+2072,OPEN,--env-module not activated for some rules,bug,2023-01-23T17:59:24Z
+2071,OPEN,srun: unrecognized option '--cpu-bind=q',bug,2024-04-24T00:33:43Z
+2070,OPEN,Same file written simultaneously by different rules,bug,2023-03-18T00:30:35Z
+2068,OPEN,Is it possible for conda/mamba environments to be named?,,2023-07-13T18:02:57Z
+2062,OPEN,ProcessLookupError: [Errno 3] No such process,bug,2023-01-12T16:31:44Z
+2061,OPEN,localrules directive inside module doesn't work when rules are imported with prefix,bug,2024-05-01T14:04:24Z
+2060,CLOSED,Parallel execution of job groups on SLURM,bug,2023-08-09T11:11:22Z
+2059,OPEN,Clash in job group names across modules leads to scheduling error,bug,2023-01-12T10:46:19Z
+2056,OPEN,`default_target` directive not working for included rule files,bug,2024-01-23T18:59:44Z
+2055,OPEN,Wrong batch behavior with non-round batch division,bug,2023-01-10T08:18:59Z
+2050,CLOSED,`retries` directive evaluated innappropriately within subsnakemake instances created by `run` directives,bug,2023-01-07T18:36:48Z
+2048,OPEN,Rules are executed as localrules although not declared as such,bug,2023-04-14T05:22:57Z
+2047,CLOSED,docs issue or regression? retries ignored,bug,2023-01-10T11:57:45Z
+2045,CLOSED,Resources not assigned correctly when using lambda functions + execution groups,bug,2023-01-10T11:59:14Z
+2041,OPEN,Allow slurm executor to use slurmrestd,enhancement,2023-01-17T12:58:22Z
+2038,CLOSED,snakemake workflow to download GEOdatasets in r have error of missing output exception,,2023-01-07T23:11:00Z
+2037,CLOSED,Incorrect parsing of wildcards resulting in superfluous wildcard instances,bug,2023-01-07T16:55:10Z
+2035,OPEN,Snakemake linter run directives length tolerance in 7.19.1,bug,2023-02-18T12:11:39Z
+2034,CLOSED,Snakemake doesn't recognize `threads` parameter when submitting through `sge`,bug,2023-01-04T16:26:13Z
+2033,OPEN,[ADD] Handle regex to exclude specific rules from module,enhancement,2022-12-22T20:27:31Z
+2031,CLOSED,Add option to define source_cache directory,enhancement,2023-01-16T13:15:35Z
+2030,CLOSED,High memory usage with many input files,bug,2022-12-22T17:14:35Z
+2027,OPEN,SSL error when using --report,bug,2023-01-10T19:12:42Z
+2024,CLOSED,Allow a custom argument to the signature of the callable function within resources,enhancement,2022-12-22T14:06:47Z
+2023,CLOSED,Bug with --slurm : ValueError: max() arg is an empty sequence caused by show-failed-logs: True,bug,2023-01-10T15:58:04Z
+2022,CLOSED,Allow a ratio to be set for slurm jobs where memory and cores are locked to a certain ratio, taking the necessary amount of cores to satisfy both thread and mem resource needs.,enhancement,2023-01-20T15:43:30Z
+2021,CLOSED,Strange behavior when using checkpoints in cloud execution,bug,2023-04-22T07:37:25Z
+2019,OPEN,Improve in-workflow documentation through a new rule `norunparam`: `description`,enhancement,2023-01-23T12:40:13Z
+2017,OPEN,Snakemake fails to lad the snakemake.executors.slurm module.,bug,2022-12-22T18:31:16Z
+2015,OPEN,--forceall and --force broken with "run" rules,bug,2023-08-21T17:29:57Z
+2014,CLOSED,Using a slurm cluster that doesn't support --chdir=<folder>,enhancement,2023-01-16T12:55:52Z
+2012,OPEN,command line arguments should overwrite --profile,enhancement,2022-12-14T16:09:00Z
+2011,OPEN,Snakemake rule does not regenerate output after input has changed,bug,2023-03-22T12:09:53Z
+2010,OPEN,expand() function: cannot be determined from output files,bug,2022-12-15T10:24:39Z
+2009,OPEN,Accessing newly created wildcard after `checkpoint`,,2022-12-13T22:27:04Z
+2008,OPEN,Tutorial step 3 hangs,bug,2022-12-14T09:37:22Z
+2007,OPEN,Cluster job logs,enhancement,2022-12-13T17:24:33Z
+2003,OPEN,KeyError when trying to use snakemake with iRODS,bug,2022-12-14T08:53:27Z
+2002,CLOSED,Support dynamically loading modules with own `config.yaml`s,enhancement,2022-12-21T22:26:08Z
+2000,CLOSED,Cleanup metadata exit too fast,bug,2022-12-15T17:21:55Z
+1999,OPEN,Cannot install snakemake from conda-forge with python>=3.7,bug,2023-08-24T09:40:47Z
+1998,OPEN,Support for prebuild conda env paths,enhancement,2023-10-31T20:18:14Z
+1997,CLOSED,[QUESTION] snakemake + awk,bug,2022-12-07T11:59:01Z
+1996,OPEN,Rule inheritance in `include`d Snakemake workflow files located in subfolders,bug,2022-12-07T20:20:47Z
+1992,OPEN,Failed GLS job log files are not uploaded to bucket AND --show-failed-logs does not work on instance,bug,2023-08-24T17:33:16Z
+1990,CLOSED,README batch says only Python 3.7 supported, is this true?,bug,2023-01-10T18:25:13Z
+1989,OPEN,suggest restricting version ranges of more dependencies in setup.py,enhancement,2024-01-12T14:34:24Z
+1985,OPEN,piped jobs fail and workflow stalls with no error message,bug,2023-05-04T11:27:46Z
+1984,OPEN,Flag --batch does not work with input functions containing checkpoints,bug,2022-12-01T11:39:10Z
+1983,OPEN,Profile set-threads not working unless threads is specified in rule,bug,2022-12-16T15:48:55Z
+1982,CLOSED,`touch` does not work inside `run` directive,bug,2022-12-13T11:25:18Z
+1981,OPEN,--report complaining output from rule doesn't exist to create report,bug,2022-11-28T19:44:26Z
+1979,CLOSED,Typo in URL? /bionconda --> /bioconda,bug,2022-11-27T02:59:16Z
+1978,CLOSED,Deleted intermediate files are ignored,bug,2022-12-13T06:24:21Z
+1976,OPEN,Using "--" and "--profile" on the same command line breaks ConfigArgParse logic,bug,2022-11-23T14:40:34Z
+1975,OPEN,Using command line --config to overwrite argument of nested definition,enhancement,2023-07-30T09:12:28Z
+1973,OPEN,snakemake use both --keep-going and --stats (stats on failure),bug,2022-11-21T10:30:55Z
+1972,OPEN,Idea: enable additional checksum types (md5) for `ensure`.,enhancement,2024-04-23T08:45:58Z
+1970,CLOSED,SLURM - cluster job fails and Snakemake doesn't notice it.,bug,2022-12-13T12:19:43Z
+1968,CLOSED,Cluster jobs won't run when --set-resource-scopes is used,bug,2022-12-16T09:26:33Z
+1964,OPEN,Ignore rerun when update for another job,enhancement,2022-11-08T05:38:51Z
+1962,OPEN,ENH: Add option to output rule name even when message is present,enhancement,2022-11-06T23:22:05Z
+1961,OPEN,DOC: Documentation doesn't explain how I can get `scattergather.split` value,bug,2022-11-07T04:34:00Z
+1960,CLOSED,Improve documentation and sample examples,enhancement,2022-12-21T22:29:05Z
+1959,OPEN,Ability to change the local prefix for remote files,enhancement,2022-11-05T16:22:59Z
+1956,OPEN,Add Filelist cache for azure blob storage #1955,enhancement,2022-11-04T12:10:13Z
+1954,OPEN,Report bug when using snakemake wrapper,bug,2022-11-04T07:12:45Z
+1952,CLOSED,Snakemake incompatible with Python 3.11 due to `ratelimiter` dependency,bug,2022-11-10T19:34:00Z
+1946,OPEN,Remote modules fail when execution nodes do not have internet,bug,2024-05-06T10:24:52Z
+1943,CLOSED,When a "comment" following an "include", it may occur an error with confusing message,bug,2023-01-10T11:56:37Z
+1942,OPEN,I am wondering if it would be helpful to add the command line run in the log file,enhancement,2022-10-28T13:29:44Z
+1938,OPEN,Report.html linear workflow graph,bug,2024-03-15T16:10:27Z
+1934,OPEN,Add examples or clarify where to look for examples of tabular configuration.,enhancement,2022-10-27T08:39:02Z
+1932,OPEN,Snakemake log Error message doesn't show input files,enhancement,2022-10-26T06:40:26Z
+1931,OPEN,Openstack Kubernetes and S3 Buckets on Vast,,2022-10-25T19:30:15Z
+1930,CLOSED,Temp file get removed early if it is still an input of one unfinished rule after checkpoint, resulting in early finish,bug,2022-10-26T13:13:29Z
+1929,OPEN,Tutorial documentation can install a broken combination of snakemake/tabulate,bug,2022-12-07T14:47:37Z
+1927,CLOSED,'Code has changed' activates persistently on links to some filetypes,bug,2023-04-12T01:58:25Z
+1926,OPEN,Documentation should describe implicit ruleorder for rules without wildcards,documentation,2022-12-22T15:51:39Z
+1923,OPEN,Allow for dynamic module (name) declaration,enhancement,2022-10-20T09:41:07Z
+1922,OPEN,Executing workflows using conda with post-deploy scripts via module fails due to missing post-deploy scripts,bug,2022-10-19T11:38:18Z
+1918,OPEN,Inconsistencies in Google Life Sciences cached workdir,bug,2022-11-04T20:40:37Z
+1917,CLOSED,Inconsistent behavior of --summary and --detailed-summary,bug,2023-04-28T14:09:38Z
+1915,OPEN,Profiles should ideally treat `--configfile` as a path relative to the profile directory,bug,2022-10-17T22:04:07Z
+1911,OPEN,conda install no longer includes dot,enhancement,2022-10-15T20:07:19Z
+1910,OPEN,Setting both `local` and `global` version of resource,enhancement,2022-10-15T19:54:13Z
+1909,OPEN,S3.glob_wildcards("my-s3-bucket/data/today/{stem}.json") takes a long time because it lists all keys,enhancement,2023-01-16T12:42:22Z
+1908,CLOSED,Snakemake --profile slurm --dry-run showing AttributeError,bug,2022-10-14T17:07:19Z
+1906,OPEN,Conda environment pin file is only used when environment is created,bug,2022-10-13T14:35:54Z
+1905,OPEN,Saving the color-coded log of the snakemake run,,2022-10-17T07:26:08Z
+1903,CLOSED,Missing argument in config could give better error,bug,2023-01-10T15:58:53Z
+1902,OPEN,DOC: Confusing `--help` text for `--reason` option: `(deprecated, always true now). (default: False)`,bug,2023-09-14T18:15:26Z
+1901,OPEN,Snakemake tries to access singularity images during dryruns for conda rules.,bug,2022-10-10T13:26:10Z
+1899,CLOSED,Problem with install/dependencies of snakemake,,2022-10-11T11:13:19Z
+1896,OPEN,Limiting the number of temporary file for a rule,enhancement,2022-10-10T12:11:41Z
+1892,CLOSED,Snakemake crashes with AttributeError: 'str' object has no attribute 'name,bug,2022-10-08T11:09:06Z
+1891,CLOSED,tabulate-0.9 do not support snakemake,bug,2022-10-08T11:09:07Z
+1890,OPEN,snakemake --touch raises a ImproperOutputException for directories,bug,2022-10-05T11:56:31Z
+1884,OPEN,Question: access the DAG in onsuccess/onerror hooks,,2022-10-03T13:13:36Z
+1882,CLOSED,WorkflowError: Metadata can't be created as it already exists (Windows),bug,2022-12-21T16:22:09Z
+1881,CLOSED,Errors in run directive are not raised and lead to obscure errors.,bug,2022-09-30T11:27:38Z
+1877,OPEN,Rule compression upon completion,enhancement,2022-09-26T09:45:59Z
+1874,OPEN,Support/pass-along Google Lifesciences Networking options,enhancement,2022-10-12T14:48:02Z
+1873,CLOSED,How to set a default value of params in a rule?,enhancement,2022-09-25T10:05:55Z
+1872,OPEN,Modularization: Dependency conflicts between modules,bug,2023-06-30T09:57:01Z
+1871,OPEN,Output files are not being removed when snakemake execution is stopped via ctrl+c,bug,2022-09-23T17:44:38Z
+1867,OPEN,name of input errors:,bug,2022-09-30T17:52:10Z
+1866,CLOSED,Question: how to set resources from the snakefile,,2022-10-17T20:47:44Z
+1865,CLOSED,`--immediate-submit` have no effect on `--cluster` in recent versions,bug,2022-10-04T20:59:08Z
+1863,CLOSED,Set global constraint for the number of cores,enhancement,2022-10-25T19:03:56Z
+1856,OPEN,k8s: support fractional CPU requests,enhancement,2022-09-13T03:35:33Z
+1855,OPEN,shell command not updated: anon rule / singularity container,bug,2022-09-12T16:12:44Z
+1853,OPEN,snakemake-minimal 7.14.0: snakemake-script.py missing,bug,2022-09-11T16:03:52Z
+1852,CLOSED,forcerun has no effect,bug,2022-12-12T19:32:52Z
+1850,OPEN,"TypeError: '>' not supported between instances of 'TBDString' and 'int'"when setting rule threads with input.size,bug,2022-09-08T12:53:50Z
+1849,OPEN,`glob_wildcards` doesn't support specifying same wildcard in more than one place in path,bug,2022-09-18T12:16:56Z
+1848,OPEN,Use docker or nerdctl instead of singularity,enhancement,2022-12-22T11:00:33Z
+1846,CLOSED,piped jobs fail and workflow stalls with no error message,bug,2022-12-01T14:46:50Z
+1845,OPEN,PEP validation and containerization result in invalid Dockerfile,bug,2023-01-19T13:55:24Z
+1840,CLOSED,modularization using module cause incomplete workflow run,bug,2022-09-21T12:17:41Z
+1839,OPEN,Rolling paper: cite rstats' targets as existing workflow framework,bug,2022-08-29T21:14:42Z
+1838,CLOSED,Unable to detect txt files,bug,2022-09-05T13:19:49Z
+1837,OPEN,bad interpreter: Permission denied,bug,2022-08-28T20:39:49Z
+1836,OPEN,'function' object has no attribute 'deepcopy',bug,2022-08-28T01:05:11Z
+1833,OPEN,--configfile uses absolute path when executing on GSL which causes jobs to fail,bug,2023-05-08T20:33:23Z
+1831,OPEN,Multiple uses of inheritance and importing does not follow the expected pattern.,bug,2022-09-21T13:41:22Z
+1830,CLOSED,Snakefile creates empty Batch script when submitted with `sbatch`,bug,2022-09-25T13:46:28Z
+1829,OPEN,python3.10/subprocess.py", line 524, in run raise calledprocesserror,bug,2022-08-24T18:18:24Z
+1828,CLOSED,TypeError: can only concatenate str (not "tuple") to str when mamba is not installed,bug,2022-08-24T14:09:21Z
+1827,OPEN,`--containerize` does not consider post-deploy scripts,bug,2022-08-24T12:01:46Z
+1826,OPEN,Problems in applying dynamic number of splits for different samples in scatter-gather proces,,2022-08-23T09:07:00Z
+1823,OPEN,Cloud execution fails after first rule execution. Output files are generated but can't be seen by next rule.,bug,2022-09-01T00:04:42Z
+1822,CLOSED,Doesn't respect pipe() groups or `group:` tags & --dry-run output differs from real-world group execution,bug,2022-10-10T19:04:02Z
+1819,OPEN,support conda-pack tarballed environments,,2022-08-19T14:42:20Z
+1818,CLOSED,Regression after 7.7.0 until 7.15.X: rules downstream of a checkpoint aggregation rule keep being re-executed even when all output files exist and nothing upstream has changed,bug,2022-11-30T19:35:56Z
+1816,OPEN,Linting interprets command string starting with / wrongly as path,bug,2023-02-05T22:22:24Z
+1815,OPEN,ValueError: min() arg is an empty sequence,bug,2023-06-16T17:28:57Z
+1814,OPEN,Option to increase prefetch size of jobs ready to execute,enhancement,2022-08-24T16:23:53Z
+1813,CLOSED,Group execution broken since version 6.5.0,bug,2022-09-03T19:21:37Z
+1811,CLOSED,Prebuild conda env does not activate in "script:" rule,bug,2023-07-06T12:18:28Z
+1809,OPEN,Allow to not export threads related variables,,2022-09-02T11:38:09Z
+1808,CLOSED,multiext and cache fail if suffixes to not start with dot,bug,2024-04-22T18:26:38Z
+1807,CLOSED,Cannot install Snakemake with conda/mamba,bug,2022-12-16T15:06:26Z
+1806,OPEN,Feature request: connecting rules using a string that maintains a record of wildcards used to create it,enhancement,2022-08-11T08:58:01Z
+1805,OPEN,using `source_path` in params always triggers unneeded rerun,bug,2024-04-10T12:05:03Z
+1801,OPEN,GurobiError caused by pulp checking for all available licenses when snakemake is initialised,bug,2023-11-24T21:13:49Z
+1798,CLOSED,Bug when using multiple scattergather processes,bug,2022-08-09T14:42:52Z
+1797,OPEN,How do I use a shared conda environment？,bug,2022-08-09T06:34:09Z
+1795,OPEN,More mature template for self-generating report,enhancement,2022-08-15T20:31:29Z
+1794,CLOSED,Snakemake Uploading output to azure blob storage with sas token,bug,2023-08-03T07:22:07Z
+1793,OPEN,Using a local mamba env in a workflow run on a cluster,,2022-08-04T18:07:34Z
+1792,OPEN,Export to cwl fails with FileNotFoundError,bug,2022-10-05T10:07:26Z
+1791,OPEN,Allow specifying a path for Snakemake's log in the snakemake command,enhancement,2022-08-03T09:10:11Z
+1790,OPEN,Creating sub-Snakefiles and master-Snakefile,enhancement,2022-08-02T13:32:52Z
+1789,OPEN,Catching situations where clusters are overloaded: `sbatch: error: Batch job submission failed: Socket timed out on send/recv operation Error submitting jobscript (exit code 1):`,enhancement,2022-08-02T13:29:26Z
+1788,OPEN,Snakemake 7.12.0 : Error recording metadata for finished job [Errno 36] File name too long,bug,2022-08-20T13:08:21Z
+1786,OPEN,Silent failure when undeclared config value used in "run" block,,2022-08-01T13:23:07Z
+1785,OPEN,Workflow fails with `Failed to open source file` since updating to v7.8.3, when conda config file not present,bug,2022-07-27T20:13:39Z
+1782,OPEN,Size of remote files is queried before they exist when evaluating `default-resources`,bug,2022-07-26T20:13:08Z
+1776,OPEN,Switch `retry` dependency to `reretry`?,enhancement,2022-07-22T17:06:54Z
+1774,CLOSED,Order jobs in the job stats table by depth in the DAG,enhancement,2022-08-02T13:37:31Z
+1772,OPEN,CPU time,bug,2022-08-13T07:18:43Z
+1771,CLOSED,Snakemake 7.9.0 may fail with "Error recording metadata for finished job: File name too long",bug,2023-08-30T06:41:34Z
+1769,OPEN,Snakemake throws a PeriodicWildcardError for some long filenames,bug,2022-07-19T13:48:15Z
+1767,OPEN,Run-order `-n` summary (rather than alphabetical),enhancement,2022-07-27T10:28:17Z
+1766,OPEN,Optimize the DAG upstream of cacheable rules,enhancement,2022-07-21T16:23:55Z
+1763,OPEN,Snakemake interprets "--singularity-args" input as image file?,bug,2024-04-10T07:19:29Z
+1762,CLOSED,Bug in input function,bug,2022-07-18T17:33:48Z
+1760,OPEN,rule option to automatically shorten pathnames passed to commands,enhancement,2024-03-07T17:54:54Z
+1759,OPEN,`drmaa.JobState.DONE` with non-zero exit_status,bug,2022-09-05T08:32:02Z
+1758,OPEN,Rule dependencies not updated when importing module,bug,2024-01-03T11:02:39Z
+1757,OPEN,Rule inheritance in modules not support,bug,2024-01-09T09:57:26Z
+1756,OPEN,Make Snakemake accept and download Conda YMLs from URLs,enhancement,2022-07-05T07:31:39Z
+1755,OPEN,Clarify container inheiritance when using modules with workflow `container`.,bug,2022-07-01T20:53:35Z
+1754,CLOSED,Left-over temp() files (previously #1732),bug,2022-10-04T20:49:13Z
+1751,CLOSED,channel_priority non-strict as warning,enhancement,2024-02-14T17:49:29Z
+1750,OPEN,Problems with chain dynamic rules, missing input files?,bug,2022-07-01T17:33:14Z
+1748,OPEN,Incorrect and inconsistent prefix handling for snakemake+tibanna,bug,2022-07-25T22:54:47Z
+1738,CLOSED,--profile doesn't take absolute path correctly,bug,2022-12-17T04:18:20Z
+1734,CLOSED,"Missing files after 5 seconds" but files already exist; strange snakemake tmp file included,bug,2022-12-16T15:20:51Z
+1732,CLOSED,[Draft] Left-over `temp()` files,bug,2022-10-04T20:49:13Z
+1729,CLOSED,Improve parser error messages,bug,2022-12-16T15:21:33Z
+1728,OPEN,Few questions before pushing offline reports to snakemake,enhancement,2022-06-19T11:17:25Z
+1726,OPEN,glob_wildcards does not obey wildcard_constraints directive,bug,2022-06-18T14:27:43Z
+1724,CLOSED,Developper Documentation,,2022-12-16T15:19:08Z
+1723,OPEN,`snakemake@params` is malformed in R scripts when params are named,bug,2022-06-28T11:05:16Z
+1722,OPEN,--cluster only imports first user group,bug,2022-06-16T14:16:38Z
+1718,OPEN,`snakemake-wrappers` rules cannot be used without a conda `environment.yaml` file,bug,2022-07-20T19:43:00Z
+1716,OPEN,Dependency hell on ppcle architecture,bug,2023-05-22T09:12:27Z
+1715,CLOSED,Snakemake 7 does not create SLURM dependencies when --immediate-submit flag is used,bug,2022-10-10T14:10:44Z
+1713,OPEN,Reasonable caching of downloaded conda packages when --use-conda and --use-singularity together,enhancement,2022-06-28T02:54:22Z
+1712,CLOSED,Setting `--profile` from the `snakemake` function,enhancement,2022-12-15T20:55:01Z
+1710,OPEN,Use S3 timestamp metadata to avoid pulling remote data locally when jobs do not need to be run,enhancement,2022-06-10T16:41:27Z
+1709,OPEN,Deterministic DOT output for --dag/--rulegraph,enhancement,2022-06-10T13:39:21Z
+1707,OPEN,Clarification on --default-resources input type,,2022-10-25T14:45:39Z
+1703,OPEN,Inheritance broken: base class modified,bug,2022-06-07T17:51:18Z
+1702,CLOSED,`--quiet` default not respected when `--profile` is used,bug,2022-07-19T10:35:03Z
+1701,CLOSED,Defaults in config.yaml schema validation are not set before validation,bug,2022-06-09T06:53:37Z
+1700,OPEN,Multi-thread DAG Build for Very Large Workflows?,,2023-08-21T11:06:54Z
+1699,OPEN,shell function does not print commands,bug,2022-09-21T09:10:51Z
+1698,CLOSED,exception tracebacks in `run:` blocks are sent to /dev/null, making rules hard to debug,bug,2023-01-27T15:45:59Z
+1697,OPEN,Report generation fails when script path contains wildcard,bug,2022-07-11T23:21:51Z
+1696,OPEN,GS.remote() allows for input from a remote file for rules, but not for configfile.,,2022-05-31T14:44:27Z
+1695,OPEN,Stop auto-download of remote files to local server,enhancement,2022-05-31T14:24:44Z
+1694,OPEN,Announcement: Change in rerun behavior in Snakemake 7.8,,2024-03-09T02:38:52Z
+1689,OPEN,Check rule-specific references also in dryrun,bug, enhancement,2022-07-05T13:23:11Z
+1688,OPEN,Bug accessing config variable from within the shell directive in a module,bug,2023-12-06T12:55:15Z
+1687,CLOSED,BUG: Out of jobs ready to be started, but not all files built yet.,bug,2022-05-31T13:58:10Z
+1685,CLOSED,Cluster submission of jobs with a new conda environment fails,bug, question,2022-05-30T13:56:54Z
+1684,CLOSED,7.8.0 fails when touch used in python rule,bug, question,2022-06-02T18:54:42Z
+1683,CLOSED,Run will not complete using Kubernetes without using --retries 3,bug,2022-06-02T15:07:28Z
+1681,CLOSED,Standard build,enhancement,2022-06-22T13:45:00Z
+1680,OPEN,--touch does not fail if output is missing,bug,2022-06-01T09:34:04Z
+1679,CLOSED,rerun-triggers are not handed over to the cluster,bug,2022-05-31T11:41:35Z
+1678,OPEN,error when docstring-style comments in rule inheritance,bug,2022-05-26T20:35:53Z
+1677,CLOSED,Change in rerun behavior in 7.8.0,bug,2023-09-25T03:50:34Z
+1675,OPEN,Utils section in current (7.7.0) documentation is sort of misleading,,2022-05-22T10:34:14Z
+1674,OPEN,Snakemake conda bug- command: conda env export --name,bug,2022-07-11T12:09:04Z
+1673,OPEN,Paramspace does not respect '.' in column names,bug,2022-05-23T15:24:56Z
+1668,OPEN,CWL export: 'Job' object has no attribute 'conda_env_file',bug,2023-10-19T21:36:51Z
+1665,CLOSED,Silence sidecar,bug,2022-09-23T06:03:39Z
+1664,OPEN,Add Tibanna job IDs to .snakemake/logs/*.snakemake.log files?,enhancement,2022-05-18T23:26:41Z
+1661,OPEN,Memory Profiling in Snakemake workflow,enhancement,2022-05-17T18:09:00Z
+1660,CLOSED,`--quiet` expecting an argument is a breaking change,bug,2022-07-19T20:15:09Z
+1658,OPEN,Sort job/rule names using a topological sort, not alphabetical sort,enhancement,2022-05-13T16:21:06Z
+1657,OPEN,Check that all necessary scripts exist before running snakemake pipeline,enhancement,2022-10-20T23:28:00Z
+1656,OPEN,Option to not include conda package tars with `--archive`,enhancement,2022-05-13T11:20:07Z
+1655,OPEN,`SNAKEMAKE_PROFILE` environment variable is not read when performing bash completion,bug,2022-05-12T18:49:45Z
+1654,OPEN,Directory for `--profile` not resolving relative paths correctly,bug,2023-05-25T11:01:49Z
+1653,OPEN,How to get the statistics of the workflow?,,2022-05-11T15:05:02Z
+1652,OPEN,GSRemoteProvider seems to ignore `stay_on_remote=True` in `output` directive in Windows (but not in Linux),bug,2022-05-11T13:47:26Z
+1647,OPEN,ignore module prefix for path starting with ./ instead of ../,enhancement,2022-05-10T10:41:59Z
+1646,OPEN,Cannot import R script from github URL while using modularization,,2022-05-10T10:41:39Z
+1645,OPEN,S3Mocked Documentation?,bug,2022-07-25T23:06:48Z
+1644,OPEN,Simultaneous compilation of rust-scripts causes failure to compile in cluster environment,bug,2022-05-09T20:08:26Z
+1643,OPEN,Typo in data-dependent-conditional-execution docs,enhancement,2022-08-18T14:20:51Z
+1642,CLOSED,snakemake.remote.GS.RemoteProvider is not correctly sensing output files when jobs are first run,bug,2022-05-10T20:12:09Z
+1640,OPEN,Mismatch of python/pandas/numpy versions leads to error under very specific circumstances,bug,2023-05-30T13:40:25Z
+1638,CLOSED,Suppoort amendments in PEP config,enhancement,2022-05-05T22:25:46Z
+1637,OPEN,Report: include conda environment license information,enhancement,2022-05-05T10:17:55Z
+1636,CLOSED,A rule to evaluate the input data according to certain thresholds and exclude bad samples,,2022-05-05T08:26:18Z
+1635,CLOSED,pipe() rules not scaling threads.,bug,2022-05-04T15:34:42Z
+1632,OPEN,Relative import in python script not working when using a module from Gitlab,bug,2023-03-31T08:54:37Z
+1628,OPEN,group-components not being respected when pipeline is resuming running group jobs that feed into an aggregation determined by a checkpoint,bug,2022-11-03T07:18:20Z
+1627,CLOSED,Cannot use --wms-monitor option due to urrlib/request error (Connection refused),bug,2024-01-17T15:05:51Z
+1626,OPEN,unexpected behavior when using snakemake-modules that import other snakemake-modules,bug,2022-05-02T12:56:47Z
+1622,CLOSED,Invalid threads definition: entries have to be defined as RULE=THREADS pairs (with THREADS being a positive integer). Unparseable value,bug,2022-05-03T08:52:38Z
+1620,OPEN,Customizable timeouts for the ILP scheduler,enhancement,2022-05-01T06:19:11Z
+1619,CLOSED,Why can't we run conda and run together in a rule?,,2023-11-24T11:11:43Z
+1618,CLOSED,Fail to modify threads in inheritance rule,bug,2022-05-18T11:10:41Z
+1616,CLOSED,one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!,bug,2022-04-28T12:55:28Z
+1615,CLOSED,Set-threads parameter does not work in combination with kubernetes,bug,2022-05-04T08:02:49Z
+1614,CLOSED,Workflow error in module when using a prefix and 'expand' in a rule input,bug,2024-04-12T12:20:55Z
+1613,OPEN,Group jobs in SLURM cluster failing after version `7.3.3`,bug,2022-08-15T06:58:11Z
+1612,OPEN,Issues using "../path" in workdir under windows,bug,2022-04-27T23:37:14Z
+1610,OPEN,When using GSL Snakemake should warn that workflow-dependent file is not in git,enhancement,2022-04-27T18:18:38Z
+1607,OPEN,Raise exceptions in the interpreter to have the debugger catch them,enhancement,2024-01-17T14:17:38Z
+1606,OPEN,Shell output with light background,enhancement,2022-04-27T03:27:46Z
+1605,OPEN,Passing singularity global options using snakemake,enhancement,2022-04-27T00:09:35Z
+1604,OPEN,Merging input over 1 or more wildcards,enhancement,2022-04-27T10:05:09Z
+1603,OPEN,No exception raised when a log is not defined,bug,2022-04-26T14:14:19Z
+1602,CLOSED,conditional temp output,enhancement,2023-03-06T07:40:42Z
+1598,OPEN,version gathering of used software,enhancement,2022-10-27T10:16:01Z
+1597,CLOSED,/bin/bash: concatenate.py: command not found,bug,2022-04-26T09:50:26Z
+1596,OPEN,Snakefile parser fails to parse derived rule,bug,2022-04-22T21:49:38Z
+1593,CLOSED,Python error when creating subdirectories,bug,2023-10-02T11:49:38Z
+1591,CLOSED,Additional methods to declare local rules,enhancement,2023-09-01T14:44:00Z
+1589,CLOSED,WorkflowError when creating report using -j/--jobs instead of -c,bug,2023-01-10T16:02:03Z
+1585,CLOSED,osx-arm64 404 failed,bug,2023-03-14T07:40:12Z
+1583,CLOSED,Snakemake + Domino Data Lab,,2023-07-28T03:22:46Z
+1582,CLOSED,notebook as an output,enhancement,2022-04-21T13:13:19Z
+1581,CLOSED,Merging files over a wildcard (vcf regions) is not straightforward, but is common.,bug,2022-04-26T16:26:00Z
+1580,OPEN,should be able to run snakemake with `--use-singularity` and `--kubernetes` without pulling image locally first,enhancement,2023-01-31T22:58:57Z
+1579,OPEN,Issue a warning when unsupported characters are used in wildcard names,enhancement,2022-04-19T10:16:27Z
+1576,CLOSED,7.3.8 claims output files have changed that haven't,bug,2022-12-22T15:53:31Z
+1575,OPEN,Snakemake DAG Unbearablly Slow -- 30 mins to build DAG,bug,2022-04-12T00:00:14Z
+1574,OPEN,Paramspace.instance_patterns is converting int types to float,bug,2022-04-11T15:33:24Z
+1572,CLOSED,Clarification on singularity configuration to access files outside the working directory.,bug,2022-04-26T02:42:42Z
+1570,CLOSED,Support apptainer with --use-singularity,enhancement,2023-01-05T17:35:00Z
+1569,OPEN,temp flag on input files is silently ignored,bug,2022-04-06T06:05:35Z
+1563,OPEN,Google Cloud GCP Life Sciences API - Shared VPC support, Service Account, Creating PD and Support NFS,enhancement,2023-02-20T02:51:45Z
+1560,OPEN,Rule inheritance does not work for early included SMK file imports,bug,2022-04-04T10:09:14Z
+1559,OPEN,Rebuild conda environments,enhancement,2022-04-04T14:04:02Z
+1558,OPEN,Snakemake + SLURM: avoiding unwanted environment variable changes inside jobs,,2022-04-10T18:08:54Z
+1557,OPEN,Input files exist for aggregate rule, but snakemake reruns and regenerate the input files anyways,bug,2022-04-01T15:27:01Z
+1550,CLOSED,`--default-resources` combined with partial resource specification causes TypeError,bug,2022-04-01T14:24:42Z
+1546,CLOSED,Error when executing Snakemake in path with spaces (>= 7.3.0,bug,2022-07-22T22:11:38Z
+1542,CLOSED,Existing temp() files are deleted on a dry-run,bug,2022-03-31T14:27:27Z
+1539,OPEN,Amend with PEP,enhancement,2022-03-30T09:25:20Z
+1537,CLOSED,Expand input does not lead to wild cards being created,,2022-03-30T09:07:54Z
+1530,OPEN,--local-cores exceeding limit for localrules,bug,2022-04-16T16:21:59Z
+1527,CLOSED,Missing input tmp files when running with --cluster (SLURM),bug,2022-03-31T13:46:58Z
+1524,OPEN,Paramspace: Pass on parent properties to Paramspaces created with pandas operations,enhancement,2022-03-28T10:31:15Z
+1521,OPEN,Singularity execution of Docker image without bash does not work,bug,2023-04-13T04:55:12Z
+1519,CLOSED,CI continuous integration and testing of workflow,,2023-01-12T12:16:18Z
+1516,OPEN,log directive causes unit tests to fail,bug,2022-06-01T16:06:53Z
+1514,OPEN,Standard streams in shell commands should not be TTYs,enhancement,2022-04-03T00:29:49Z
+1510,CLOSED,iRODS remote functionality - issues with "zone",bug,2022-07-08T15:31:56Z
+1508,CLOSED,HTTP.RemoteProvider ignores Content-Encoding: gzip when url ends in .gz,bug,2022-03-31T17:02:39Z
+1507,CLOSED,TypeError when using "lambda wildcards:" to call function inside HTTPRemoteProvider.remote(),bug,2022-03-31T14:41:04Z
+1506,OPEN,Direct integration with Ray clusters,enhancement,2022-03-21T15:34:35Z
+1502,OPEN,Request: better/centralized documentation on syntax,enhancement,2023-05-27T13:33:10Z
+1500,CLOSED,Documentation: specify that the `use rule *` must come directly after `module`,bug,2022-03-31T17:14:46Z
+1498,CLOSED,Unpack fails in imported module with prefix keyword,bug,2022-04-01T13:19:48Z
+1497,CLOSED,The cleanup-metadata argument sometimes does not work,bug,2023-06-13T11:59:10Z
+1496,CLOSED,post-deploy scripts fail when conda-prefix is set outside of snakemake execution dir,bug,2022-03-23T08:33:00Z
+1493,OPEN,Dependent jobs are not executed when using two checkpoints and `directory` output,bug,2022-03-17T03:31:22Z
+1488,CLOSED,Snakemake profile parameter in API,enhancement,2022-12-15T20:58:48Z
+1485,CLOSED,Google lifesciences logs do not overwrite and only one per rule,enhancement,2022-03-30T21:36:59Z
+1482,CLOSED,.mtime returns float, not Mtime object causes attribute errror,bug,2022-03-15T22:32:19Z
+1481,CLOSED,v7.1.1 multicluster support breaks lsf profile,bug,2022-03-30T14:13:15Z
+1480,CLOSED,The subworkflow is not recognized in snakefile imported as module within another snakefile,bug,2022-03-16T08:12:33Z
+1479,OPEN,MissingRuleException on remote files (S3) from subworkflow,bug,2022-03-14T19:54:38Z
+1475,CLOSED,Incompatibility between Snakemake (v7.0.0 or later) and Tibanna?,bug,2022-03-21T14:44:40Z
+1474,OPEN,A `node_temp()` modifier for temporary files on node-local storage?,enhancement,2022-07-17T07:25:21Z
+1469,OPEN,Higher priority rule is executed when not needed in ambiguous cases,bug,2023-05-05T01:42:38Z
+1468,CLOSED,__main__.py: error: argument --cores/--jobs/-j: invalid int value: 'all',bug,2022-03-11T11:46:34Z
+1467,OPEN,Unsupported value for conversion into R,,2022-05-30T20:09:35Z
+1466,OPEN,questions about Modules,,2022-07-11T08:17:44Z
+1465,OPEN,`EOF` in shell script is ignored,bug,2022-03-16T09:17:01Z
+1463,CLOSED,Do no create conda environments within cluster jobs by default,bug,2022-03-14T06:16:40Z
+1460,CLOSED,Existing intermediate outputs are mishandled when reading from Google Cloud Storage,bug,2022-04-02T14:46:33Z
+1456,CLOSED,containerization of conda cannot work in the cluster mode,bug,2022-03-11T16:13:12Z
+1452,CLOSED,Return True on "Nothing to be done",enhancement,2022-03-03T03:19:31Z
+1449,CLOSED,logging error,,2022-03-02T02:53:51Z
+1446,CLOSED,Rule parameters,,2022-03-01T16:11:38Z
+1445,OPEN,`--lint` failing when config file is missing,enhancement,2022-03-12T10:18:37Z
+1444,CLOSED,--googlelifesciences segmentation fault,bug,2022-03-07T16:52:59Z
+1442,CLOSED,localrule with --google-lifesciences does not use conda environment,bug,2022-03-16T12:14:06Z
+1439,CLOSED,Regression: 'retry' module not found,bug,2022-03-01T16:06:47Z
+1438,CLOSED,Google cloud storage not accepted as a remote provider as of snakemake 7.0.1,bug,2022-03-01T16:09:38Z
+1435,CLOSED,Modules: `workflow.source_path()` does not respect `tmpdir`,bug,2022-02-26T21:51:38Z
+1434,OPEN,Rules in containers on Mac,enhancement,2022-02-26T12:41:35Z
+1433,OPEN,xonsh in snakemake,enhancement,2022-02-26T01:18:21Z
+1425,OPEN,In cluster mode unserializable parameter leads to all parameters deleted,bug,2022-02-23T23:17:36Z
+1421,OPEN,Support for AWS Batch,enhancement,2023-10-04T08:06:43Z
+1420,CLOSED,Timeout shell script without failing the rule,enhancement,2022-02-23T15:15:39Z
+1417,CLOSED,Multiple modules / order of modules causes only one snakefile targets generation.,bug,2022-03-02T19:51:30Z
+1415,CLOSED,Failed to evaluate DefaultResources value 'max(2*input.size_mb, 1000)',bug,2022-02-26T20:14:34Z
+1409,OPEN,Print all command line arguments upon starting,enhancement,2022-02-17T13:41:50Z
+1408,OPEN,Group directive: Features needed, buggy or missing,enhancement,2022-02-17T13:39:46Z
+1406,CLOSED,snakemake crashes with group directive in cluster mode due to {wildcards} reference in cluster config,bug,2022-08-25T09:00:15Z
+1405,CLOSED,Erroneous MissingOutputException / UnknownPod errors using Kubernetes executor on GKE,bug,2022-03-29T12:58:16Z
+1403,CLOSED,Docs: report docs claim a linked example report contains custom branding, but it does not.,bug,2022-04-01T13:37:43Z
+1402,OPEN,Switch from (deprecated) Jupyter notebook to Jupyter Lab 3 (or add JLab3 support),enhancement,2022-04-01T13:38:34Z
+1401,CLOSED,Report does not show attached data,bug,2022-04-01T14:29:06Z
+1400,OPEN,shell.prefix breaks subworkflows,bug,2022-06-30T04:47:25Z
+1399,OPEN,Make Jupyter notebooks portable,enhancement,2024-03-10T10:16:57Z
+1398,CLOSED,SNAKEMAKE_PROFILE environment variable does not play well with Slurm,bug,2022-02-18T14:47:46Z
+1396,CLOSED,unpack() + expand() with --default-remote-prefix does not work,bug,2022-03-01T17:06:19Z
+1394,OPEN,use `srun` with `script:` instead of `shell:`,,2022-02-16T14:32:20Z
+1393,CLOSED,wrapper code and script code not displayed in report but shell code is,bug,2022-02-18T07:56:31Z
+1392,CLOSED,Key error with rule name when running large DRMAA jobs,bug,2022-03-11T10:02:16Z
+1391,CLOSED,wrong inputs passed to run:,bug,2022-03-10T05:36:29Z
+1390,CLOSED,Schema validation doesn't seem to work for deep config.yaml levels,bug,2023-01-02T10:19:34Z
+1389,CLOSED,Scheduler crashes with `TypeError`,bug,2022-04-01T16:21:44Z
+1384,CLOSED,Generating unit tests fails with for output marked with directory(),bug,2022-02-09T09:36:52Z
+1381,OPEN,Retry counter attempt is dysfunctional for grouped rules,bug,2022-02-23T09:27:17Z
+1378,OPEN,Timestamps of output are reset to the time when the rule completes,bug,2024-02-14T00:35:05Z
+1375,OPEN,Docs error,bug,2022-02-04T13:15:14Z
+1374,OPEN,Greedy solver not chosen despite ILP `cbc` taking >6min and thus >10s,bug,2023-01-31T22:05:57Z
+1372,CLOSED,LocalGitFile never opend due to variable passed as string,,2022-08-25T10:16:58Z
+1370,OPEN,Data missing for Azure AKS Deployment Tutorial,bug,2022-02-10T14:42:20Z
+1367,CLOSED,Allow duplicate rule outputs if they are empty?,enhancement,2022-02-05T17:59:21Z
+1365,OPEN,Errors in the workflow are not printed to stderr but to stdout when using dry run.,bug,2022-02-01T11:05:07Z
+1362,CLOSED,Default Remote Prefix breaks when provided inputs,bug,2022-03-01T15:23:13Z
+1356,OPEN,Access current workdir from inside log_handler,enhancement,2022-01-31T20:29:28Z
+1354,OPEN,VPC custom subnet support for Google Cloud Life Sciences,enhancement,2022-01-27T05:56:51Z
+1353,OPEN,Creation of multiple sub-reports from the same workflow,enhancement,2022-01-26T18:41:54Z
+1351,CLOSED,wildcards and params in notebook directive not evaluated with --edit-notebook,bug,2022-01-28T16:37:32Z
+1350,OPEN,Notebooks not created/opened when using rule names,bug,2022-01-26T10:55:59Z
+1349,OPEN,Paramspace: Hyphen in parameter name raises MissingInputError,bug,2022-04-13T16:26:33Z
+1347,CLOSED,Module prefix breaks remote input files,bug,2022-02-26T22:06:12Z
+1346,OPEN,How to run CLEAR/CIRCexplorer3 in my workflow?,enhancement,2022-02-10T14:58:35Z
+1345,OPEN,option to change the script for cluster computation,,2022-02-10T15:18:53Z
+1342,CLOSED,JSONDecodeError while handling job success on LSF,bug,2022-07-19T13:42:04Z
+1338,OPEN,Print shell commands from run block,enhancement,2022-01-21T16:27:49Z
+1337,OPEN,Use checksums instead of time stamps for certain files,enhancement,2022-01-24T15:43:59Z
+1335,OPEN,multiext support for named output,enhancement,2024-03-31T18:28:58Z
+1333,OPEN,Snakemake temp(),bug,2022-03-04T19:43:36Z
+1331,CLOSED,groupjob fails when downstream of checkpoint (re-evaluation of DAG bug?),bug,2022-02-25T10:47:29Z
+1329,CLOSED,Uncertain output folder names and file names,,2022-01-18T15:50:48Z
+1328,CLOSED,documentation: describe non-python dependencies in installation documentation,enhancement,2022-01-18T13:58:18Z
+1323,CLOSED,Rapidly completing job hangs instead of finishing,bug,2022-02-21T08:09:24Z
+1319,OPEN,Allow input functions that return a list of lists of filenames,,2022-01-15T01:28:04Z
+1318,CLOSED,IncompleteFilesException while using `--rerun-incomplete`,,2023-03-20T12:52:12Z
+1316,OPEN,ruleorder: does not work properly with multiple downstream rules,bug,2022-01-05T15:02:27Z
+1315,OPEN,snakemake documentation: 404 error for referenced file,bug,2022-02-10T14:35:51Z
+1314,OPEN,snakemake format_wildcards error "TypeError: keywords must be strings" but my wildcards are strings?,bug,2022-01-07T01:00:47Z
+1313,OPEN,Snakemake executing code multiple times,bug,2021-12-23T16:10:56Z
+1309,OPEN,S3.remote not deleting downloaded files when running with cluster profile with --no-shared-fs,bug,2021-12-20T12:41:56Z
+1308,CLOSED,Unable to use LocalGitFile,,2023-01-10T12:42:23Z
+1307,OPEN,S3.remote deleting input files and redownlading them & not deleting local files after upload,bug,2022-03-22T14:54:15Z
+1306,OPEN,Imports from `__future__` fail,bug,2023-02-15T21:30:08Z
+1305,OPEN,Linter identifies sed command as an absolute path...,bug,2022-01-07T14:48:32Z
+1303,OPEN,Parameter `wrapper-prefix` cannot be passed to subworkflows,bug,2021-12-15T14:07:18Z
+1302,CLOSED,--use-conda ignored for local rule with using Tibanna executor,bug,2022-04-08T18:39:56Z
+1301,CLOSED,Use modules from private github repository,enhancement,2022-12-16T15:00:42Z
+1298,OPEN,Exception has occurred: TypeError 'NoneType' object is not iterable,bug,2021-12-10T12:37:56Z
+1297,OPEN,Print statements outside of rules are printed each time a rule using "Run" containing a print() statement is executed,bug,2022-03-05T22:02:47Z
+1287,CLOSED,Conda environment creation hangs forever when using mamba = 0.18.*,bug,2021-12-01T09:07:01Z
+1279,CLOSED,Snakemake: MissingInputException,,2021-12-01T10:51:32Z
+1278,CLOSED,Assign kubernetes node labels to rules,enhancement,2022-03-20T20:41:21Z
+1277,OPEN,Allow workflow.source_path to maintain its target's file extension,enhancement,2021-11-24T17:11:58Z
+1272,OPEN,Separate output remotes from input remotes,enhancement,2021-11-23T06:18:10Z
+1271,OPEN,temp() files are deleted even if they are explicit input for the default rule.,bug,2021-12-29T01:05:04Z
+1270,OPEN,slurm OMP_NUM_THREADS error,bug,2021-11-22T19:22:06Z
+1269,OPEN,warn when a command line parameter is used multiple times,enhancement,2021-11-21T18:05:13Z
+1268,CLOSED,Scheduler has TypeError at same rule,bug,2021-11-19T21:11:39Z
+1267,OPEN,Benchmarking + container returns wrong values.,bug,2022-05-19T11:16:04Z
+1266,OPEN,Error when Conda/Script directive used simultaneously,bug,2023-01-30T18:50:33Z
+1265,CLOSED,TES Executor error,bug,2022-01-27T19:31:08Z
+1263,OPEN,Snakemake +Singularity with "oras://" URLs,,2021-12-20T12:54:52Z
+1262,OPEN,[Feature Request] any plan for a language server?,enhancement,2021-11-16T14:21:44Z
+1261,CLOSED,Snakemake is too keen in deleting directories,bug,2022-05-03T07:34:30Z
+1260,CLOSED,Kubernetes executor TypeError,bug,2021-11-30T20:15:06Z
+1259,CLOSED,Shared memory feature with Snakemake STAR wrapper,enhancement,2021-11-13T03:22:42Z
+1257,CLOSED,Job failure with shadow directive if log files not created,bug,2021-11-27T07:25:12Z
+1256,CLOSED,Line number of error is incorrect,bug,2024-01-09T11:06:16Z
+1254,OPEN,multiext and expand do not work for GS.remote,bug,2021-11-10T03:07:27Z
+1253,OPEN,Editing 'notebooks' with relative paths in Snakefile causes TypeError,bug,2021-11-10T02:21:39Z
+1252,OPEN,How do snakemake Modules work?,bug,2022-07-05T13:13:44Z
+1249,OPEN,MissingOutputException if both local and GS.remote files in output,bug,2021-11-06T22:03:17Z
+1248,OPEN,Snakemake regularly falls asleep when running on cluster with slurm within tmux,bug,2023-12-18T17:08:10Z
+1247,CLOSED,Line numbers in stacktraces incorrect, not matching with actual file numbers,bug,2022-09-07T11:03:33Z
+1246,OPEN,A way to easily access previous reports,enhancement,2021-11-01T22:54:21Z
+1245,OPEN,GLS executor fails when requesting GPUs,bug,2022-08-03T18:55:40Z
+1244,CLOSED,KeyError: checkpoint,bug,2023-05-24T11:41:08Z
+1243,CLOSED,Workflow fails after each rule despite correct output,bug,2022-03-07T19:03:27Z
+1242,OPEN,Snakemake 'touches' all files produced in a group job after finishing,bug,2021-10-29T15:55:34Z
+1241,OPEN,Better error message when mistyping wildcard format specifiers,enhancement,2021-10-28T08:41:26Z
+1240,CLOSED,Wildcards in dry run do not match submitted job,bug,2022-05-19T22:16:05Z
+1239,OPEN,name 'config' is not defined wtih script,bug,2021-10-27T07:39:50Z
+1237,OPEN,problem in using a snakefile as module,,2021-11-03T09:12:15Z
+1232,OPEN,Grab the output of the python function executed in the 'run:' context, use that to deduce the path of the output file (a feature inquiry or possible feature request),enhancement,2021-10-27T01:38:31Z
+1231,OPEN,Add {attempt} expansion to configuration,enhancement,2021-12-18T17:13:18Z
+1227,OPEN,Snakemake stops submitting jobs on SLURM cluster,bug,2024-03-15T08:45:58Z
+1226,OPEN,Generated cluster jobscript does not include `--profile` so `cluster_profile` is not populated with anything,,2021-10-19T11:38:04Z
+1224,OPEN,input.size_mb is wrong for remote files on GCP,bug,2024-04-26T22:51:45Z
+1223,CLOSED,Request to "fix" the hello-world,enhancement,2022-03-30T10:55:43Z
+1222,CLOSED,Installing from source or outside of Conda,bug,2021-10-18T21:40:50Z
+1219,OPEN,Wildcard expansion loop when filename contains repeated delimiters,bug,2021-11-18T21:06:22Z
+1217,OPEN,Group construction issue with group-components and checkpoint,bug,2021-10-12T19:36:24Z
+1212,CLOSED,Possible regression bugs from 6.8.0 to 6.9.X,bug, help wanted,2022-12-13T09:09:14Z
+1210,CLOSED,`--containerize` is broken,bug,2021-10-26T13:03:18Z
+1209,OPEN,panoptes workflow naming,enhancement,2023-11-27T12:10:47Z
+1208,CLOSED,Snakemake dependencies for checkpoints and dynamic rule expansion,bug,2022-02-26T22:45:01Z
+1205,CLOSED,Finished kubernetes snakejobs still running,bug,2022-04-27T02:49:56Z
+1204,OPEN,snakemake does not find mamba or conda,bug,2024-01-09T09:49:59Z
+1197,OPEN,Missing space at the end of 'use_threads' variable in 'ga4gh_tes.py when using custom config file,bug,2021-09-29T14:11:07Z
+1193,OPEN,Support group jobs when using the google-life-sciences executor,enhancement,2021-10-04T16:52:18Z
+1190,CLOSED,Input file question,,2021-10-04T12:33:21Z
+1189,OPEN,Ignore Inputs in `input._ignore` when Iterating Through Inputs,enhancement,2021-10-01T17:40:58Z
+1188,OPEN,--skip-script-cleanup controls cluster specific scripts,enhancement,2021-09-23T16:12:14Z
+1187,OPEN,--shadow-prefix does not work, logs, locks and others still written to .snakemake,bug,2021-09-22T17:48:37Z
+1186,OPEN,Error in parsing KeyValue pairs from profile,bug,2021-11-24T15:08:19Z
+1184,CLOSED,Rule dependencies do not work with rule inheritance,bug,2021-09-22T04:18:23Z
+1180,CLOSED,wms-monitor-arg only permits interger values,bug,2021-10-21T12:29:14Z
+1179,OPEN,Usage Q - Run all rules for a given wildcard before going through to the next "batch",,2021-10-27T09:25:27Z
+1178,OPEN,GenericClusterExecutor is always using all cores,bug,2022-08-20T08:55:15Z
+1177,OPEN,`snakemake` object not usable within Rmd YAML front-matter,bug,2021-11-17T03:16:02Z
+1176,CLOSED,Using remote files when including a remote snakemake module,enhancement,2021-09-29T15:22:02Z
+1172,OPEN,Support list of allowed wildcards in wildcard_constraints,enhancement,2021-09-11T13:15:08Z
+1171,OPEN,can't use function returning dict with `params:`,bug,2023-06-01T16:06:33Z
+1169,OPEN,minimal shadow rule fails if automatically-supplied output directory is replaced,bug,2021-09-09T21:24:09Z
+1168,OPEN,confused by snakemake's grammar and lack of concrete reference material,,2022-06-09T00:23:23Z
+1167,OPEN,Error running in Azure Kubernetes Service,bug,2023-01-31T20:11:50Z
+1166,OPEN,snakemake API call is not parallel when running for more cores,bug,2022-08-01T19:44:22Z
+1165,CLOSED,Python 3.8 not supported,bug,2021-09-13T14:07:00Z
+1164,CLOSED,slurm submiited job failed silentely,bug,2021-10-04T13:16:11Z
+1162,OPEN,Download of output file from pure html report fails on some browsers,bug,2022-08-25T13:49:59Z
+1158,CLOSED,Every --cluster job performs `os.walk(".snakemake/incomplete")` causing a deadlock,bug,2021-09-16T18:36:51Z
+1157,OPEN,Snakemake wrappers require cluster nodes to contact github,bug,2023-05-17T12:41:12Z
+1153,CLOSED,SameFileError when running snakemake --gernerate-unit-tests,bug,2021-11-27T07:25:38Z
+1152,CLOSED,Full copy shadow rules,enhancement,2021-08-27T06:44:42Z
+1151,OPEN,Missing starttime causes failure for report to load,bug,2021-10-19T07:46:00Z
+1150,OPEN,Rerun workflow from failed in presence of old output files,enhancement,2021-08-23T13:38:02Z
+1149,CLOSED,Empty list is a valid input,bug,2021-08-23T13:08:06Z
+1148,OPEN,cluster execution failing on certain rules (random) using sbatch and --immediate-submit,,2021-08-23T11:25:57Z
+1145,CLOSED,Snakefile is opened for reading using default encoding,bug,2022-08-25T10:23:33Z
+1144,OPEN,Input file validation/semantic types,enhancement,2021-08-20T20:39:58Z
+1143,OPEN,Conda environment with pip leads to: bad interpreter: No such file or directory,bug,2021-08-20T19:32:47Z
+1141,CLOSED,Output directories with wildcards raise SyntaxError,bug,2021-08-30T13:48:45Z
+1140,OPEN,Documentation on hardlinks,bug,2021-08-17T17:39:29Z
+1136,OPEN,#-symbol (hash symbol) truncates config set from command line,bug,2021-08-27T04:36:53Z
+1134,OPEN,GUI throws error when using `config` variable without lambda,bug,2021-08-13T12:38:47Z
+1130,CLOSED,Linter fails module is imported from github,bug,2021-08-13T09:58:38Z
+1128,OPEN,Support SFTP as a Default Remote Provider when Executing Workflow with Kubernetes,enhancement,2021-08-09T15:45:52Z
+1123,OPEN,--print-compilation does not consider include statements,bug,2021-08-04T08:45:30Z
+1122,OPEN,Make parameters visible to input and output,enhancement,2024-01-17T13:10:26Z
+1121,CLOSED,possible issue with set -e?,bug,2021-08-20T14:20:16Z
+1120,CLOSED,Error when using conda 4.10.3 with snakemake 6.6.1,bug,2021-10-25T09:49:47Z
+1119,OPEN,Getting "AttributeError: 'list' object has no attribute 'add'" while trying to convert workflow to CWL,bug,2021-08-02T13:12:56Z
+1118,CLOSED,Snakemake waiting to finish all parallel jobs before starting next parallel job,bug,2021-08-13T10:29:57Z
+1117,OPEN,Docs: Cluster Execution page,enhancement,2022-01-17T01:56:29Z
+1115,OPEN,Suppress - localrule all,enhancement,2021-07-28T19:19:38Z
+1114,OPEN,Update vim plugin,enhancement,2021-07-28T10:17:31Z
+1113,OPEN,Scatter-gather documentation errors,bug,2022-06-13T16:34:15Z
+1109,OPEN,snakemake --report broken in snakemake >=6.5,bug,2022-02-11T15:27:07Z
+1108,CLOSED,--conda-frontend value not passed on to cluster jobs,bug,2022-01-11T20:39:54Z
+1106,OPEN,AmbiguousRuleException when there is no ambiguity,bug,2021-07-27T05:47:11Z
+1105,CLOSED,Snakemake API throws RuntimeError related to asyncio when used within Jupyter,bug,2021-09-24T12:13:47Z
+1104,OPEN,edge cases fail with `--generate-unit-tests`,bug,2023-11-10T14:19:45Z
+1101,OPEN,--summary broken in 6.x?,bug,2021-07-27T10:00:10Z
+1093,CLOSED,Specifying a path starting with "/" in --default-resources tmpdir=<path> creates a syntax error in checkpoints,bug,2023-02-15T22:01:00Z
+1091,OPEN,Snakemake using different values of "threads" for console output and cluster submission,bug,2021-07-16T07:49:09Z
+1090,OPEN,Multiple line `shell` commands not working on Windows,bug,2021-11-25T13:29:41Z
+1089,OPEN,Importing utility modules into scripts or notebooks?,,2021-07-13T01:35:23Z
+1088,OPEN,Task grouping requires `run_local` to be False,bug,2021-07-12T17:55:21Z
+1087,CLOSED,Ability to create dynamic groups based on wildcard values,enhancement,2021-07-12T17:39:59Z
+1086,OPEN,Rule input drops the closing slash in the input directory filename,bug,2021-07-12T08:21:14Z
+1085,CLOSED,Is there a standard way to include rust/cargo dependancies in a workflow,,2022-03-30T10:49:43Z
+1083,CLOSED,Lint should not require specification of cores,enhancement,2022-07-24T14:05:52Z
+1082,CLOSED,Update sphinx-napoleon import,bug,2021-07-16T13:59:14Z
+1081,OPEN,MissingInputException for api.gdc.cancer.gov,bug,2022-08-17T15:51:46Z
+1080,CLOSED,Missing initialization of assignments in parse_set_resources,bug,2021-08-27T14:05:21Z
+1079,CLOSED,resources.tmpdir does not support environmental variables,bug,2022-01-05T21:04:58Z
+1075,OPEN,Command line option import to docs is badly formatted and lacks argument information,bug,2021-07-03T20:15:56Z
+1074,OPEN,Broken link to the example files,bug,2022-01-17T02:09:38Z
+1073,CLOSED,.jobfinished file Permission denied, NFS latency?,bug,2021-07-15T07:02:52Z
+1071,CLOSED,Documentation fails to build with sphinx-4.0.2,bug,2021-07-08T11:31:25Z
+1069,CLOSED,--resources can't be parsed properly,bug,2021-07-07T21:23:49Z
+1066,OPEN,Filenames split at whitespaces when using `--cluster`,bug,2021-07-16T20:58:36Z
+1065,CLOSED,dry-run now requires cores or jobs to be set,bug,2021-07-02T09:43:21Z
+1063,OPEN,problems with local python imports within snakemake modules,bug,2021-06-25T16:51:32Z
+1062,CLOSED,FTPRemoteProvider complains about ftps:// url even when ftp:// is specified,bug,2021-07-02T09:15:22Z
+1060,CLOSED,Jobs not acting as cores locally?,bug,2021-06-24T14:16:43Z
+1059,CLOSED,resources.tmpdir not working with wrappers,bug,2021-06-28T10:01:52Z
+1058,CLOSED,Was breaking `-j all` in v0.6.5 intentional?,bug,2021-06-24T18:15:58Z
+1055,CLOSED,Shell block comments are evaluated,bug,2021-06-25T09:52:23Z
+1052,OPEN,when using sample Group info Encounter AttributeError: module 'pulp',bug,2021-06-24T14:19:47Z
+1047,CLOSED,Testing in dry mode using Google Life Sciences fails for large input files,bug,2021-06-17T16:14:00Z
+1045,CLOSED,Using Boolean values with Paramspace Expansion fails with R scripts,bug,2022-07-19T11:14:36Z
+1043,CLOSED,Google Life Sciences executor failing with "read timed out",bug,2021-06-16T11:40:58Z
+1039,CLOSED,External workflow modules and singularity?,bug,2021-06-09T12:37:57Z
+1038,OPEN,Add support for micromamba,enhancement,2022-12-17T21:31:20Z
+1036,CLOSED,dag.update_checkpoint_dependencies(): KeyError,bug,2021-06-08T10:42:41Z
+1032,OPEN,Notebook validation failed.,bug,2022-02-06T13:54:47Z
+1031,OPEN,Scheduler priority problem with temp files,bug,2021-06-07T11:38:59Z
+1030,OPEN,absolute script paths: rule inheritance not working,bug,2022-07-05T13:08:20Z
+1028,OPEN,Command-line `--touch` option results in FileNotFoundError if a pipeline has outputs marked as 'temp',bug,2021-06-05T20:09:10Z
+1027,CLOSED,Rule does not symlink rest of files to cache,bug,2022-01-14T13:28:17Z
+1026,CLOSED,Any suggestion for small example package to use in 'conda' tests,enhancement,2021-06-09T06:44:14Z
+1024,CLOSED,KeyError: <rule name>,bug,2021-11-18T11:55:59Z
+1023,OPEN,ruleorder is randomly ignored,bug,2021-06-03T11:34:18Z
+1021,CLOSED,Snakemake fails when the same checkpoint is executed more than once,bug,2022-03-09T12:13:58Z
+1018,OPEN,Snakemake hangs when using pipe,bug,2021-05-27T14:10:35Z
+1016,OPEN,singularity statement from parent rule ignored for rule inheritance,,2022-07-05T13:06:24Z
+1014,OPEN,conda/snakemake not detecting networkx or pygraphiz for reports,bug,2021-05-26T14:52:47Z
+1013,OPEN,Allowing transfer of output directory to remote location,enhancement,2021-11-17T01:45:59Z
+1012,CLOSED,multiext documentation mistake,bug,2022-10-26T10:58:20Z
+1011,OPEN,jobID of failed jobs in `msg` reported to ‘def log_handler(msg):’,enhancement,2021-05-23T12:10:06Z
+1010,OPEN,Do not delete downloaded files if job execution failed during run,enhancement,2021-05-23T11:38:58Z
+1009,CLOSED,Cluster jobs fail claiming mamba is missing, even though mamba is present, and even if conda backend is specified,bug,2022-07-14T11:30:18Z
+1007,CLOSED,Environment variables with spaces break execution on clusters when using jobscript,bug,2022-03-21T14:44:40Z
+1006,CLOSED,*** Error in `python3.9': free(): corrupted unsorted chunks: 0x0000558b6ab3dfb0 ***,bug,2021-09-25T08:32:38Z
+1005,OPEN,--forceall and --forcerun should be propagated for group jobs (cloud execution),bug,2021-05-18T15:09:21Z
+1004,OPEN,output of logger is missing from run directive in logfile,bug,2021-05-18T10:48:52Z
+1003,OPEN,pulp filling up /tmp to 100% for many jobs - with workaround?,bug,2021-09-30T21:43:44Z
+1002,OPEN,Subworkflow temp annotated otuput file incorrect deletion,bug,2021-05-20T22:00:28Z
+1001,OPEN,Snakemake with --cluster-status flag failing,bug,2022-04-28T02:34:01Z
+999,OPEN,Use singularity on MacBook with M1 Chip,bug,2021-05-17T11:42:40Z
+995,CLOSED,Google life sciences executor: snakemake ignores existence of file (directory),bug,2021-05-11T15:41:34Z
+994,OPEN,Google life sciences executor: The file does not seem to exist remotely:,bug,2021-05-11T14:42:14Z
+992,OPEN,Allow to run Tibanna executor with "open_browser=False",enhancement,2021-05-11T14:15:37Z
+991,CLOSED,Snakemake depends on functionality in smart_open 3,bug,2024-01-03T10:58:55Z
+990,OPEN,Provide support for Kubernetes Persistent Volumes,enhancement,2022-02-24T15:43:28Z
+988,CLOSED,KeyError when ambiguous rule follows a checkpoint,bug,2021-05-18T11:56:06Z
+986,CLOSED,module 'snakemake.checkpoints' has no attribute 'register',,2023-08-27T15:11:36Z
+985,OPEN,Google Life Sciences Executor: snakemake way of removing files from bucket,enhancement,2021-05-10T10:33:29Z
+983,OPEN,Regular SSL errors using Snakemake with Google Life Sciences Executor,bug,2021-07-29T08:03:15Z
+982,CLOSED,Google Life Sciences - conda not behaving as expected,bug,2021-05-09T11:59:46Z
+981,OPEN,version check in snakefile run many times, why?,enhancement,2021-10-07T05:58:44Z
+980,OPEN,Google life sciences tutorial needs more information about resource specification,enhancement,2021-06-17T08:27:36Z
+979,OPEN,local-cores ignored for localrules,bug,2021-05-06T15:59:46Z
+978,OPEN,Containerized option with profile,bug,2021-05-05T21:05:03Z
+976,CLOSED,Command line option to always rerun with updated code or parameters,enhancement,2022-05-27T13:32:15Z
+975,CLOSED,workflow with piped output fails under versions 5.28 - 6.2,bug,2021-09-24T13:48:12Z
+974,OPEN,link to *Configuration* section in reports,enhancement,2021-04-27T21:00:37Z
+972,CLOSED,Typo in flag suggested when running `--generate-unit-tests`,,2021-04-29T08:07:49Z
+971,OPEN,Container Usage - Absolute path to image,,2021-05-07T05:29:55Z
+970,OPEN,AmbiguousRuleException whereas only one input file exists,bug,2021-04-29T14:23:19Z
+969,CLOSED,pip in conda yaml causes snakemake to hang,bug,2021-04-25T20:03:46Z
+966,CLOSED,Checkpoints with temp() output broken,bug,2021-04-22T09:03:25Z
+963,OPEN,How to specify a dictionnary key with --config option,,2021-05-03T14:09:49Z
+962,OPEN,Integrate Snakemake rules with the Python module system,enhancement,2021-04-19T14:24:44Z
+960,OPEN,[Feature] GridSearch on Parameterspace for optimal pipeline,enhancement,2021-04-16T18:50:46Z
+959,OPEN,snakemake crushes on big pipelines with many input files,bug,2021-04-16T17:13:02Z
+958,OPEN,KeyError and CreateRuleException while using modifying use statement,bug,2021-12-08T13:32:06Z
+956,OPEN,Import local module in script,enhancement,2021-04-14T10:16:03Z
+954,CLOSED,Command being run in cluster is different from the one printed,bug,2022-01-04T08:56:14Z
+951,OPEN,Intermittent behaviour on wildcards in output section.,bug,2021-04-09T14:00:11Z
+950,OPEN,Got the error randomly "one of the commands exited with non-zero exit code" when conda activate snakemake,bug,2021-04-13T08:00:44Z
+946,CLOSED,Ancient keyword causes incorrect scheduling order,bug,2021-10-21T12:29:57Z
+945,CLOSED,Localrules not compatible with new module mechanism,bug,2023-03-22T07:24:03Z
+944,OPEN,Suggestion to allow for extra commands on jobscript,,2021-04-21T08:53:01Z
+942,CLOSED,Regression: Checkpoints lead to jobs executed locally,bug,2021-04-06T04:12:49Z
+941,OPEN,is there a way to specify the snakemake rules that should be submitted to slurm, instead of specifying the rules to be run locally?,enhancement,2021-06-04T09:51:34Z
+940,OPEN,Threads only available calling R via 'shell: Rscript:' - They are not available when R called via 'script:',bug,2023-01-10T18:33:03Z
+939,CLOSED,Conda frontend value is not propagated to subworkflows,bug,2021-06-08T10:41:37Z
+937,CLOSED,snakemake/jobs.py:97: KeyError: ('all',) in new obj = self.cache[key],bug,2021-04-01T16:24:44Z
+935,CLOSED,Modules do not support explicit rule dependency,bug,2021-04-07T16:15:48Z
+934,CLOSED,[help] blastn -remote in snakemake conda env,enhancement,2021-04-13T08:20:46Z
+929,CLOSED,Inheritance cannot be used multiple times safely,bug,2022-12-21T22:48:38Z
+928,OPEN,Inheritance does not allow overriding only named parts,bug,2021-03-23T03:23:58Z
+927,CLOSED,Using input lambda in param can cause FileNotFoundError in dry-run,bug,2021-05-17T08:53:29Z
+926,CLOSED,Quay.io cannot be specified in container tag,bug,2021-04-04T05:02:54Z
+925,OPEN,Bioconda dependency missing,bug,2021-04-13T18:05:28Z
+923,OPEN,Allow log to be used in params lambda,enhancement,2021-03-19T09:47:34Z
+921,OPEN,snakemake pulls the wrong Singularity image from shub in a user-dependent fashion,bug,2021-03-18T16:25:56Z
+920,OPEN,Rule inheritance with more than one override exits with error,bug,2021-03-23T04:35:08Z
+919,OPEN,.snakemake/incomplete collecting empty directories,bug,2023-03-28T14:43:49Z
+918,CLOSED,"Argument list too long" crash with long rule input file list,bug,2021-05-20T10:04:09Z
+917,CLOSED,[help] merging all inputs into one output,,2021-03-17T08:41:29Z
+916,OPEN,Creation of a 3,800+ character file path in .snakemake/incomplete,bug,2021-03-13T21:12:19Z
+915,CLOSED,Patterns can not match files under a directory to generate a report.,bug,2022-09-23T18:00:05Z
+914,OPEN,--configfile flag is broken in combination with Kubernetes and GS buckets,bug,2023-08-29T09:25:19Z
+913,OPEN,Rust scripts and notebooks,enhancement,2021-08-13T01:29:54Z
+912,OPEN,Missing job IDs when updating checkpoints,bug,2021-03-12T17:22:43Z
+910,CLOSED,Python 3.5 compatibility - Paths,bug,2022-03-23T08:31:16Z
+909,OPEN,Execution with Kubernetes and Singularity does not work on GKE,bug,2021-04-27T13:45:23Z
+907,CLOSED,Create a default profile/config file,enhancement,2021-03-10T19:20:58Z
+905,OPEN,Rules with Paramspace wildcards do not run new values when the paramspace is altered,bug,2021-03-05T17:32:26Z
+904,OPEN,--max-jobs-per-second flag not being used,bug,2021-12-14T17:17:45Z
+902,OPEN,Snakemake linter mistakes a regular expression in wildcard contraint for a path,bug,2021-10-15T08:09:22Z
+901,OPEN,ModuleNotFoundError: No module named 'tes',bug,2021-03-04T16:53:19Z
+900,OPEN,Existing conda envs and multiple threads lead to failed processes,bug,2021-05-12T21:26:28Z
+899,OPEN,strange crash when accessing pythons inspect.stack(),bug,2021-03-03T14:17:25Z
+897,OPEN,Large Snakemake workflow keeps silently stopping short, with exit code zero,bug,2021-03-02T19:34:40Z
+896,CLOSED,workflow.cores not defined when using --cluster option,bug,2021-11-23T14:15:42Z
+895,OPEN,AzBlob prefix duplicated after checkpoint with aks execution (v6.0.0),,2021-03-01T19:14:03Z
+894,OPEN,Singularity bind defined within rules,enhancement,2021-04-14T18:15:57Z
+891,CLOSED,Pass --cluster-status by environment,enhancement,2024-01-25T23:15:57Z
+890,OPEN,Local copies of remote files not deleted with --default-remote-provider and --default-remote-prefix,bug,2021-02-24T22:59:44Z
+887,OPEN,expand function returns incomplete output when input is a map,bug,2021-02-22T17:10:44Z
+886,OPEN,Support preparing directories before submitting jobs through slurm?,enhancement,2021-02-22T15:31:34Z
+885,OPEN,snakemake should default to `-j 1` when run on command line,bug,2021-02-25T15:47:11Z
+884,CLOSED,Attempt to create files a second time in a single snakemake run,bug,2021-06-18T15:23:03Z
+883,CLOSED,Python module not found when submitting jobs to cluster,bug,2021-06-10T10:45:55Z
+881,OPEN,Linter warning "Mixed rules and functions in same snakefile",,2021-11-18T09:14:14Z
+880,CLOSED,Suggested solution to lints,,2024-03-01T13:06:11Z
+879,OPEN,Snakemake sets all thread-related environment variables to 1 when using jupyter notebook,bug,2021-02-20T01:51:55Z
+878,OPEN,jobscript.sh is not executable.,bug,2021-02-16T11:24:20Z
+877,OPEN,"Resuming incomplete job" when it shouldn't,bug,2021-02-15T19:12:38Z
+876,OPEN,Problems with encoding in configfile,bug,2021-02-15T13:30:47Z
+872,CLOSED,Bundle many small jobs into one larger job submission,enhancement,2024-03-08T14:43:53Z
+871,OPEN,Solver occasionally does not converge(?) so that the workflow does not start,bug,2021-06-30T08:21:22Z
+870,OPEN,MissingOutputException when using a remote directory as an output with S3,bug,2023-11-29T19:00:56Z
+869,OPEN,snakemake --detailed-summary doesn't show associated scripts,enhancement,2021-02-05T15:46:28Z
+867,OPEN,snakemake taking incorrect location from config,bug,2021-02-22T17:27:49Z
+865,OPEN,Job count not correct when using --until,bug,2021-02-04T21:03:37Z
+864,OPEN,Versions, citations and references for tools being used,enhancement,2021-06-28T08:57:26Z
+862,CLOSED,Malformed JavaScript resource URLs in zipped reports,bug,2021-02-11T16:57:44Z
+861,OPEN,Support for referring to current rule name from directives,enhancement,2021-01-31T15:43:34Z
+860,CLOSED,Environment variables are not correctly quoted when executing job on cluster,bug,2022-03-21T14:44:40Z
+855,OPEN,Checkpoint {input} contains wrong data,bug,2022-03-13T09:15:04Z
+854,CLOSED,Maximum shell script length not checked or handled,bug,2021-02-12T20:24:21Z
+853,CLOSED,Multiple different external jobids registered for output files,bug,2021-04-03T06:17:23Z
+851,OPEN,Low benchmarking frequency produces inaccurate max_rss values,bug,2022-08-10T22:19:41Z
+850,OPEN,Cyclic dependency when downloading remote file and adding a dependent rule,bug,2021-01-25T22:00:52Z
+849,CLOSED,CreateCondaEnvironmentException on Windows 10,bug,2021-06-09T13:02:09Z
+848,OPEN,Conda environments and container image files as rule dependencies,enhancement,2021-01-21T11:04:47Z
+847,OPEN,IncompleteCheckpointException causes substitution of input function return value by checkpoint output,bug,2022-03-09T11:39:43Z
+846,CLOSED,Is it possible to use Docker instead of singularity,enhancement,2021-02-02T13:04:04Z
+845,OPEN,Gurobi expired license warning even though greedy scheduler is used (or even just on --version),bug,2021-06-03T08:05:53Z
+844,OPEN,WebDAV support broken,bug,2021-05-03T13:04:05Z
+843,OPEN,generate unit test with snakemake but missing quote for configfile in generated test scripts,bug,2021-05-05T10:00:56Z
+840,OPEN,per-rule conda environment is not isolated,bug,2021-01-16T19:07:23Z
+838,OPEN,Possible Race Condition with s3 Remote files,bug,2021-01-15T20:46:30Z
+836,OPEN,Allow to disable a rule for certain combinations of wildcards.,enhancement,2021-01-13T06:28:14Z
+831,OPEN,benchmark not working properly,bug,2021-01-09T20:01:08Z
+830,OPEN,--max-jobs-per-second doesn't work,bug,2022-03-30T09:05:32Z
+829,OPEN,Ungraceful handling of Input/output error exception,bug,2021-01-07T15:24:08Z
+828,CLOSED,checkpoint: cleanup-metadata does not work,bug,2022-03-18T03:55:11Z
+827,OPEN,archive does not work if input is remote,bug,2021-01-06T19:57:36Z
+824,OPEN,Specify which wildcards are causing WorkflowErrors: Target rules may not contain wildcards. Please specify concrete files or a rule without wildcards.,enhancement,2021-01-06T09:43:04Z
+823,OPEN,checkpoint: pipeline finishing early,bug,2024-04-15T14:55:01Z
+821,CLOSED,`--no-subworkflows` command does nothing when submitting using `--cluster`,bug,2021-01-15T13:46:41Z
+817,CLOSED,Unassigned jobid after checkpoint update,bug,2021-02-01T23:19:26Z
+815,OPEN,directory flag not working with tibanna,bug,2023-11-29T18:58:00Z
+813,OPEN,Snakemake process name is different depending on the installation method,bug,2021-01-11T09:38:44Z
+810,OPEN,Support input file tracking for provenance,enhancement,2020-12-17T23:16:34Z
+809,OPEN,XRootD: xrootd sites that don't support directory listings cannot be used,bug,2020-12-17T11:41:10Z
+807,CLOSED,Add the possibility to disable running in container on the job-level.,enhancement,2021-03-31T18:30:40Z
+806,CLOSED,Jobs duplicated,bug,2020-12-17T14:44:30Z
+802,OPEN,url:https://raw.githubusercontent.com/eligrey/FileSaver.js/2.0.0/src/FileSaver.js connect error,bug,2020-12-16T10:21:10Z
+799,OPEN,Update to panoptes to be logger proper,,2021-01-11T20:37:09Z
+798,CLOSED,Pathlib error when specifying conda env,bug, good first issue,2022-02-09T13:40:43Z
+797,OPEN,cannot specify functions as input files if there are rule dependencies,,2020-12-10T15:31:01Z
+796,CLOSED,Potential regression in DAG creation (5.26.1 <-> 5.27.4),,2023-03-27T20:20:50Z
+794,OPEN,Add flag to update the whole rule tree,enhancement,2020-12-09T09:07:57Z
+793,OPEN,GroupJob fails with preemptible cloud VMs,bug,2021-06-16T20:39:49Z
+792,OPEN,Access to rule level information like inputs/outputs, rules, descriptions,enhancement,2020-12-08T12:23:17Z
+790,OPEN,Snakemake does not use all available cores / jobs for parallel job execution,bug,2021-08-27T13:55:00Z
+789,CLOSED,Group jobs in pipeline messes up file modification time,bug,2023-01-23T16:46:47Z
+786,OPEN,snakemake>5.25: "Can't locate LWP/Simple.pm in @INC ",bug,2020-12-20T12:10:24Z
+785,OPEN,Google Storage download retry predicate additional exception,bug,2021-07-05T11:08:02Z
+783,OPEN,Subworkflows only use one node with cluster backend,bug,2020-12-04T14:00:27Z
+782,OPEN,Caret and dollar symbols do not work in regex for wildcard constraints,bug,2020-12-04T06:27:10Z
+781,OPEN,Savelog rule option,enhancement,2020-12-03T17:06:55Z
+780,OPEN,Different trailing slash treatment in snakemake v5.30.1 compared to v5.26.0,,2020-12-03T15:57:45Z
+779,OPEN,FTP remote on kubernetes,,2020-12-01T11:51:35Z
+778,OPEN,Using cluster profile leaves log files empty,bug,2023-05-08T08:11:20Z
+777,OPEN,tibanna should upload logs for failed jobs,enhancement,2022-02-22T14:32:39Z
+775,OPEN,Waiting for files with slurm, But file exists.,bug,2023-11-22T23:58:43Z
+774,CLOSED,Snakemake does not automatically create directories when using `directory(..)`,bug,2022-02-11T12:23:00Z
+773,OPEN,Pulp scheduler fails without coinor-cbc,,2020-11-26T23:17:23Z
+771,CLOSED,Scheduler occasionally messes up in Snakemake 5.30.1,bug,2023-02-15T22:03:40Z
+770,OPEN,Conda prefix is not set correctly when using `--profile`,bug,2021-07-01T07:07:50Z
+769,CLOSED,Snakemake submits Slurm jobs failing immediately and hangs infinitely,bug,2020-11-27T08:56:55Z
+766,CLOSED,Help with phantom files on LSF server.,,2020-12-06T01:26:29Z
+765,OPEN,Job Grouping for local execution,enhancement,2020-11-27T04:32:48Z
+764,OPEN,Benchmark for entire workflow,enhancement,2020-11-24T00:42:11Z
+763,OPEN,ancient flag ignored for input functions,bug,2020-12-15T09:11:01Z
+762,OPEN,Resume Incomplete Jobs "external_jobid": null,bug,2020-11-24T07:01:30Z
+761,CLOSED,Systemwide availability of workflow,enhancement,2020-11-23T23:34:17Z
+760,OPEN,error about "/python3.8/runpy.py",,2020-11-20T05:07:15Z
+759,CLOSED,snakemake main job hangs indefinitely; no new jobs submitted on slurm in newer versions,bug,2022-12-21T21:14:27Z
+758,OPEN,one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!,bug,2022-10-24T16:13:37Z
+755,CLOSED,Temp() and possible Pipe() not working on Google Cloud,bug,2023-01-06T17:22:41Z
+754,CLOSED,Set rule name via variable,enhancement,2023-02-15T22:09:07Z
+752,OPEN,Best practice for syncing with Amazon S3 and therefore losing timestamps?,,2022-06-10T16:41:47Z
+751,CLOSED,Under "run" directive, os.listdir() lists files/folders that aren't there,bug,2020-11-17T23:49:44Z
+750,OPEN,Hot reloading when editing jupyter notebooks,enhancement,2020-11-17T22:33:00Z
+749,CLOSED,Singularity logging messages cause conda version to be incorrectly parsed when checking conda version in snakemake/deployment/conda.py,bug,2022-03-28T14:55:40Z
+748,OPEN,My config.yaml file was left empty after forced shutdown,bug,2020-11-17T13:23:57Z
+745,CLOSED,Creating a report for a workflow with script, wrapper, and notebook directives fails,bug,2020-11-19T14:47:24Z
+744,OPEN,Additional flag for a dry run with creating singularity images only,enhancement,2020-11-13T19:14:44Z
+743,OPEN,subworkflow order enforcing,enhancement,2020-12-10T09:44:53Z
+742,OPEN,Add "attempt" count to job_properties,enhancement,2020-11-12T09:39:35Z
+741,CLOSED,error during report generation for run rules,bug,2020-12-16T09:34:03Z
+737,OPEN,Namedlist instead of str when using named I/O with remote files,bug,2020-11-11T09:08:54Z
+736,OPEN,Support run when using conda environment,enhancement,2020-11-10T08:43:37Z
+735,CLOSED,Wildcards in script path do not work,bug,2020-11-13T12:02:54Z
+733,OPEN,Sorted wildcards in batch mode?,bug,2020-11-09T14:10:56Z
+732,CLOSED,Wildcards in notebook path do not work,bug,2020-11-12T09:39:26Z
+730,OPEN,configfile does not completely overwrite previous config files,enhancement,2021-06-29T07:40:38Z
+729,CLOSED,subprocess.Popen(shell = True), could this be exploited?,,2020-11-11T07:41:00Z
+728,OPEN,Log files not being overwritten,,2020-11-05T20:57:12Z
+727,CLOSED,Jobs updated by checkpoint are not getting run,bug,2021-01-29T03:44:54Z
+725,CLOSED,Asyncio issue with python < 3.7,,2020-11-11T10:28:13Z
+724,CLOSED,Different behaviour adding new jobs to queue in >5.27,bug,2021-01-12T11:49:18Z
+719,CLOSED,mamba install version,,2020-11-04T01:14:20Z
+718,CLOSED,Markdown cells in edited notebook have invalid "outputs",bug,2022-12-06T18:19:41Z
+716,OPEN,rule run by singularity only works with singule core,bug,2020-11-02T13:51:37Z
+715,CLOSED,pypi install requires python>=3.7,bug,2020-11-04T00:56:15Z
+714,OPEN,MissingOutputException for clustering task,,2020-11-01T09:17:30Z
+712,CLOSED,Unable to install snakemake from pip in a Dockerfile based on python:alpine image,bug,2020-11-16T11:26:57Z
+711,CLOSED,5.27.2 - Migration v1 to v2 breaks on directories,bug,2020-11-03T13:27:31Z
+707,CLOSED,input:q does not return a quoted input,bug,2020-10-26T23:00:01Z
+702,OPEN,Snakemake does not recognize input/output elements as separate,bug,2020-10-26T15:28:46Z
+693,CLOSED,Running web request and heavy computing at same time,enhancement,2021-03-09T10:34:40Z
+692,CLOSED,Ask for credentials, if required, when pulling a singularity image,enhancement,2020-10-17T07:11:50Z
+689,OPEN,Document which directives can be used as lambda parameters in other directives,enhancement,2020-10-23T17:26:40Z
+688,OPEN,Log calling parameters when running Jupyter notebook for easier debugging,enhancement,2020-11-18T17:25:54Z
+686,OPEN,Failed jobs leading to deletion of folders shared by multiple jobs,bug,2020-10-13T21:09:48Z
+685,OPEN,Automatically reporting complete conda environment info alongside results,enhancement,2022-03-09T14:56:27Z
+683,OPEN,`notebook` rule allowing notebook as `output` in addition (or instead of) `log`?,enhancement,2022-06-29T17:59:37Z
+682,CLOSED,bug in report for version 5.26.1,bug,2020-10-29T10:33:06Z
+680,CLOSED,New CLI argument to disable config argument type inferencing.,enhancement,2020-11-11T10:32:30Z
+679,OPEN,Subworkflows should be more rule like,enhancement,2020-10-11T18:00:17Z
+674,OPEN,Nondeterministic AmbiguousRuleException,bug,2020-10-09T15:42:45Z
+673,CLOSED,Call arguments by name and not position,enhancement,2020-10-18T18:46:02Z
+672,OPEN,Inline join/expand syntax to support args into multiple command line arguments,enhancement,2020-10-26T22:47:30Z
+670,CLOSED,Error in "conda activate" command when using --using-conda in Windows,bug,2021-06-09T13:02:09Z
+669,OPEN,Report Error converting PNGs with ImageMagick on Windows,bug,2021-06-07T18:49:44Z
+667,CLOSED,latency_wait custom value not passed to Google Life Sciences API,bug,2020-10-17T17:35:28Z
+661,CLOSED,Unexpected behaviour for `ancient` flag in intermediate rules,bug,2020-10-30T14:46:08Z
+660,OPEN,Make `-R` (`--forcerun`) and `--force` support rules which expand wildcards in other rules,enhancement,2020-11-18T23:06:44Z
+659,CLOSED,Snakemake >= 5.26.0 launches jobs regardless of specified cores,,2021-03-03T13:09:40Z
+656,CLOSED,Using --group-components fails when there are rules run recursively,bug,2020-11-19T16:24:00Z
+655,OPEN,Automatically write terminal output to log file,enhancement,2020-10-02T21:19:41Z
+654,CLOSED,Option --report crashes for "configfile" directive if path is not a pure python string,bug,2020-10-09T13:28:44Z
+652,CLOSED,Docker Snakemake container includes Ancient Singularity Version,,2020-10-04T02:14:59Z
+651,OPEN,Log Service Slack parameter change,bug,2020-09-30T13:48:06Z
+645,CLOSED,'Workflow' object has no attribute 'cores',bug,2020-11-16T11:27:20Z
+644,CLOSED,Develop a pipeline with snakemake for anaconda,enhancement,2020-10-16T08:51:27Z
+643,OPEN,Snakemake may not handle long command line correctly,bug,2023-07-16T12:48:48Z
+641,OPEN,Print shell cmds when using wrappers,enhancement,2020-10-19T11:26:45Z
+640,CLOSED,PermissionError in io.py caused by unrelated file in same file tree,bug,2020-10-15T12:24:52Z
+639,OPEN,Conda is not able to install latest mamba... cannot install snakemake,bug,2020-09-24T06:56:09Z
+638,CLOSED,`--jobs` overrides `threads` set by rules,bug,2020-09-29T09:43:22Z
+637,CLOSED,Extra text printing out out during workflow,bug,2020-09-22T20:20:10Z
+636,OPEN,Checkpoints to be extended for condition check over-time,enhancement,2020-09-21T15:34:54Z
+635,CLOSED,pulp.constants.PulpError: Variable names too long for Lp format,bug,2020-09-30T09:34:27Z
+631,CLOSED,High verbosity with CBC MILP Solver,bug,2020-09-30T08:42:20Z
+628,OPEN,Join the Snakemake discord server for user and dev exchange,,2021-12-22T10:45:59Z
+627,CLOSED,Dealing with incomplete output from cluster executors,bug,2021-02-05T19:47:24Z
+626,OPEN,Snakemake cannot process an input function while running in cluster mode.,bug,2022-05-03T09:50:12Z
+625,CLOSED,Container specification in rules needs fix,bug,2023-01-09T14:33:20Z
+624,OPEN,Rule colors for --dag output,,2020-09-15T15:28:33Z
+623,CLOSED,Possible race condition introduced by `_local_inventory()`,bug,2020-10-15T12:24:52Z
+619,OPEN,OSError in Snakemake preamble,bug,2020-09-15T06:37:44Z
+617,CLOSED,Upcoming error for Python 3.8: time.clock deprecated in solvers.py,bug,2020-09-15T14:26:30Z
+616,OPEN,DataLad integration,,2020-09-12T06:58:09Z
+615,OPEN,Follow input list order,enhancement,2022-06-19T20:15:50Z
+614,OPEN,"singularity" is a reserved word in a Snakefile,bug,2020-09-16T08:24:15Z
+613,CLOSED,Tutorial not useable,bug,2020-09-16T11:02:45Z
+612,CLOSED,Unable to download miniconda as stated in the tutorial,bug,2020-10-05T19:57:51Z
+611,CLOSED,FileNotFoundError for files not specified in rule definition,bug,2020-10-15T12:24:52Z
+610,CLOSED,Adding auto-QC to Snakemake pipeline to filter out samples with bad quality in the middle of the pipeline steps,enhancement,2020-09-11T13:32:38Z
+609,CLOSED,checkpoint + temp,enhancement,2023-11-13T17:34:09Z
+608,OPEN,ConnectionRefusedError: [Errno 111] Connection refused when snakemake `--report`,,2023-08-07T10:06:15Z
+607,CLOSED,remote prefix for input and output files separately?,enhancement,2020-10-15T00:50:39Z
+606,CLOSED,Question about snakemake installing requierer conda env,enhancement,2020-09-30T11:37:20Z
+605,CLOSED,Google Cloud Executer does not recognize Snakefile specified by --snakefile properly,bug,2020-09-18T12:54:30Z
+603,CLOSED,New pulp based scheduler is too verbose,bug,2020-09-11T12:42:00Z
+602,OPEN,Pull from remote repositry or setting the configuration file for Conda and Singularity?,enhancement,2020-09-08T05:15:52Z
+600,CLOSED,Release 5.23 breaks Python 3.5 compatibility,bug,2020-09-09T09:32:32Z
+599,OPEN,Tests for rules and the whole pipeline,enhancement,2020-09-07T10:17:25Z
+598,OPEN,Non-linear runtime behavior for complex workflows?,bug,2020-09-03T08:37:49Z
+596,CLOSED,touch files not working with Kubernetes,bug,2020-10-15T11:57:05Z
+595,OPEN,Assigning subsample_name causes pep.subsample_table to return a list rather than the DataFrame object,bug,2020-09-22T13:11:58Z
+594,OPEN,Option to ask user whether to proceed with the workflow after a dry run,enhancement,2020-09-01T08:05:05Z
+593,CLOSED,Jobs with same group are being split,bug,2020-10-17T00:54:48Z
+592,OPEN,Preemption for tibanna and azure,enhancement,2023-11-22T22:10:57Z
+591,OPEN,Segmentation fault,bug,2022-03-01T13:41:35Z
+590,CLOSED,Container behavior,bug,2023-07-14T20:16:44Z
+589,CLOSED,google life sciences executor: log output is always empty,bug,2020-09-03T14:08:57Z
+586,CLOSED,ModuleNotFoundError: No module named 'pulp',bug,2020-08-31T16:08:46Z
+585,OPEN,Allow Path type to be returned by a lambda: Function did not return str or list of str,bug,2020-08-27T18:07:13Z
+584,CLOSED,ModuleNotFoundError: No module named 'pulp',bug,2020-08-31T14:00:11Z
+583,CLOSED,Touch with default-remote-prefix fails with missing files,bug,2020-12-22T18:22:44Z
+581,CLOSED,Mamba frontend does not raise proper error when environment is not created,bug,2020-09-08T11:24:51Z
+580,OPEN,Rules created dynamically from Python.,enhancement,2020-08-20T14:40:56Z
+577,CLOSED,Error reading file update times on GS,bug,2020-08-20T13:49:49Z
+576,OPEN,MissingOutputException with directory and GS remote provider,bug,2023-05-08T22:38:54Z
+575,CLOSED,snakemake incompatible with R 4,,2020-10-19T15:38:09Z
+574,CLOSED,default remote prefix duplicated for checkpoint output on cloud,bug,2023-04-14T20:32:02Z
+573,OPEN,workflow.cores is not set if using drmaa,bug,2020-08-20T13:42:30Z
+572,CLOSED,Comparison between datetime and float with Google Storage backend,bug,2020-08-20T15:25:44Z
+571,OPEN,ChildIOException on dag.py,bug,2020-08-18T14:26:47Z
+570,CLOSED,Canceling jobs through Snakemake profiles?,enhancement,2022-02-17T09:41:16Z
+568,CLOSED,Massive slowdown between version 5.19.2 and 5.19.3 (and following),bug,2020-10-05T10:41:13Z
+567,OPEN,pytest warnings to look at,bug,2020-08-17T16:03:32Z
+566,OPEN,Why use conda to install?,enhancement,2020-08-14T17:48:22Z
+564,OPEN,Command line option to disable all benchmark directives.,enhancement,2020-08-14T04:22:37Z
+563,OPEN,CirclularIOException on output that is a symlink to generated file,bug,2020-08-14T01:59:00Z
+561,OPEN,Feature requests: benchmark command line option,enhancement,2021-09-01T20:11:21Z
+558,CLOSED,Command line resource (for machine_type) results in parsing error,bug,2020-08-13T07:17:23Z
+557,CLOSED,Error when using --debug with GLS (and likely other executors),bug,2020-08-13T07:17:33Z
+555,CLOSED,Discovery build error with oauth2 library,bug,2020-08-20T14:09:56Z
+551,OPEN,Cannot use conda tag in the outside of rules,enhancement,2020-08-11T16:53:44Z
+550,OPEN,drmaa-log-file causes error when used with SLURM,bug,2020-08-11T09:43:43Z
+547,CLOSED,Choose perl interpreter for rule?,,2020-08-12T06:20:53Z
+546,CLOSED,using google life sciences backend raises MissingInputException,bug,2020-08-12T16:35:44Z
+544,OPEN,Why the yaml file specified in env tag are searched in the relative path from the Snakefile?,enhancement,2021-03-23T02:19:29Z
+542,OPEN,--export-cwl: maximum recursion error when input file has an absolute path,bug,2020-08-06T20:09:30Z
+539,OPEN,Files from Subworkflows not accessible when using singularity,bug,2020-12-18T14:57:24Z
+537,OPEN,make temp files configurable,enhancement,2020-08-04T18:11:13Z
+535,CLOSED,Add mamba instructions to Google Life Sciences Tutorial,documentation,2020-08-05T05:15:18Z
+534,CLOSED,crc32 import error,bug,2020-08-20T14:11:01Z
+530,CLOSED,Snakemake --unlock requires users to set number of cores,bug,2020-11-12T09:40:23Z
+528,OPEN,operator.attrgetter not accepted as params (raises ValueError),bug,2020-07-30T13:49:46Z
+526,OPEN,Job scheduler's options specified in shell script are ignored by snakemake command,enhancement,2020-08-21T05:16:00Z
+525,CLOSED,Tibanna Execution breaks Wildcards,bug,2020-07-30T16:36:49Z
+523,CLOSED,Executing snakemake rules in conda environments on Windows,enhancement,2021-06-09T13:02:09Z
+522,OPEN,using snakemake shadow rules to store temp files on local nodes,bug,2024-04-24T14:00:00Z
+521,CLOSED,--cores=all not working correctly : binaries relying on openmp still single-threaded,bug,2020-07-29T20:13:39Z
+520,CLOSED,Conda version checker fails in case of singularity,bug,2022-03-28T14:55:52Z
+518,OPEN,Temporary Files of Subworkflow do not get deleted,bug,2020-07-28T12:53:02Z
+517,OPEN,Report statistics/metadata runtimes are incorrect,bug,2023-05-02T09:08:00Z
+515,OPEN,Error when referring to input function of another rule,bug,2022-01-19T19:47:17Z
+514,CLOSED,Support script directive for scripts in the $PATH,enhancement,2021-06-08T13:29:12Z
+513,OPEN,DAG including subworkflows,enhancement,2023-07-11T02:47:40Z
+510,CLOSED,How to specify the pass of R/Rscript command installed by `--use-conda` option,enhancement,2020-09-08T04:47:01Z
+509,OPEN,Adding a flag to preserve output files before executing the rule,enhancement,2020-07-29T04:18:29Z
+508,OPEN,The same input and output folder,,2020-07-30T14:08:03Z
+507,OPEN,DAG evaluation causes jobs to fail with --immediate-submit,bug,2021-03-24T11:03:43Z
+506,CLOSED,Availability on conda-forge,enhancement,2020-07-22T19:29:03Z
+504,CLOSED,FR: Allow symlinking of directories.,enhancement,2022-11-04T08:46:36Z
+503,CLOSED,The csv file change to csv.html in report file.,,2020-11-19T15:17:58Z
+502,OPEN,Benchmark to log real time of job,enhancement,2023-03-30T08:23:55Z
+501,OPEN,Include rules following a checkpoint in DAG visualization,enhancement,2021-01-11T04:59:36Z
+500,OPEN,Support multiple attempts on only a single rule, not all rules,enhancement,2022-07-17T09:52:40Z
+499,OPEN,Allow attempts to be accessed in params and log directives,enhancement,2020-07-14T20:44:30Z
+498,OPEN,Only one job can be submitted via sub workflows,bug,2020-08-17T09:23:21Z
+497,OPEN,Direct execution of Snakefile in remote GitHub repository,enhancement,2020-07-14T04:06:00Z
+496,CLOSED,Developer's original parameters (--myoption1, --myoption2, ...),enhancement,2020-08-14T06:43:05Z
+495,OPEN,Inevitable toolchain conflict when using env modules,bug,2020-07-29T10:57:28Z
+491,OPEN,Cannot run snakemake from within flask app,bug,2020-09-18T19:32:04Z
+490,OPEN,Rmarkdown render is not compatible with a renv environment,bug,2020-08-25T23:58:48Z
+489,OPEN,Error when using --default-remote-provider and arrays of files as rule input,bug,2021-10-01T13:23:42Z
+488,CLOSED,Snakemake doesn't ensure read permission of jobscript,,2020-12-08T16:12:37Z
+487,OPEN,Mamba installation missing conda env name,bug,2020-07-12T05:08:46Z
+486,OPEN,The katacoda tutorial is broken,bug,2020-07-30T20:03:32Z
+485,OPEN,Overwrite remote file,enhancement,2020-07-08T23:16:46Z
+482,OPEN,wildcard_constraints not honored by glob_wildcards,bug,2020-07-07T22:54:44Z
+480,CLOSED,Snakemake deletes input directory in dry-run,bug,2020-07-08T14:57:51Z
+478,OPEN,Render HTML in report,,2023-03-06T15:34:03Z
+474,OPEN,add connection pooling for remote objects,enhancement,2023-07-19T10:35:28Z
+471,CLOSED,ChildIOException when output from rule is a symlink,bug, duplicate,2020-07-01T13:35:22Z
+470,CLOSED,snakemake --gui "TypeError: 'function' object is not iterable",bug,2020-09-24T07:56:30Z
+468,CLOSED,Support pathlib in expand(),enhancement,2020-07-08T14:58:13Z
+466,OPEN,Snakemake max_version and version in addition to min_version,enhancement,2024-01-18T22:47:13Z
+465,OPEN,set the cores limit on cluster execution,,2020-07-21T16:04:32Z
+464,OPEN,S3 Remote with wildcard fetches all items in the bucket,bug,2020-06-27T17:23:38Z
+463,CLOSED,Conda environment setup slow on Mac OS X,,2020-07-09T20:57:34Z
+461,OPEN,Minor fix to docs,,2022-03-11T15:22:39Z
+460,CLOSED,snakemake-wrappers causing error: urlopen error connection timeout,bug,2020-06-26T16:26:36Z
+458,OPEN,wildcard_in to suplement wildcard_constraints,enhancement,2020-06-25T06:28:02Z
+457,CLOSED,Feature requests for the google life sciences backend,enhancement,2021-06-22T09:20:46Z
+456,CLOSED,Snakemake can't recognise input directories with relative path,bug,2020-06-25T10:30:48Z
+455,CLOSED,Too Many Open files error with more remote FTP inputs than ulimit,bug,2020-06-22T19:54:40Z
+454,OPEN,Solution to temp files that let all but the first attempt fail immediately,enhancement,2020-06-23T03:54:08Z
+453,OPEN,Memory limit killed jobs ignored,bug,2020-10-19T18:09:41Z
+450,CLOSED,Mandatory --cores command line option,bug,2020-06-23T17:49:57Z
+449,OPEN,Documentation is missing the criteria for "when snakemake executes a job",,2020-06-17T21:07:55Z
+448,OPEN,Support alternate signal handling for killing shell processes,enhancement,2020-07-13T13:11:48Z
+445,CLOSED,Rules included from `workflow/rules` search for conda environments in `workflow/rules/envs` instead of `workflow/envs`,bug,2020-06-15T17:13:40Z
+444,CLOSED,InputFunctionException : SyntaxError: unexpected EOF while parsing (<string>, line 1),bug,2020-06-15T16:24:54Z
+443,OPEN,TypeError: '<' not supported between instances of 'str' and 'int' while passing --use-singularity,bug,2020-06-13T16:41:16Z
+441,OPEN,git required?,bug,2020-06-12T19:45:01Z
+440,CLOSED,When did deprecation of singularity keyword happen?,bug,2020-06-24T19:22:30Z
+439,OPEN,Checkpoints that can be done in parallel are evaluated and executed sequentially,bug,2024-03-25T15:01:07Z
+437,OPEN,allow input of keypair for use with tibanna so that you can ssh inso the ec2 instances that are running,enhancement,2020-06-10T23:01:37Z
+436,CLOSED,Support "user@" in XRootD URLs,bug,2020-06-10T15:29:08Z
+435,CLOSED,Python3.5 support broken,bug,2020-07-07T19:58:17Z
+434,OPEN,Some Jobs interrupt randomly but their commands works outside snakemake (I am using singularity),bug,2020-06-10T10:31:27Z
+433,CLOSED,Snakefile must be in UTF-8 but YAML config in local encoding,bug,2021-06-09T13:05:24Z
+432,CLOSED,about expand function!,,2020-06-19T23:44:23Z
+429,OPEN,symlink generated by sub workflow cannot be recognized by main workflow,bug,2020-06-08T05:21:51Z
+428,OPEN,5.19.1 writes invalid config files,bug,2020-06-04T14:57:32Z
+427,OPEN,When the output is a directory (not file) it is not created automatically,bug,2020-07-07T22:11:14Z
+426,CLOSED,Workflow error: 'str' object has no attribute 'decode',bug,2020-07-01T15:09:14Z
+424,OPEN,How to access a file relative to the Snakefile in Snakemake-Profiles,enhancement,2020-06-02T17:28:23Z
+422,OPEN,Config file cluster.json not found when using --profile,bug,2020-05-29T16:22:53Z
+421,OPEN,`--edit-notebook` does not allow output directory ending in '/',bug,2020-05-29T14:55:59Z
+420,OPEN,Provide option to sandbox singularity images when pulled.,enhancement,2020-05-29T14:50:05Z
+419,OPEN,Directory as prefix/output,,2020-05-29T09:06:48Z
+417,CLOSED,`--list-code-changes` does not work with `include`,bug,2020-10-27T13:39:34Z
+414,CLOSED,Prevent evaluation of subworkflow DAG,enhancement,2020-11-11T10:45:32Z
+413,CLOSED,ChildIOException when re-running a pipeline that create links to files in a directory output,bug,2021-01-15T13:11:04Z
+412,OPEN,ModuleNotFoundError when importing from sibling directory,,2021-06-22T10:37:03Z
+411,CLOSED,Regression on Windows. Folders can't be named "aux",bug,2020-05-26T19:02:30Z
+407,CLOSED,--edit-notebook does not respect the --no-browser jupyter notebook option,bug,2020-05-25T09:30:43Z
+404,CLOSED,request to not ignore exceptions in S3Helper,,2020-05-25T15:22:54Z
+402,OPEN,singularity provokes CreateCondaEnvironmentException,bug,2020-05-20T19:13:26Z
+399,OPEN,Support for oracle cloud,enhancement,2021-05-12T07:59:51Z
+397,CLOSED,Confused by change in documentation,,2020-06-29T17:19:29Z
+396,OPEN,MissingOutputException when using a directory as an output with Tibanna,bug,2020-05-25T09:33:27Z
+395,CLOSED,Tibanna Snakemake fills conda/pkgs,bug,2020-05-19T14:15:48Z
+393,CLOSED,"script" path is not relative to directory snakemake is executed in,bug,2020-05-25T09:35:16Z
+392,OPEN,MissingRuleException on output from subworkflow,bug,2023-11-28T12:21:23Z
+391,CLOSED,NotADirectoryError,bug,2020-05-25T12:24:30Z
+390,CLOSED,Not understanding ChildIOException: happens both when output from the same rule or from separate rules,bug,2020-05-28T09:22:50Z
+389,CLOSED,Tibanna MissingRule exception,,2020-05-12T15:01:36Z
+388,CLOSED,Missing attribute exception even though Shell command is commented out,,2020-06-17T14:54:03Z
+386,CLOSED,pytest warnings for regular expressions,bug,2020-05-12T13:47:53Z
+385,CLOSED,Couldn't get a file descriptor referring to the console,bug,2020-05-12T13:37:25Z
+383,OPEN,Remote EGA download does not run in parallel,bug,2021-02-09T15:15:08Z
+379,OPEN,Warn the user about a possible wildcard misspecification,enhancement,2020-05-07T17:23:41Z
+377,CLOSED,Cannot generate remote files created by subworkflow,bug,2020-05-08T21:24:16Z
+375,OPEN,tibanna execution ignores temp,bug,2020-05-07T05:17:43Z
+374,OPEN,EGA login failure with snakemake.remote.EGA function,bug,2020-05-08T16:58:50Z
+373,OPEN,FTP.remote is slow when building DAG,bug,2021-06-22T03:30:34Z
+372,OPEN,How to use the snakemake utils function format(),enhancement,2020-05-04T16:03:26Z
+370,CLOSED,How to use Singularity in docker container ??,,2020-05-03T12:55:10Z
+367,CLOSED,Allow --restart-times to specify rule name to be applied to,enhancement,2022-07-17T09:50:49Z
+365,OPEN,EBS Size not automatically set based on input size when using Tibanna,bug,2021-05-12T10:07:48Z
+364,OPEN,Snakemake continues with dependent rules when upstream rule fails with no space left on device,bug,2020-07-12T04:34:32Z
+363,CLOSED,Empty caption breaks the html report,bug,2020-05-25T10:07:12Z
+361,CLOSED,unsupported pickle protocol 3 when running with environment module for Python 2,question,2020-05-09T08:37:23Z
+358,OPEN,json.decoder.JSONDecodeError and Incomplete Files,bug,2020-04-29T20:01:20Z
+357,OPEN,UnboundLocalError: local variable 'incomplete' referenced before assignment,bug,2020-11-05T14:11:13Z
+355,OPEN,MissingInputException when using a directory as an Input with Tibanna,bug,2020-05-25T10:08:15Z
+354,CLOSED,resources not working with wrapper scripts.,bug,2020-05-25T10:26:34Z
+352,OPEN,Allow conda environment activation by name on a per-rule basis,enhancement,2024-04-24T23:37:49Z
+350,OPEN,Add git remote file support,enhancement,2020-12-10T10:48:18Z
+349,OPEN,Chaining piped jobs raises error (sometimes),bug,2021-09-24T14:24:34Z
+348,OPEN,Jupyter notebook integration leaves empty notebook files when notebook errors occur,bug,2024-04-22T22:57:27Z
+347,OPEN,Broken link in report template,bug,2020-04-23T13:50:21Z
+345,OPEN,Conda activate not working on MacOS,bug,2021-12-21T17:22:51Z
+344,CLOSED,Job completed successfully, but some output files are missing,bug,2023-06-20T16:53:43Z
+343,OPEN,combining batch feature and cluster execution?,enhancement,2020-05-24T18:05:26Z
+342,CLOSED,Add an option to replace the use of python threads by eventloop,enhancement,2020-11-03T08:26:21Z
+341,OPEN,Cryptic error if the output is an empty string,bug,2020-05-11T08:20:55Z
+339,OPEN,Minor: Options `--no-shared-fs` and `--use-conda` are incompatible,bug,2020-04-20T13:59:04Z
+337,CLOSED,Namedlist set_name still overrides essential class functions,bug,2020-05-19T12:06:38Z
+335,CLOSED,Using reserved word "checkpoint" gives error message about "rule",bug,2020-10-14T22:09:55Z
+334,OPEN,"container:" instead of "containers:" in the doc,bug,2020-04-17T19:05:38Z
+333,OPEN,Question, use API to generate report,,2020-04-17T07:31:26Z
+332,OPEN,use function "input" in "run",,2020-04-22T10:03:02Z
+328,CLOSED,Snakemake stops if job fails also with --keep-going=true,bug,2020-04-22T17:01:56Z
+327,CLOSED,Breaking change: Snakemake 5.10 does not forward singularity-args for singularity anymore,bug,2020-07-09T20:44:07Z
+323,OPEN,Tibanna at AWS not running in parallel,,2020-08-31T01:23:20Z
+322,CLOSED,test_cluster_sync fails if run in parallel,bug,2020-04-16T09:16:36Z
+320,OPEN,Support for cyclic graphs and recursive workflows,enhancement,2021-10-03T02:57:13Z
+317,CLOSED,rule erases input file contents,bug,2020-04-08T12:20:55Z
+316,CLOSED,--dag and --rulegraph outputting uninterpretable dot files,bug,2020-04-08T19:37:37Z
+315,OPEN,Double underscores break dynamic wildcards parsing,bug,2020-04-15T17:31:28Z
+314,OPEN,`srcdir` returns None when called in `unpack`,bug,2020-04-05T18:37:18Z
+312,CLOSED,snakemake does not have default --cores value,bug,2023-03-07T14:27:26Z
+310,CLOSED,Linting only processes one item (snakefile/rule),bug,2020-04-06T14:33:12Z
+309,CLOSED,Ability to choose cluster or shell execution per rule,enhancement,2020-04-15T18:56:20Z
+308,OPEN,Mandatory option `--cores` is breaking peoples workflows,bug,2024-02-17T05:42:29Z
+307,OPEN,Permission issue when caching directories,bug,2020-04-03T09:46:25Z
+306,OPEN,Missing detailed message about key-errors when using snakemake wrappers,enhancement,2020-04-02T13:13:07Z
+304,OPEN,Combining --use-conda and --use-singularity fails in some cases,bug,2023-12-24T18:36:38Z
+303,OPEN,Incompatible with singularity installed through conda,,2020-10-07T20:20:33Z
+302,CLOSED,conditionnal rules depending of output file content,,2020-04-08T15:01:08Z
+301,OPEN,Job groups and SLURM job arrays support,enhancement,2024-02-15T18:56:15Z
+300,CLOSED,passing non-Snakemake command line arguments,enhancement,2020-04-01T11:12:59Z
+299,CLOSED,wildcards from `patterns=` expression in `report( directory() )` empty in rendered report caption,bug,2020-04-01T08:18:17Z
+297,CLOSED,How to add python script at the run cell in a rule ?,enhancement,2020-03-27T06:16:26Z
+296,CLOSED,Error building docs: AttributeError: 'member_descriptor' object has no attribute 'expandtabs',bug,2021-10-01T17:34:58Z
+295,OPEN,suggested enhancement to error message,bug,2020-03-25T19:54:59Z
+294,CLOSED,bash external script: is it possibile to use it,enhancement,2022-08-27T18:23:32Z
+292,OPEN,Checkpoints slow in large workflows,enhancement,2023-08-10T04:32:30Z
+287,CLOSED,shell command cannot use python keywords,bug,2020-03-22T17:41:04Z
+286,OPEN,Error while installing snakemake 5.11.* on WSL1 using PIP,bug,2020-03-19T16:03:30Z
+285,OPEN,Add a 'depth' option to glob_wildcards(),enhancement,2020-03-18T10:10:19Z
+284,OPEN,Directory structure for working directory,enhancement,2020-03-17T21:05:48Z
+283,CLOSED,Mandatory --cores option in 5.11,bug,2022-02-23T17:28:25Z
+282,OPEN,offline snakemake --report,enhancement,2024-04-25T07:23:13Z
+281,OPEN,Handle GPU ids,enhancement,2023-12-02T07:15:31Z
+280,OPEN,Avoid re-running jobs if the output file/directory is available,enhancement,2020-03-16T15:06:10Z
+279,OPEN,Singularity parameters --home and --bind set by default but disallowed on HPC cluster,bug,2022-02-24T10:19:01Z
+278,CLOSED,Resources flag giving TypeError,bug,2020-09-11T11:37:22Z
+277,CLOSED,wrapper-prefix doesn't work with local clone,bug,2022-03-29T14:45:02Z
+275,OPEN,Millions of metadata files overload IO of cluster,bug,2023-01-05T11:23:10Z
+274,OPEN,MapReduce rule type,enhancement,2020-03-12T13:31:49Z
+272,CLOSED,laest version can not be installed via conda,,2020-03-16T17:01:47Z
+270,OPEN,provide command-line args to `script` independently of the script-embedded `snakemake` variable,enhancement,2020-03-11T11:20:58Z
+268,OPEN,Add functionality to update DAG w/ modified Snakefile mid-run,enhancement,2020-03-10T18:10:04Z
+266,CLOSED,test delete all output failing in GitHub CI,bug,2020-03-11T13:42:04Z
+265,OPEN,Tibanna config support,enhancement,2020-03-09T14:27:05Z
+262,OPEN,Add Singularity arguments for specific rules in Snakefile,enhancement,2024-04-12T20:35:57Z
+261,CLOSED,Cannot trigger a rule by the target when input function use checkpoints,bug,2022-03-30T12:24:14Z
+260,CLOSED,Add method to automatically choose an appropriate `RemoteProvider`,enhancement,2021-03-31T18:32:10Z
+259,OPEN,`--create-envs-only` with no sample in sample.tsv,enhancement,2022-07-20T13:16:43Z
+257,OPEN,Stop download after cloud execution,,2022-09-16T20:16:34Z
+256,OPEN,snakemake.remote.GS glob_wildcards doesn't seem to work,bug,2020-05-30T18:42:14Z
+255,CLOSED,FastQ_Screen Snakemake Wrapper Error,bug,2020-03-11T13:43:36Z
+254,OPEN,Proposal: migrate vim-snakemake plugin to this Github org namespace,,2023-11-08T16:41:26Z
+253,CLOSED,Accessing wildcards within run directive,bug,2020-03-01T23:17:27Z
+251,CLOSED,Execution order and priority,enhancement,2020-08-21T15:02:12Z
+248,OPEN,Cluster Configuration (deprecated),documentation, enhancement, question,2020-03-04T13:18:06Z
+247,CLOSED,Debugging snakemake in PyCharm not working,bug,2022-03-29T14:38:18Z
+246,CLOSED,Datrie causing installation failures,bug,2020-03-26T06:27:56Z
+244,CLOSED,to_remove does not honor --keep-remotes,bug,2020-11-11T12:34:19Z
+242,CLOSED,Singularity limit with long command line calls,bug,2022-03-29T14:36:05Z
+240,CLOSED,Wildcards change for every rule,bug,2020-04-22T11:10:13Z
+237,CLOSED,Issue with the env describing,bug,2022-03-30T09:44:50Z
+236,OPEN,Subworkflow configfile not used,bug,2020-02-17T21:18:19Z
+235,OPEN,--report : Wildcards not parsed in caption,enhancement,2022-03-29T14:23:01Z
+234,CLOSED,Crash when using --tibanna without git installed,bug,2022-03-30T09:44:38Z
+226,OPEN,Keep track of external job IDs even after job completion,enhancement,2020-02-12T13:03:22Z
+225,CLOSED,Parental leave, please be patient :-),,2020-03-11T13:41:39Z
+224,CLOSED,additional UnboundLocalError when lambda evaluation throws exception,bug,2022-03-29T14:17:16Z
+223,CLOSED,--use-envmodules does not work when --cluster (or --profile slurm) is used,bug,2020-02-12T03:08:59Z
+221,OPEN,FileNotFoundError if subworkflow target is pseudo-rule,bug,2021-03-26T06:00:35Z
+220,CLOSED,Allow include directive to accept a Path object,enhancement,2020-09-03T04:12:49Z
+219,OPEN,Two bugs in API function snakemake.workflow.execute() when run on its own, outside the snakelike command,bug,2020-02-06T14:14:02Z
+217,OPEN,Jobs failing on cluster due to write-protected log file,,2020-02-03T18:28:56Z
+216,CLOSED,Checkpoint is evaluated on compute node instead of before job submission,bug,2022-03-29T14:12:54Z
+214,CLOSED,Difference in configfile behavior between API and CLI,bug,2020-02-01T19:19:49Z
+213,CLOSED,[question] cores reported as sys.maxsize,bug,2020-10-17T17:38:46Z
+211,CLOSED,touch raises misleading exception on non-existant directory,bug,2023-01-10T12:01:57Z
+210,CLOSED,threads callable does not work,bug,2020-08-14T20:05:12Z
+209,OPEN,Use great expectations,,2020-01-27T21:47:11Z
+208,CLOSED,Subworkflows always run single-threaded,bug,2020-11-11T10:44:30Z
+206,OPEN,Make 'include' more reliable for many Snakefiles inside subdirectories,enhancement,2020-04-17T09:06:23Z
+204,OPEN,Unable to collect output logs from cluster jobs,enhancement,2020-03-25T07:12:19Z
+202,OPEN,Disable pipe() from command line,enhancement,2020-01-23T09:33:24Z
+201,CLOSED,when conda with --conda-prefix is used, previously created environments interfere with the later snakemake workflow runs,bug,2020-02-28T12:15:06Z
+200,OPEN,Unnecessary job scheduling,bug,2020-01-21T14:14:50Z
+199,CLOSED,Argument list too long problem (bitbucket 878),bug,2022-03-29T14:05:27Z
+198,OPEN,Unlock before building DAG,enhancement,2020-07-28T12:31:58Z
+197,OPEN,List pytest-workflow as a test solution in the documentation.,enhancement,2020-01-20T06:40:51Z
+195,OPEN,Allow a default for --wrapper-prefix to be specified in a workflow,enhancement,2020-01-17T21:54:49Z
+194,OPEN,Global defaults for params,enhancement,2020-01-16T22:06:19Z
+193,CLOSED,Singularity args not mounted when creating conda environment in singularity+conda usage,bug,2020-07-10T11:55:12Z
+191,OPEN,Using --log-hander-script should replace all default output,enhancement,2020-01-14T01:59:06Z
+190,CLOSED,If a pipe is requested just by a target rule, snakemake hangs.,bug,2022-03-30T10:06:34Z
+188,OPEN,adding a flag to inform about I/O pattern resp. behaviour,enhancement,2020-01-10T09:46:15Z
+185,OPEN,copy .snakemake from the other server,enhancement,2020-01-10T06:09:46Z
+184,OPEN,Tutorial wrapper example out of date,,2020-01-08T23:33:01Z
+183,OPEN,Tutorial step deprecation,,2020-01-08T21:52:42Z
+182,OPEN,Missing tutorial images,,2020-01-08T21:24:32Z
+179,OPEN,Conda environment with singularity container and conda+singularity prefix,bug,2021-09-24T01:07:14Z
+178,OPEN,Multiple outputs for Rmarkdown scripts,enhancement,2020-03-18T14:13:22Z
+172,CLOSED,snakemake cluster script ImportError snakemake.utils,bug,2020-01-02T12:54:11Z
+169,CLOSED,Temp file used multiple times within group is not deleted,bug,2022-03-16T12:14:21Z
+168,CLOSED,ModuleNotFoundError: No module named 'snakemake.deployment',bug,2022-03-16T09:13:56Z
+166,CLOSED,tibanna container image is hardcoded,bug,2020-01-17T13:48:06Z
+163,OPEN,Conditional rule with conda environment,enhancement, question,2023-02-10T15:51:35Z
+160,CLOSED,conda environments get hashed names assigned which are different for the same .yaml,bug,2020-01-17T13:58:11Z
+158,CLOSED,pipe fails with multiple output on NFS,bug,2022-03-16T10:37:30Z
+157,CLOSED,available_cpu_count incorrect in LSF cluster job,bug,2019-12-16T19:45:32Z
+156,OPEN,Access the rule name within a rule,enhancement,2020-05-20T22:33:30Z
+155,CLOSED,--report: Category is prone to ... stuff,bug,2022-03-15T16:19:26Z
+154,CLOSED,subprocess.py Permission denied, shell command of first excecuted rule,,2020-01-13T11:38:58Z
+153,OPEN,MissingOutputException even after increasing latency-wait,bug,2020-06-30T17:51:14Z
+152,CLOSED,Add option for default containers,enhancement,2020-01-07T00:29:18Z
+151,CLOSED,Namedlist attribute 'index' is read only,bug,2022-03-01T17:00:44Z
+148,OPEN,resource calculation issue,,2019-12-10T18:35:00Z
+147,CLOSED,Suppress double '/' warnings when using (certain) remote file wrappers,enhancement,2019-12-24T20:39:47Z
+144,CLOSED,`conda activate` instead of `source activate` in documentation,bug,2020-10-26T08:40:20Z
+143,CLOSED,Namedlist set_name overrides class functions ( for example --report crashes if a params: variabel is called 'items'),bug,2019-12-10T10:32:22Z
+142,CLOSED,Input functions improperly returning directory,bug,2022-03-15T16:12:34Z
+139,OPEN,Nix/Guix support,enhancement,2023-10-27T14:45:46Z
+137,OPEN,Make rule variables available within shell.prefix,,2020-08-19T07:19:26Z
+135,CLOSED,dot -> Error: <stdin>: syntax error in line 1 near ',bug,2023-07-28T13:46:06Z
+134,CLOSED,Slurm cluster jobs failing silently,bug,2019-12-04T17:35:25Z
+133,OPEN,onError/onSuccess for rules,enhancement,2024-01-04T15:06:44Z
+132,CLOSED,job not registred under group when output of checkpoint exists,bug,2020-12-09T09:45:35Z
+130,CLOSED,Python 3.8 not supported,bug,2020-07-12T14:09:15Z
+126,OPEN,addict configuration,enhancement,2019-11-26T12:18:42Z
+124,CLOSED,A utility function to partially format strings with wildcards,enhancement,2020-01-17T13:27:05Z
+123,CLOSED,subworkflow needs original configfile even if superseded by configfile in superordinate workflow,bug,2019-11-28T15:50:05Z
+122,OPEN,Add attempt to log file naming,enhancement,2022-06-14T09:52:50Z
+120,CLOSED,Howto: check if snakemake is running,,2019-12-09T15:54:11Z
+119,CLOSED,Code display error in report for pipelines with multiple sub-workflow snakefiles,bug,2022-03-15T15:46:22Z
+118,CLOSED,immediate submit only submitting first job in workflow before shutdown,bug,2020-01-06T13:41:25Z
+116,CLOSED,Support for GPU ressources,enhancement,2019-12-06T17:05:39Z
+115,OPEN,Printing parameter values,enhancement,2019-11-18T22:16:03Z
+113,OPEN,Grouping jobs for multiple wildcard values of the same rule,enhancement,2020-08-05T18:54:11Z
+112,CLOSED,5.8.0: snakemake.caching missing from wheel & sdist,bug,2019-11-15T14:48:16Z
+110,OPEN,snakemake-tibanna run not finding rule,,2019-12-21T23:30:05Z
+109,CLOSED,Resources with cluster jobs,bug,2022-03-01T16:56:14Z
+108,OPEN,Add failure causes with cluster jobs to attempt,enhancement,2019-11-14T15:47:20Z
+107,CLOSED,Snakemake pipeline won't successfully run on cluster with `--cluster`,bug,2019-11-14T15:18:16Z
+106,OPEN,Allow for nested checkpoints,enhancement,2021-10-03T19:00:04Z
+105,CLOSED,unpack on checkpoint,bug,2019-11-18T07:49:27Z
+103,CLOSED,Path and expand,bug,2019-11-15T11:02:11Z
+102,CLOSED,Print shell commands,bug,2020-11-03T10:16:53Z
+100,CLOSED,URLErrors on Windows for conda:,bug,2021-06-09T13:02:09Z
+99,CLOSED,Check whether replacing os.path.exists with os.stat improves performance,enhancement,2021-11-23T14:09:36Z
+98,CLOSED,Batch flag counting input lines, not the number of input files based on expanding wildcards,bug,2019-11-08T21:37:44Z
+96,CLOSED,Specifying user project for google storage requests,enhancement,2020-10-17T17:41:02Z
+95,CLOSED,Broken link in documentation (reports),bug,2020-11-16T11:27:08Z
+94,OPEN,Add documentation on how to install Snakemake on Windows with Conda,,2019-11-07T13:15:45Z
+92,CLOSED,intermittent errors when working with gcp bucket,bug,2022-03-01T16:53:08Z
+87,CLOSED,Use params and/or job properties in touch command,enhancement,2020-12-03T16:47:13Z
+86,OPEN,The --forceall flag is not propagated to subworkflows,enhancement,2019-11-05T14:38:00Z
+85,CLOSED,"SyntaxError" for the Snakefile located in the directory which name cntains an apostrophe symbol,bug,2020-01-17T12:52:06Z
+84,OPEN,Allow environment variables to be specified in a workflow,enhancement,2019-11-04T13:14:07Z
+83,CLOSED,No such file or directory: '/proc/24076/stat',bug,2019-11-05T13:07:29Z
+82,CLOSED,--touch touch all files even missing ones,bug,2019-11-06T01:30:58Z
+78,CLOSED,--use-ingularity breaks shadow usage in non-singularity rules,bug,2019-11-05T14:29:08Z
+77,CLOSED,Python3.5 support broken,bug,2019-11-05T10:30:40Z
+76,CLOSED,self.workflow.default_remote_provider reference not relevant for single workflow,bug,2019-11-05T10:26:52Z
+75,CLOSED,Broken link to source code in documentation,bug,2019-11-05T10:23:15Z
+73,OPEN,Create classes for Run and Wrapper Parameters,enhancement,2019-10-30T17:10:19Z
+71,CLOSED,Remove contributors from docstrings,enhancement,2019-11-01T15:22:07Z
+70,CLOSED,Support execution of Jupyter Notebooks using script directive,enhancement,2020-06-01T10:19:39Z
+61,CLOSED,Update copyrights?,enhancement,2019-10-30T08:34:37Z
+60,CLOSED,GNU Parallel execution backend,enhancement,2021-10-25T09:55:00Z
+58,CLOSED,AttributeError: 'Logger' object has no attribute 'logfile_handler',bug,2019-11-05T10:15:25Z
+57,OPEN,Default remote provider for Azure Storage,enhancement,2020-04-14T05:23:06Z
+55,CLOSED,Checkpoint aggregate returns checkpoint output dir instead of files,bug,2022-03-01T16:51:41Z
+54,CLOSED,.Rprofile ignored when running an R script,bug,2022-06-01T17:55:00Z
+53,CLOSED,Input file function seems not to be fully executing,bug,2019-10-23T20:55:14Z
+52,CLOSED,ChildIOException inconsistency,bug,2020-05-25T11:53:45Z
+51,OPEN,Document configfiles argument in Snakemake API and add type check,enhancement,2019-10-24T08:07:23Z
+50,OPEN,Easy way to benchmark all rules,enhancement,2022-12-06T16:27:45Z
+49,CLOSED,SyntaxError in pickle procress,bug,2019-10-29T15:02:41Z
+48,CLOSED,Using file:// url for wrappers triggers warning,bug,2020-10-05T22:52:06Z
+47,CLOSED,breaking '--configfile <file>' behaviour change from 5.6,bug,2019-11-14T16:37:48Z
+46,CLOSED,Rules with outputfiles in subfolders on Windows (possible path separator issue),bug,2021-06-09T19:16:45Z
+45,CLOSED,Deleted log file in directory() output after encountering error,bug,2019-10-29T14:06:08Z
+44,OPEN,Support for charliecloud containers,enhancement,2023-03-30T01:49:37Z
+43,OPEN,Specify configuration directly in subworkflow definition,enhancement,2019-10-19T22:47:30Z
+39,OPEN,Snakemake not able to see output files until I "ls" the output directory,,2023-07-17T13:46:00Z
+36,CLOSED,A formatter such as black,enhancement,2020-09-04T00:17:19Z
+30,CLOSED,TypeError: resource() got an unexpected keyword argument 'keep_local',bug,2019-10-15T00:50:42Z
+24,CLOSED,Subworkflow without a configfile gives error,bug,2020-03-25T16:14:44Z
+23,OPEN,Special treatment of `rule all`,enhancement,2019-11-18T14:57:34Z
+22,CLOSED,jobs still running though snakemake terminated with an error,question,2019-10-14T09:53:23Z
+21,CLOSED,maximum number of jobs option disregarded,bug,2019-10-29T14:53:48Z
+16,OPEN,Checkpoint Aggregation Pattern - Snakemake running one sample at a time,,2019-11-13T20:48:11Z
+15,OPEN,Direct support for parameter space exploration,enhancement,2019-10-09T12:04:34Z
+14,CLOSED,Don't delete temporary wrapper scripts,enhancement, question,2019-11-01T15:22:07Z
+13,OPEN,Getting the input and output files of a rule in Python API,enhancement,2022-09-21T18:40:42Z
+12,OPEN,Customizing snakemake console output,enhancement,2019-10-15T17:57:43Z
+11,CLOSED,Setting jobs in profiles to use all available cores,enhancement,2019-10-14T09:18:13Z
+10,CLOSED,ProtectedOutputException is thrown for unprotected file,bug,2019-10-14T09:35:19Z
+8,CLOSED,Snakemake version 5.7.0 throws error for symbolic links,bug,2019-10-08T08:48:36Z
+7,CLOSED,Make it clear that old bitbucket repo is just for archiving purposes.,,2019-10-07T14:48:39Z
+6,CLOSED,Migrate auxiliary repos to github,,2019-10-07T14:48:53Z
+5,CLOSED,Update docs to point to github.,,2019-10-07T14:49:00Z
+4,OPEN,Remove some deprecated functionality,enhancement,2021-01-29T00:34:23Z
+2,CLOSED,Are you moving to github? Or what is this repo for?,,2019-10-05T21:31:53Z

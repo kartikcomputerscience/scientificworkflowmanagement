@@ -1,0 +1,981 @@
+3285,OPEN,Change `subprocess.check_output` option for bytes/string mismatch,,2024-04-09T03:44:33Z
+3284,OPEN,`JobTask.dump` raises `TypeError` when replacing bytes to string,,2024-04-09T03:43:26Z
+3283,CLOSED,Questions about Copilot + Open Source Software Hierarchy,,2024-05-06T14:59:04Z
+3280,OPEN,TypeError: <Target> object is not iterable when check_complete(dep) is False,,2024-03-05T10:30:58Z
+3278,OPEN,sqla.SQLAlchemyTarget.exist() won't work with SqlAlchemy 2.x version,,2024-02-16T10:48:09Z
+3273,CLOSED,Faulty DONE status assignment,,2024-01-14T11:27:37Z
+3264,OPEN,Only one worker process being created despite of passing workers as 3 and having simultaneous tasks to perform,,2023-11-28T13:15:23Z
+3263,OPEN,Facing test failures for test/servertest.py on PPC64LE,,2023-11-17T06:22:52Z
+3262,CLOSED,`h5py` compatibility with `S3Target` ?,,2023-12-20T19:14:26Z
+3255,CLOSED,dynamic requirements: what's wrong with what I am doing?,,2023-10-04T10:34:44Z
+3253,OPEN,Too wide permissions for /tmp/luigi,,2023-09-25T14:51:07Z
+3251,OPEN,signal only works in main thread of the main interpreter,,2023-08-30T06:05:50Z
+3249,OPEN,SVG visualisation breaks on dependencies between tasks with the same name,,2023-08-26T02:18:28Z
+3247,OPEN,"Object of type ... is not JSON serializable" when ListParameters of Task instances,,2023-08-10T09:53:37Z
+3245,OPEN,See task workflow for indefinite time,,2023-07-26T16:41:26Z
+3243,OPEN,int values to FloatParameter crashes worker,,2023-06-25T11:30:43Z
+3242,OPEN,UnconsumedParameterWarning: 'no_configure_logging',,2023-06-14T13:59:45Z
+3241,OPEN,task collection scheme seems to invalidate `batch_method=sum`,,2023-05-16T21:04:27Z
+3240,CLOSED,specify resources in luigi.build,,2023-09-08T08:48:37Z
+3236,CLOSED,Command line parameters not being passed to workers in macOS,,2023-08-23T16:20:30Z
+3233,OPEN,Race Condition possibility,,2023-03-27T12:25:38Z
+3229,OPEN,The 'defaults' parameter in python logging configure does not support in luigi.,,2023-03-12T12:20:50Z
+3227,OPEN,SQLAlchemy 2.0 not supported when task history enabled,,2023-03-24T14:58:16Z
+3226,OPEN,Bug: parameter doesn't preserve default None value after yield,,2023-02-10T12:24:14Z
+3224,OPEN,Add support for custom authentication headers,,2023-02-05T17:06:57Z
+3223,OPEN,Documentation on readthedocs.io needs to be updated,,2023-02-03T16:24:21Z
+3222,OPEN,Support for PEP 517/518 (pyproject.toml build-system),,2023-01-30T18:07:46Z
+3219,OPEN,"ValueError: signal only works in main thread" with external_program.py,,2023-01-16T12:56:30Z
+3213,CLOSED,using default_scheduler_url as a mounting point (not root `http://address/mount`) behind proxy not working,,2023-02-23T12:49:51Z
+3212,OPEN,Add support/option to pick `TaskProcess` worker process context,,2022-12-14T05:02:47Z
+3210,OPEN,Fails to parse list parameter from cli argument: JSONDecodeError,,2022-11-28T20:14:37Z
+3208,OPEN,Failed to return in running luigi.build in luigi tasks,,2022-11-15T22:50:07Z
+3206,OPEN,Arguments for the command to rerun renders as [object Object],,2022-11-08T21:19:30Z
+3205,OPEN,UnconsumedParameterWarning: The configuration contains the parameter 'disable_persist_seconds' with value '604800' that is not consumed by the task 'scheduler'.,,2022-11-10T18:45:06Z
+3203,OPEN,can not use MockTarget with dynamic dependencies,,2022-10-28T11:27:38Z
+3202,CLOSED,Worker fails to run with Python 3.11,,2022-11-18T07:43:18Z
+3201,OPEN,ImportError: cannot import name 'MockFile' from 'luigi.mock',,2023-06-27T14:57:34Z
+3200,OPEN,[Contrib] Task trigger solution,,2022-09-23T10:37:37Z
+3198,OPEN,[contrib.postgres] copy_from does not accept schema.table notation in most recent psycopg2 versions,,2022-09-07T14:22:52Z
+3194,OPEN,Configurable Truncation in Execution Summary for Tasks/Params,,2022-08-29T20:56:21Z
+3190,OPEN,Add "Tags" to Tasks and Workers that specify the kinds of Tasks that Workers want to take on,,2022-08-17T21:05:21Z
+3189,CLOSED,How to use async function in luigi task ?,,2022-12-13T07:21:26Z
+3187,OPEN,KubernetesJobTask fails because waiting state reason is 'PodInitializing',,2022-07-21T08:33:04Z
+3182,CLOSED,LuigiTomlParser object has no attribute 'sections',,2022-07-15T11:50:57Z
+3173,CLOSED,Unclosed socket from luigi.rpc module,,2022-06-23T01:26:27Z
+3167,OPEN,Misnamed parameter "include_significant" on method Task.get_param_names,,2022-05-29T13:46:28Z
+3166,OPEN,Ambiguous task error on executing the same tasks with different inputs,,2022-05-25T07:49:39Z
+3165,OPEN,Line should be split byt the self.column_separator in case there is no default one,,2022-05-13T01:19:13Z
+3164,CLOSED,[BEC] Github client,,2022-05-10T09:03:24Z
+3161,CLOSED,Upgrade prometheus_client,,2022-05-12T12:20:00Z
+3160,CLOSED,pandas dataframe as output,,2022-10-11T09:19:25Z
+3155,CLOSED,Spotify's luh,,2022-04-21T01:10:42Z
+3148,CLOSED,Warnings when used with Python 3.10,,2022-03-10T03:19:01Z
+3145,OPEN,Issue importing the luigi.contrib.esindex module,,2022-02-15T14:52:23Z
+3141,OPEN,running Luigi automatically,,2022-01-24T18:39:45Z
+3139,OPEN,`UnboundLocalError` in `NewLineWrapper.read`,,2022-01-20T15:07:46Z
+3138,OPEN,Default behavior of runtime parameters validation using normalize(v),,2022-01-19T14:54:25Z
+3136,OPEN,Task button (show error, dependency tree,) on the right side do not show if parameter too long,,2022-03-03T03:07:05Z
+3134,OPEN,Parsing sets in configuration,,2021-12-27T17:17:19Z
+3132,CLOSED,Types of parameters,,2021-12-21T14:52:57Z
+3131,OPEN,AttributeError: 'NoneType' object has no attribute 'flush',,2021-12-17T06:12:31Z
+3128,OPEN,Cannot infer filetype from suffix of temporary path,,2021-11-30T14:24:33Z
+3124,OPEN,No default priority option in config and negative priority set to zero,,2021-11-23T09:48:50Z
+3123,CLOSED,format for config times is inconsistent,,2022-01-11T02:14:09Z
+3120,OPEN,project-based namespace,,2021-11-15T11:24:10Z
+3119,OPEN,Cannot configure History server on Snowflake.,,2021-11-11T17:42:02Z
+3118,CLOSED,Tasks look the same for scheduler but they have different output.,,2021-11-15T16:08:44Z
+3116,OPEN,Permission denied,,2021-10-26T23:25:28Z
+3114,OPEN,show all tasks in dependency graph [feature request],,2021-10-20T12:28:07Z
+3109,OPEN,Cannot disable command line parser accepting abbreviations of parameters,,2021-09-24T11:04:58Z
+3107,OPEN,Luigi scheduler ignores retry-delay,,2022-01-12T18:24:07Z
+3106,CLOSED,Duplicated outputs of luigi.task.flatten_output,wontfix,2023-02-09T01:04:09Z
+3104,OPEN,Best practices for testing luigi pipelines,wontfix,2022-01-09T01:14:41Z
+3102,OPEN,Add support for hashicorp nomad as backend,wontfix,2022-01-09T01:14:43Z
+3100,OPEN,value error creating uncaught exception,,2022-02-19T08:56:54Z
+3097,CLOSED,retcode appears to be 0 on failure,,2021-08-23T03:18:58Z
+3096,OPEN,Pid files used for locking are not deleted,wontfix,2022-01-09T01:14:45Z
+3095,OPEN,Is there a good way to get the stacktrace of a task from outside?,wontfix,2022-01-09T01:14:46Z
+3094,OPEN,Latest version of luigi on dockerhub is stale,wontfix,2022-01-09T01:14:47Z
+3092,CLOSED,an optional argument to disable the web GUI,,2021-07-28T06:46:06Z
+3090,OPEN,Tasks failing in complete() or requires() have unknown state and last forever.,wontfix,2022-01-09T01:14:49Z
+3087,OPEN,luigi.rpc.RPCError started occurring since 7 hours ago,wontfix,2022-01-09T01:14:51Z
+3084,OPEN,Tasks hanging in complete state,wontfix,2022-01-09T01:14:52Z
+3082,OPEN,Error passing `LocalTarget` to Pandas DataFrame `to_csv()` method - but works with earlier version,wontfix,2022-01-09T01:14:42Z
+3080,CLOSED,Visualiser doesn't show "Actions" code unless it is in a very wide desktop screen,,2021-06-11T12:29:07Z
+3078,CLOSED,Issue using shutil - fail copying files,,2021-05-11T12:37:36Z
+3075,OPEN,Priority sometimes not correctly set,wontfix,2022-07-07T09:05:01Z
+3070,OPEN,Bug in luigi.contrib.ftp.py on putting file to ftp from Windows,,2023-04-17T18:33:26Z
+3053,CLOSED,Tasks Stuck Running,,2021-11-05T05:28:01Z
+3050,OPEN,Lock module: getpcmd on Windows is brittle to changes in wmic,wontfix,2022-01-09T01:14:56Z
+3049,OPEN,tasks left pending because dependency run by other worker,wontfix,2022-01-09T01:14:57Z
+3046,CLOSED,python 3.8 support,,2021-04-06T16:34:50Z
+3043,OPEN,Why is the write method of mongodb module not insert but update?,wontfix,2022-01-09T01:14:59Z
+3042,CLOSED,[question] one job at a time,,2021-02-03T16:06:10Z
+3041,OPEN,BigQueryLoadTask doesn't fully support UTF-8,wontfix,2022-01-09T01:14:58Z
+3039,CLOSED,import luigui ---> syntax error ---> VS Code,,2021-01-26T21:49:28Z
+3038,OPEN,Return non-zero exit code on task failure,wontfix,2022-01-09T01:15:00Z
+3037,OPEN,Luigi registers twice classes after re-executing definition of class, and this causes problems when yielding tasks,wontfix,2022-01-09T01:14:50Z
+3036,OPEN,Gzip LocalTarget behavior on Windows,wontfix,2022-01-09T01:15:01Z
+3035,OPEN,CPU & Memory consumption seems very high when running the local scheduler,wontfix,2022-01-09T01:15:02Z
+3034,CLOSED,TaskClassAmbigiousException in Luigi when yielding tasks in run(),,2021-01-24T22:10:08Z
+3029,CLOSED,Throwing warning for deprecated `disable_window_seconds`,,2021-08-22T14:13:21Z
+3028,OPEN,Why query in ImportIntoHiveTableTask use time as default partition setting?,wontfix,2022-01-09T01:15:03Z
+3025,CLOSED,Retry procedure is naively implemented,,2021-02-24T23:41:37Z
+3021,OPEN,Notes on luigi.Task input() behavior,wontfix,2022-01-09T01:15:04Z
+3020,OPEN,AttributeError: 'LocalTarget' object has no attribute 'is_tmp',,2023-11-06T09:34:24Z
+3018,CLOSED,stderr not printed from failing spark jobs,,2021-01-17T00:27:31Z
+3016,CLOSED,Migrate CI Away from travis-ci.org,,2021-04-10T13:47:40Z
+3015,OPEN,Time measurement with tqdm not working while yielding dynamic dependencies,wontfix,2022-01-09T01:15:06Z
+3012,CLOSED,Feature Request: Catch exceptions from dynamic dependencies,,2020-11-16T11:07:30Z
+3010,OPEN,Exceptions in output()/complete() emit DEPENDENCY_MISSING events,,2024-04-18T12:02:12Z
+3006,CLOSED,Enabling task history schedule,,2022-04-28T01:11:09Z
+3005,OPEN,Pass token_credential to BlockBlobService,wontfix,2022-01-09T02:13:40Z
+3003,OPEN,Incorrect return type in on_failure() causes batch emails to silently fail,wontfix,2022-01-09T02:13:41Z
+2999,OPEN,ExternalProgramTask: stream_for_searching_tracking_url is not flushed, causing program output to be lost.,wontfix,2022-01-09T02:13:43Z
+2997,OPEN,A task fails if the subsequent task is already completed,wontfix,2022-01-09T02:13:44Z
+2995,OPEN,No way to control working directory on remote host when running commands via luigi.contrib.ssh.RemoteContext,wontfix,2022-01-09T02:13:45Z
+2994,OPEN,WrapperTask triggers many unnecessary complete() calls,wontfix,2022-01-09T01:15:07Z
+2993,OPEN,Signature of the bulk_complete method is unclear,wontfix,2022-01-09T02:13:46Z
+2992,OPEN,Repetitive complete() calls because of the check_unfulfilled_deps setting,wontfix,2022-01-09T02:13:42Z
+2991,OPEN,Populate python_requires setup.py field,wontfix,2022-01-09T02:13:47Z
+2990,OPEN,[History] Same task not being appended,wontfix,2022-01-09T02:13:48Z
+2989,OPEN,Fails complete pipeline when encounters `RuntimeError`,wontfix,2022-01-09T02:13:49Z
+2987,CLOSED,Multiple worker pods with a central scheduler in a Kubernetes setting,wontfix,2022-01-09T03:13:34Z
+2986,OPEN,Problem using APScheduler to run Luigi (Worker signals broke),,2021-12-27T21:04:44Z
+2983,CLOSED,Cannot add data in redis using redis_store ?,wontfix,2022-01-09T03:13:30Z
+2982,CLOSED,How to debug when central luigi scheduler does not shown any task (all is 0) ?,wontfix,2022-01-09T03:13:29Z
+2981,CLOSED,Nginx non-root url proxy_pass not working with Luigi,wontfix,2022-01-09T03:13:33Z
+2980,CLOSED,Clean up Python 3.3/3.4 compatible code,wontfix,2022-01-09T03:13:28Z
+2979,CLOSED,[Question] What should be the value of --address arg for luigid,,2020-08-12T22:01:30Z
+2976,CLOSED,Failed to skip task on run time,wontfix,2022-01-09T03:13:31Z
+2975,CLOSED,local_target.py - os.rename change to os.replace ?,wontfix,2022-10-11T07:32:10Z
+2972,CLOSED,[Question] Setting proxy_pass for Luigi in nginx,,2020-07-17T22:07:04Z
+2969,CLOSED,Luigi ListParameter None breaks when running with dynamic dependencies.,,2021-08-26T13:56:30Z
+2967,CLOSED,Flaky behavior when using S3Target,,2022-01-09T03:05:02Z
+2966,CLOSED,Feature request: Add 'timePartitioning' config to BigQuery job execution,wontfix,2022-01-09T03:13:26Z
+2965,OPEN,luigi.contrib.azureblob needs updating,,2022-06-29T17:06:14Z
+2963,CLOSED,MetastoreClient doesn't works with python 3,wontfix,2022-01-09T03:13:24Z
+2962,CLOSED,Feature request: Expanded support for using resource throttling,wontfix,2022-01-09T03:13:25Z
+2960,OPEN,Tasks RUNNING state long after `run` is complete,wontfix,2022-01-09T01:15:09Z
+2959,CLOSED,Travis CI is missing a few collections of test cases,Medium code change, wontfix,2020-12-25T12:45:47Z
+2949,CLOSED,Support Tornado>=6,,2020-08-10T14:35:43Z
+2947,CLOSED,[Question] How to store history indefinitely?,,2023-07-26T16:53:26Z
+2946,CLOSED,`config_path` should default to `{TaskName:parameterName}` in the case of inherit or shouldn't be deprecated,wontfix,2022-08-11T23:19:09Z
+2944,CLOSED,how to register some callbacks to worker process?,wontfix,2020-10-04T04:19:40Z
+2942,CLOSED,Can documentation be added on how to unit test workflows using luigi mock ?,wontfix,2020-09-20T05:00:57Z
+2941,CLOSED,luigi leaves some zombie processes,wontfix,2024-01-10T19:18:46Z
+2939,CLOSED,Threading.Thread.isAlive has been deprecated and removed in Python 3.9.,,2020-05-30T16:31:24Z
+2938,CLOSED,ExternalProgramTask -- disabling capture_output,wontfix,2020-12-25T12:45:49Z
+2937,CLOSED,Integrate with event-driven architecture,wontfix,2020-09-12T10:34:16Z
+2936,OPEN,Cannot tests locally because codecov is expecting token,wontfix,2022-01-09T02:13:52Z
+2935,OPEN,Completed tasks should not be removed from the cache,wontfix,2022-01-09T02:13:51Z
+2933,CLOSED,RFC: Re-using task_history database for Targets and Airflow-like dashboards,wontfix,2021-02-21T12:59:39Z
+2928,CLOSED,Workers stopping early,wontfix,2020-09-12T10:34:15Z
+2926,CLOSED,add support for pyodbc driver for mssql server,wontfix,2020-08-22T20:02:00Z
+2925,CLOSED,luigi re-runing tasks,,2020-04-26T08:29:28Z
+2922,CLOSED,pykube is archived and no longer maintained,,2020-04-13T18:29:54Z
+2920,CLOSED,[Questiion] Any way to write d3 or svg graph in a file ?,wontfix,2020-12-11T23:32:23Z
+2917,CLOSED,config parsing inconsistency between Python 2 and Python 3,,2020-04-12T19:28:49Z
+2916,CLOSED,inherits and requires fails with luigi.Task but does not fail with luigi.WrapperTask,,2021-06-07T14:05:17Z
+2915,OPEN,Cannot set pdb breakpoint in `run()` method,,2023-05-01T14:06:53Z
+2907,CLOSED,Luigi does not read by default luigi.toml file,wontfix,2020-07-11T02:47:32Z
+2906,CLOSED,Make the stacktrace modal of the UI wider,wontfix,2020-08-31T00:23:13Z
+2905,OPEN,Byte writing with localTarget,wontfix,2022-01-09T01:14:48Z
+2902,CLOSED,Extend internal luigi-task-hist.db schema,wontfix,2020-07-02T07:42:39Z
+2901,CLOSED,AWS SNS email with additional recipients only send to first,wontfix,2020-07-02T07:42:38Z
+2899,CLOSED,Docker support,wontfix,2022-06-15T01:00:27Z
+2898,CLOSED,luigi.toml file generating error with 2.8.11, but works with 2.8.9,wontfix,2020-07-04T18:07:52Z
+2894,CLOSED,Auto Refresh,wontfix,2020-07-11T02:47:31Z
+2892,CLOSED,path mixup on windows environment hdfs,wontfix,2020-06-20T17:33:04Z
+2889,CLOSED,SVG does not capture dependency correctly, but D3 does,,2020-04-20T21:32:17Z
+2888,CLOSED,Tasks don't fail although LocalTarget is not created,,2020-02-02T00:12:31Z
+2887,CLOSED,Why not become a Apache or LF or CNCF project?,,2020-03-04T08:18:13Z
+2886,CLOSED,Cant start luigid in background with Python 3.8,wontfix,2020-07-16T18:12:14Z
+2884,CLOSED,How to trigger task by REST API ?,wontfix,2020-06-13T16:28:42Z
+2883,CLOSED,Luigi Task History only shows latest of job run, weird behaviour upon server restart,wontfix,2020-05-30T09:58:50Z
+2882,CLOSED,"there were tasks that were not granted run permission by the scheduler",wontfix,2020-07-04T18:07:51Z
+2880,CLOSED,Exception on Windows thrown by RemoteFileSystem on putting file to ftp,wontfix,2020-05-22T06:45:48Z
+2879,CLOSED,Unable to configure logging in 2.8.11 using TOML.,wontfix,2022-07-11T14:09:09Z
+2873,CLOSED,update luigi.contrib.lsf.LSFJobTask._dump for python 3 (similar to #1683),wontfix,2020-05-01T01:48:15Z
+2868,CLOSED,Fix simple typo: throug -> through,,2019-12-14T20:20:24Z
+2867,CLOSED,Trouble running tutorial on "@inheritance",wontfix,2020-07-18T15:10:14Z
+2864,OPEN,MissingParameterException with Config parent class,wontfix,2022-01-09T01:15:08Z
+2858,CLOSED,Exception on macOS thrown by MockTarget() with 2 or more workers,wontfix,2020-04-28T03:54:46Z
+2853,CLOSED,Feature request: Load logging config using JSON or YAML.,wontfix,2020-07-02T13:28:13Z
+2830,CLOSED,Get ready for Python2 deprecation,Breaking change, Python2 deprecation,2020-06-02T08:28:50Z
+2829,CLOSED,Don't spin down workers if pending tasks are waiting for available resources,wontfix,2020-04-14T18:06:11Z
+2825,CLOSED,AttributeError: 'str' object has no attribute 'date_a',,2019-11-15T11:46:31Z
+2824,CLOSED,Scheduler ignores task failure when getting Unfulfilled dependency at run time,wontfix,2020-08-31T00:23:14Z
+2816,CLOSED,Ordering of SGE logging can crash but not output useful logging information,wontfix,2020-03-12T07:05:40Z
+2814,CLOSED,test/contrib/kubernetes_test.py fails on master,wontfix,2020-03-12T07:05:40Z
+2812,CLOSED,Luigi Passes List to json.loads When Using TOML Config and ListParameter,wontfix,2020-06-20T17:33:05Z
+2811,CLOSED,How to send custom notification on failed task ?,wontfix,2020-03-05T14:59:38Z
+2810,CLOSED,Multiprocessing\Multithreading,,2019-10-21T14:19:38Z
+2806,CLOSED,BigTable target,FeatureRequest, wontfix,2020-06-15T00:20:02Z
+2805,CLOSED,Support Tornado>=6,wontfix,2020-03-07T10:23:38Z
+2804,CLOSED,The problem with kubernetes (service-account & self-signed certificates),wontfix,2020-02-22T18:38:55Z
+2800,CLOSED,Adding subclass of RangeBase,,2019-10-13T17:34:28Z
+2794,CLOSED,Test impact of relaxing python-daemon clamp at < 2.2.0,wontfix,2020-02-12T04:17:09Z
+2793,CLOSED,Luigi Tasks get stuck in 'RUNNING' state when emails are not properly setup,wontfix,2020-04-09T13:52:16Z
+2792,CLOSED,"ValueError: Unknown format code 'd' for object of type 'str'",wontfix,2020-06-17T04:42:34Z
+2790,CLOSED,Need documentation on "assistant" feature,wontfix,2022-09-28T07:52:31Z
+2788,CLOSED,Scheduler endpoint for checking status/health,wontfix,2020-01-20T15:52:14Z
+2787,CLOSED,Feature Request: free resource at tasks' run time,,2019-09-19T15:15:31Z
+2786,CLOSED,BigQueryTarget.exists() for partitioned table,wontfix,2020-01-30T02:31:48Z
+2784,CLOSED,System Requirements?,,2019-11-24T19:31:39Z
+2783,CLOSED,Feature Request: binary write mode for LocalTarget,,2020-04-23T02:18:27Z
+2782,CLOSED,Database cuncurrency problem,wontfix,2020-04-11T13:02:02Z
+2781,CLOSED,Trigger event on upstream failure,wontfix,2020-01-28T15:18:07Z
+2780,CLOSED,Reverse proxying webserver,,2019-11-19T01:55:52Z
+2778,CLOSED,PySparkTask fails if name contains invalid characters,,2019-09-20T12:39:31Z
+2777,CLOSED,Parallel scheduling hangs with no output,wontfix,2020-05-09T12:50:12Z
+2776,CLOSED,Feature request: Progress reporting during requires(),wontfix,2020-02-05T21:18:48Z
+2775,CLOSED,Dynamically importing modules while using dynamic dependencies results in ambiguous task name,wontfix,2022-05-19T06:09:06Z
+2774,CLOSED,Task died unexpectedly with exit code -11,,2020-01-16T19:11:52Z
+2773,CLOSED,Use official kubernetes-python client instead of pykube (no longer maintained),wontfix,2020-01-02T22:54:34Z
+2771,CLOSED,A Short task name with a small number of variables lead to failure when dict is used in TOML Config file,wontfix,2020-01-01T12:04:03Z
+2769,CLOSED,SQLServer incompatibility with task history: Operand type clash: datetime2 is incompatible with timestamp,Affects contrib (only), in progress, wontfix,2022-07-14T12:27:25Z
+2766,CLOSED,Unfulfilled External Tasks do not trigger error emails,wontfix,2020-01-09T13:17:43Z
+2765,CLOSED,`CONTRIBUTING.rst` is outdated and incorrect.,,2019-08-15T10:54:22Z
+2763,CLOSED,API documentation, for none python implementations?,,2019-08-17T01:18:04Z
+2757,CLOSED,range_test and sge_test not picked up by tox due to being executable,,2019-09-23T18:59:48Z
+2756,CLOSED,Warnings conflict in initialization,,2019-12-02T10:30:11Z
+2753,CLOSED,RangeHourly not behaving correctly outside GMT timezone,wontfix,2019-12-10T09:58:48Z
+2752,CLOSED,current working directory not in sys.path causing "module not found" errors,wontfix,2020-05-07T04:51:14Z
+2750,CLOSED,Luigi atomic write fails with pandas.DataFrame.to_pickle() in pandas 0.25.0,,2019-07-26T15:00:23Z
+2749,CLOSED,TypeError because task.retry is None,wontfix,2019-12-04T15:42:24Z
+2748,CLOSED,[luigid] daemonized logging configuration?,wontfix,2019-11-30T11:39:46Z
+2746,CLOSED,Add parameter to customize the logging format in interface logging,wontfix,2019-11-28T06:48:59Z
+2744,CLOSED,No best practice for noop?,wontfix,2019-12-31T18:19:54Z
+2743,CLOSED,History page is unavailable from the central visualizer page,,2019-08-20T13:12:37Z
+2742,CLOSED,Configuration default-scheduler-port doesn't seem to take effect,wontfix,2022-01-09T03:13:32Z
+2741,CLOSED,SendGrid documentation on Config documentation page is incorrect,,2019-07-19T11:04:07Z
+2739,CLOSED,Custom MetricsCollectors should be easily configurable,wontfix,2019-12-24T21:34:35Z
+2738,CLOSED,Datadog metrics collector sends all params as tags,wontfix,2019-11-23T20:38:28Z
+2737,CLOSED,luigi.task_register.TaskClassAmbigiousException: Task 'Streams' is ambiguous,,2019-07-11T18:55:57Z
+2736,CLOSED,Kubernetes spark operator support,wontfix,2019-11-27T20:25:53Z
+2734,CLOSED,enum34 dependency breaks install using poetry on python 3.7.3,wontfix,2020-09-04T08:39:30Z
+2733,CLOSED,RangeHourly task is always encountered,,2019-08-09T19:50:01Z
+2731,CLOSED,PidLockAlreadyTakenExit,wontfix,2020-05-05T19:49:37Z
+2729,CLOSED,Uncaught exception in execution summary,wontfix,2019-12-30T21:38:21Z
+2728,CLOSED,how to run parallel tasks on windows,wontfix,2019-11-05T05:55:21Z
+2725,CLOSED,ExpiredTocken issue with AWS with aws_role_arn,wontfix,2019-10-18T14:52:47Z
+2721,CLOSED,RedisTarget is incompatible with redis-py >= 3,,2019-06-07T11:16:48Z
+2719,CLOSED,Serialization csv file with pandas.DataFrame.to_csv and luigi.format.Gzip (python 3),,2019-05-30T10:16:50Z
+2718,CLOSED,Serialization csv file with pandas.DataFrame.to_csv and luigi.format.Gzip (python 3,,2019-05-28T12:16:00Z
+2717,CLOSED,Serialization csv file with pandas.DataFrame.to_csv and luigi.format.Gzip (python 3,,2019-05-28T12:15:48Z
+2714,CLOSED,SendGrid integration is deprecated,,2019-06-02T09:49:30Z
+2712,CLOSED,"sqlalchemy" requirement not in setup.py,,2020-09-03T16:39:20Z
+2708,CLOSED,prometheus metrics collector broken,,2019-05-16T07:17:00Z
+2707,CLOSED,can't redirect task's output,wontfix,2019-09-23T15:05:40Z
+2706,CLOSED,ReadTheDocs: Not Building,,2019-05-14T09:54:15Z
+2703,CLOSED,2.8.4 is broken for the TOML configuration,,2019-05-09T00:13:06Z
+2698,CLOSED,S3 Client doesn't work with TOML configuration,wontfix,2019-09-18T08:38:22Z
+2694,CLOSED,Luigi Tasks not failing on custom condition,wontfix,2019-09-21T12:38:44Z
+2693,CLOSED,Global parameters when workers != 1 not being passed to workers,wontfix,2020-10-30T15:32:50Z
+2690,CLOSED,Debugging luigi in an IDE,wontfix,2019-12-09T09:44:12Z
+2688,CLOSED,Inconsistent dash/underscore handling and usage in configuration parameters,wontfix,2019-08-07T07:20:05Z
+2687,CLOSED,Is logging configured before a task __init__ ?,wontfix,2019-08-16T15:11:54Z
+2684,CLOSED,2.7 to 2.8 upgrade path?,wontfix,2019-09-06T17:48:06Z
+2677,CLOSED,Feature request: Detailed example of ECSTask usage,wontfix,2021-06-07T15:47:11Z
+2676,CLOSED,Scheduling failure event,wontfix,2019-07-30T20:42:16Z
+2672,CLOSED,Explicit temporal unit parameters instead/complementing of generic DateIntervalParameter,wontfix,2019-07-25T12:11:48Z
+2671,CLOSED,Unable to schedule dynamically created task,,2019-03-14T14:29:18Z
+2670,CLOSED,Luigi not working behind reversproxy with baseurl,wontfix,2020-08-12T05:14:45Z
+2665,CLOSED,Add a generic DataflowTask to luigi/contrib,wontfix,2019-07-23T19:40:07Z
+2663,CLOSED,Memory leaking after executing large amount of tasks,wontfix,2020-03-04T08:23:29Z
+2662,CLOSED,Is there a reason python-dateutil is pinned to v2.7.5?,,2019-03-22T13:39:56Z
+2660,CLOSED,A bug in the luigi.cfg when using DEFAUL values.,wontfix,2019-08-29T13:55:03Z
+2653,CLOSED,A proper error should be written when the input param has underscore,wontfix,2019-06-26T14:18:59Z
+2651,CLOSED,Task list processing time graph - y axis min doesn't make sense,,2019-05-28T11:10:00Z
+2650,CLOSED,Task History By Name - Reverse Chronological Order,wontfix,2019-06-11T22:57:17Z
+2648,CLOSED,running DockerTask,wontfix,2019-07-11T15:38:39Z
+2647,CLOSED,Task Dependency list addition in task history?,wontfix,2019-06-20T19:15:39Z
+2646,CLOSED,Defer/(Preferably discard) Running task if there is a task from same Task family running on the host.,,2019-02-05T23:41:57Z
+2644,CLOSED,Tasks can be run several times under certain conditions,wontfix,2021-03-15T20:13:50Z
+2643,CLOSED,Optimize pipeline parameters,wontfix,2019-06-15T22:00:30Z
+2642,CLOSED,Feature suggestion: luigid --max-workers,,2019-02-01T21:39:44Z
+2641,CLOSED,Jobs keep resetting for no clear reason,wontfix,2019-06-16T00:00:29Z
+2640,CLOSED,Phantom Tasks Running Interminably,,2019-01-31T22:07:53Z
+2639,CLOSED,Inconsistent event handling,wontfix,2019-06-13T23:31:01Z
+2638,CLOSED,[spark] files conf option ignored,wontfix,2019-06-11T16:53:49Z
+2637,CLOSED,Pid(s) set([10263]) already running,wontfix,2020-03-04T16:41:44Z
+2633,CLOSED,Task\Workflow: Why are run twice?,wontfix,2019-06-13T16:31:01Z
+2632,CLOSED,ubuntu 16.04 python 3.5 pip3 intall "invalid syntax",,2019-01-22T04:34:12Z
+2631,CLOSED,Is there any way to figure out weather a task is running or nor,,2019-01-20T00:26:05Z
+2625,CLOSED,PR on postgres.py broke backwards compat,,2019-01-21T17:46:19Z
+2620,CLOSED,Task visualiser: time values of D3 graph edges don't make sense?,,2019-03-13T12:13:17Z
+2616,CLOSED,Call to `message` from `TypeError` not working with Python 3.6,,2019-01-11T15:26:45Z
+2611,CLOSED,failed saving scheduler state,wontfix,2021-08-07T15:42:16Z
+2610,CLOSED,The ability to turn off the verbose logging seems to have been removed?,,2018-12-18T18:02:54Z
+2609,CLOSED,TupleParameter errors in dynamic dependencies,,2019-01-17T20:16:24Z
+2604,CLOSED,cannot bind an existing table in a specific schema for sqla.CopyToTable when reflect is True,wontfix,2019-04-25T10:17:33Z
+2603,CLOSED,enum34 causing problems in pip,,2018-12-12T15:32:55Z
+2599,CLOSED,AtomicLocalFile: WindowsError 32 process cannot access the file because it is being used by another process,wontfix,2019-04-21T04:18:50Z
+2598,CLOSED,UnsupportedOperation: read -- AtomicLocalFile, flatten, doc / code mismatch,wontfix,2019-04-22T20:38:36Z
+2597,CLOSED,Feature suggestion: RegexParameter,wontfix,2019-05-02T15:51:26Z
+2595,CLOSED,Why execute task.requires() twice?,,2018-12-05T13:26:52Z
+2592,CLOSED,AttributeError during logging setup with Python 2.7,,2018-12-12T16:56:31Z
+2587,CLOSED,Don't use play/pause icons to indicate status,wontfix,2019-04-02T16:39:12Z
+2581,CLOSED,Task Visualizer should display Worker Salt for each task in Task list,wontfix,2019-04-02T16:39:11Z
+2578,CLOSED,DeprecationWarning: inspect.getargspec() is deprecated,wontfix,2019-03-15T23:18:36Z
+2577,CLOSED,luigi.run() returns False on success,wontfix,2019-03-21T21:13:07Z
+2576,CLOSED,Decrease_running_resources to zero not working as expected,,2018-11-13T18:46:38Z
+2573,CLOSED,Interpolation fails for list parameters,wontfix,2019-03-21T17:47:57Z
+2570,CLOSED,KubernetesJobTask "No pod scheduled" error,wontfix,2019-07-06T13:08:18Z
+2568,CLOSED,Problems with S3 get_as_string,,2018-11-22T09:18:00Z
+2567,CLOSED,Parllelism in Luigi,wontfix,2019-03-17T10:48:48Z
+2566,CLOSED,Detect parameter collisions when using the @inherits and @requires decorators,wontfix,2022-05-30T11:42:54Z
+2563,CLOSED,Postgres error if view depends on task_parameters.value,,2019-01-04T16:30:14Z
+2562,CLOSED,DictParameter cannot be used for params of boto3.,wontfix,2019-03-12T16:45:37Z
+2560,CLOSED,Timeout error message not showing the timeout seconds; says "None seconds",wontfix,2019-03-30T19:36:11Z
+2557,CLOSED,Support for generic email adapter,wontfix,2019-03-08T12:29:40Z
+2554,CLOSED,S3Client - unable to pass aws_session_token,wontfix,2019-04-22T21:38:36Z
+2550,CLOSED,Warning message because task_process_context Parameter defaults to None,wontfix,2019-02-21T07:04:06Z
+2544,CLOSED,Feature request: per-task event handlers,wontfix,2019-02-19T20:50:41Z
+2543,CLOSED,Per-task retry_count doesn't seem to work,wontfix,2019-02-13T22:00:31Z
+2542,CLOSED,Fix type warnings of parameters,wontfix,2023-12-14T12:43:52Z
+2538,CLOSED,Luigi task does not accept dict defined in TOML Config file.,wontfix,2019-02-14T06:00:29Z
+2535,CLOSED,502 Bad Gateway error tied to public_params,wontfix,2019-02-21T12:04:04Z
+2533,CLOSED,Using S3Client to download files fails when the path contains a question mark,,2018-09-28T12:02:06Z
+2532,CLOSED,AWS SNS email - message too long,wontfix,2019-02-09T09:47:27Z
+2525,CLOSED,Luigi 2.7.5 no longer works on Windows with python-daemon version > 2.1.2,,2018-11-02T14:32:08Z
+2524,CLOSED,Documentation for using a config file within code,,2021-08-09T22:37:27Z
+2523,CLOSED,Output from Pandas DataFrame,,2018-09-17T18:19:32Z
+2522,CLOSED,When upgrading beyond luigi 2.7.6 a part of the API breaks,,2018-10-03T11:11:47Z
+2521,CLOSED,Remote task execution API,,2020-08-20T15:33:24Z
+2520,CLOSED,Unable to connect to visualizer on remote host,,2018-09-28T16:27:28Z
+2516,CLOSED,Add support for (recursively) ignoring task failure,wontfix,2019-04-10T18:01:43Z
+2514,CLOSED,RangeDailyBase warns for parameter not set,wontfix,2019-01-18T01:41:54Z
+2513,CLOSED,temporary path context manager fails sometimes because folder is still locked,wontfix,2019-06-10T21:15:58Z
+2511,CLOSED,S3 Remove Unable to Handle Huge Amount of Files,wontfix,2019-02-13T22:00:30Z
+2510,CLOSED,Task history tracking does not update status of root task,wontfix,2019-01-20T05:20:56Z
+2507,CLOSED,502 Bad Gateway error tied to param visibility,,2018-09-01T02:14:16Z
+2505,CLOSED,Inserting JSON data into postgres target fails,wontfix,2019-01-14T04:10:59Z
+2501,CLOSED,PySpark Not Able to Load a Pickled Job With Custom Module,wontfix,2019-01-06T06:27:48Z
+2500,CLOSED,contrib.ecs does not check container exit code,,2018-09-21T02:48:30Z
+2497,CLOSED,contrib.ecs with launchType and networkConfiguration parameters,,2018-11-16T15:35:10Z
+2494,CLOSED,Install issues caused by `python-daemon`,,2018-11-02T14:32:20Z
+2492,CLOSED,Dynamic resource limits,wontfix,2018-12-29T10:25:03Z
+2485,CLOSED,TimeParameter class,wontfix,2019-03-14T20:52:25Z
+2484,CLOSED,New boto3 client usage in 2.7.6 throws error,,2018-09-01T02:15:23Z
+2481,CLOSED,Use of KerberosClient with webhdfs,,2018-08-27T10:40:30Z
+2479,CLOSED,botocore is a hidden dependency when using luigi.contrib.sge,wontfix,2018-12-21T21:15:43Z
+2473,CLOSED,RedshiftQuery doesn't set port,,2018-07-26T13:37:15Z
+2470,CLOSED,luigi.Task.on_failure and luigi.Task.on_success vs. luigi.Event.FAILURE and luigi.Event.SUCCESS,wontfix,2018-12-06T02:18:45Z
+2467,CLOSED,Task __init__() fails to call super().__init__(),wontfix,2018-12-12T14:09:22Z
+2464,CLOSED,Docs hosted on readthedocs.io are missing content,,2018-10-05T12:14:53Z
+2460,CLOSED,Segmentation Fault problems on OS X,wontfix,2019-05-13T21:05:56Z
+2459,CLOSED,ERROR: Failed connecting to remote scheduler 'http://localhost:8082',,2019-04-12T13:20:33Z
+2456,CLOSED,request version of luigi.interface.run() with return codes,wontfix,2018-11-26T10:33:57Z
+2455,CLOSED,[contrib.s3] Can't use S3Target outside luigi Task,,2018-07-17T11:17:43Z
+2453,CLOSED,Memory Error (Runtime Error),wontfix,2018-12-04T23:34:51Z
+2451,CLOSED,Add Event.DISABLED,wontfix,2018-11-11T14:44:39Z
+2450,CLOSED,std output and std error issue of luigi.contrib.external_program.ExternalProgramTask,wontfix,2018-11-10T20:51:21Z
+2447,CLOSED,Moving a LocalTarget does not change its attribute path,,2018-07-04T20:36:25Z
+2444,CLOSED,Adding a task in runtime,wontfix,2018-10-27T01:35:02Z
+2443,CLOSED,Priority doesn't work,wontfix,2018-11-16T07:55:28Z
+2442,CLOSED,Writing to S3 using S3Target and luigi.format.Gzip,wontfix,2018-11-08T22:45:34Z
+2437,CLOSED,RangeWeekly and RangeMonthly,wontfix,2019-03-27T10:50:56Z
+2432,CLOSED,KubernetesJobTask bug: Pod status does not have conditions,,2018-06-06T13:45:18Z
+2431,CLOSED,Demos in docs are still using print XXX, how about using print(XXX) for better python3 support?,,2018-08-14T12:13:44Z
+2429,CLOSED,LocalFileSystem doesn't work with local URLs,wontfix,2018-10-06T12:56:33Z
+2425,CLOSED,DRMAA support,wontfix,2018-10-02T09:39:48Z
+2421,CLOSED,Boto3 put_multipart AttributeError,,2018-05-11T17:36:42Z
+2419,CLOSED,Unexpected behaviour when using luigi.build(),,2018-05-14T16:01:02Z
+2418,CLOSED,Getting "No such file or directory: 'hadoop'" for HdfsTarget,,2018-05-09T16:21:00Z
+2416,CLOSED,PostgresQuery does not honour `port`,wontfix,2018-09-20T16:45:14Z
+2414,CLOSED,MissingParameterException even though LUIGI_CONFIG_PATH is set?,,2018-05-09T16:01:23Z
+2411,CLOSED,MissingParameterException when generating execution summary,,2018-05-07T21:08:35Z
+2409,CLOSED,namedtuples can not be used as parameters,wontfix,2018-10-03T23:00:28Z
+2408,CLOSED,Redshit copytable never completed,wontfix,2018-11-25T04:12:56Z
+2407,CLOSED,contrib.kubernetes: Incompatibility with cluster auto-scaling and race conditions,wontfix,2018-09-28T19:41:00Z
+2405,CLOSED,Allow disabling Task Cache,,2018-05-08T15:44:49Z
+2403,CLOSED,Insert only specified columns in `contrib.sqla`,wontfix,2018-08-29T07:35:00Z
+2402,CLOSED,"TypeError: a bytes-like object is required, not 'str'" with HDFS/Hadoop,,2018-04-19T09:38:12Z
+2397,CLOSED,Specify encoding of the configuration file,wontfix,2018-08-24T13:58:49Z
+2392,CLOSED,Values from [DEFAULT] section are cast to int when [resources] is present.,,2018-07-09T11:44:56Z
+2389,CLOSED,Luigi resources problem,,2018-04-13T13:25:35Z
+2386,CLOSED,SQLAlchemy reflection error when defining a schema,wontfix,2018-10-01T20:40:15Z
+2385,CLOSED,Hive partition display query in table check requires semicolon for later Hive versions.,wontfix,2018-08-08T05:47:24Z
+2383,CLOSED,.spec.activeDeadlineSeconds parameter in k8s job overwrites default k8s behaviour,,2018-07-20T08:12:50Z
+2380,CLOSED,Visualiser page error,wontfix,2018-08-08T05:47:03Z
+2371,CLOSED,Luigi pipeline,,2018-03-07T22:13:59Z
+2370,CLOSED,Error on task_history table setup - implicit conversion of varchar to datetime.,wontfix,2018-08-14T03:20:15Z
+2369,CLOSED,Luigi,,2018-03-05T12:15:38Z
+2366,CLOSED,Invalid instance caching on TaskParameter,wontfix,2018-08-14T03:20:13Z
+2365,CLOSED,InvalidParameterException in contrib.ecs _get_task_statuses,wontfix,2018-08-14T03:20:14Z
+2364,CLOSED,Provide a link to the history if history is enabled for the UI,wontfix,2018-08-14T03:20:12Z
+2363,CLOSED,Missing parameters for BigQueryLoadTask,,2019-01-18T22:13:00Z
+2362,CLOSED,Luigi Error NGS pipeline ?,,2018-03-05T12:20:45Z
+2360,CLOSED,Consider using Github's CODEOWNERS,,2018-07-31T02:30:35Z
+2359,CLOSED,logging error when running luigi on the same host with central scheduler,wontfix,2018-08-14T03:20:11Z
+2358,CLOSED,Notification emails should allow file uploads (multiple) instead of just single png image,wontfix,2018-08-14T03:20:10Z
+2357,CLOSED,race condition on lock :(,,2018-07-30T21:37:14Z
+2355,CLOSED,Master build broken,bug,2018-02-21T19:07:52Z
+2354,CLOSED,Is it possible to use environment variables in luigi config?,,2019-02-05T21:59:54Z
+2352,CLOSED,Disabled status handling issues,wontfix,2018-08-14T03:20:07Z
+2349,CLOSED,RemoteContext ssh process occasionally stops,wontfix,2018-08-14T03:20:06Z
+2348,CLOSED,"Too many open files" with docker_runner,wontfix,2018-08-14T03:20:04Z
+2347,CLOSED,luigi.contrib.sqla - Boolean values now cause a type error,wontfix,2021-11-27T12:18:45Z
+2342,CLOSED,Make capturing of stdout / stderr optional in ExternalProgramTask,wontfix,2018-08-14T03:20:01Z
+2341,CLOSED,Help on logging and task status tracking,wontfix,2018-08-14T03:20:03Z
+2337,CLOSED,Luigi keep retry failure tasks - after task is disabled,wontfix,2018-08-14T03:20:02Z
+2334,CLOSED,[contrib.kubernetes] Hangs on 'Pod errors: Unschedulable',bug,2018-02-22T00:31:41Z
+2333,CLOSED,Log completion time of tasks,wontfix,2018-07-31T12:36:04Z
+2332,CLOSED,Hosting Existing, Functional and Tested Luigi Docker App,wontfix,2018-08-14T03:20:05Z
+2331,CLOSED,TypeError: Can't instantiate abstract class MongoTarget with abstract methods exists,,2018-01-20T03:31:39Z
+2329,CLOSED,Efficiently backfilling RedshiftQuery-based Tasks,wontfix,2018-08-18T01:07:39Z
+2328,CLOSED,Static graphviz task visualisation,wontfix,2020-12-31T10:44:14Z
+2327,CLOSED,ExternalProgramTask can't process external process printing unicode to stdout,wontfix,2019-02-19T20:50:42Z
+2326,CLOSED,Pickling Python object to to-be-created directory fails with FileNotFoundError,wontfix,2018-09-08T17:52:55Z
+2324,CLOSED,Inconsistent task_id if using DictParameter,wontfix,2018-08-14T03:19:58Z
+2322,CLOSED,Support for Python 3 pathlib Paths in LocalTarget,wontfix,2020-06-01T20:03:18Z
+2319,CLOSED,Connection overflow in central scheduler history,wontfix,2018-09-05T08:41:42Z
+2315,CLOSED,Error While Submitting Spark Job.,,2017-12-19T12:18:59Z
+2314,CLOSED,luigi.contrib.hdfs.HdfsTarget Not working.,,2019-02-11T18:18:35Z
+2311,CLOSED,Return non-zero exit code on task failure,,2021-09-22T12:59:46Z
+2308,CLOSED,using keep-alive leads to performance problem,wontfix,2018-08-14T03:19:56Z
+2305,CLOSED,Range tasks use None with DateParameter, which breaks using them as dynamic deps,wontfix,2018-12-12T20:31:31Z
+2299,CLOSED,memory leak in luigi scheduler task history database code,wontfix,2019-02-22T03:39:38Z
+2298,CLOSED,Redshift COPY fails in luigi 2.7.1 when columns are not provided,,2018-02-16T19:45:22Z
+2297,CLOSED,Problems with dynamic_requirements.py example,wontfix,2018-07-31T12:59:21Z
+2289,CLOSED,Task started by even_handler stucks for long running parent task.,wontfix,2018-08-14T04:20:16Z
+2288,CLOSED,Access the number of workers from within a Task?,,2018-02-25T16:56:30Z
+2286,CLOSED,Parallel Tasks Fail,wontfix,2018-08-14T03:20:09Z
+2282,CLOSED,Sphinx autodocs,wontfix,2018-08-14T04:20:14Z
+2279,CLOSED,Python 3.6 missing from README,,2017-11-07T19:14:20Z
+2277,CLOSED,accessing the Visualizer introduce some delay in the scheduler and can hand workers ?,wontfix,2018-08-14T04:20:12Z
+2270,CLOSED,Configuration - Postgres section - explicit schema definition,,2017-11-10T08:15:24Z
+2268,CLOSED,Debugging "Task died unexpectedly with exit code -9",wontfix,2018-08-14T04:20:15Z
+2264,CLOSED,documentation correction for status message,wontfix,2018-08-14T04:20:13Z
+2263,CLOSED,pause tasks at specific times,wontfix,2018-08-14T04:20:17Z
+2261,CLOSED,Failing execution_summary,,2017-10-18T17:20:12Z
+2259,CLOSED,Adjusting the worker rank function to use last modified time rather than submitted time,wontfix,2018-08-14T03:20:16Z
+2256,CLOSED,Remove/fix (invalid?) entrypoint: luigi-migrate,,2017-10-14T16:18:26Z
+2252,CLOSED,Subsequent calls to RemoteFileSystem.get() ineffieciently log in and out,wontfix,2018-08-14T04:20:09Z
+2247,CLOSED,is it possible to use logging when workers>1?,wontfix,2022-07-05T08:29:17Z
+2246,CLOSED,Central scheduler configuration vs pipeline configuration,wontfix,2018-08-14T04:20:08Z
+2244,CLOSED,Redshift COPY should use the columns defined,,2017-10-09T19:35:30Z
+2240,CLOSED,luigi parameter value column is set to limit size of 256,,2018-05-02T17:04:29Z
+2238,CLOSED,pipeline as a final state machine,wontfix,2018-08-14T04:20:11Z
+2237,CLOSED,UserWarning for parameter type mismatches should provide task context,wontfix,2018-08-14T04:20:07Z
+2235,CLOSED,Allowing custom luigi.Config parameters to update port,wontfix,2018-08-14T04:20:03Z
+2234,CLOSED,Getting rid of repetitive "Starting pruning of task graph" / "Done pruning task graph" log entries,,2017-10-14T16:22:35Z
+2223,CLOSED,HdfsTarget is not workging in luigi > 2.6.1,,2019-01-21T15:53:01Z
+2220,CLOSED,Create and share parameter inside Task class,wontfix,2018-12-12T20:31:15Z
+2218,CLOSED,Windows Error: Cannot open output with format parameter specified,wontfix,2019-03-15T13:07:36Z
+2216,CLOSED,how to write protobuf message with luigi?,wontfix,2018-08-14T04:20:00Z
+2215,CLOSED,TypeError: a bytes-like object is required, not 'str' with SGEJobTask,wontfix,2018-12-16T19:34:35Z
+2214,CLOSED,how to write protobuf message with luigi?,,2017-08-23T20:16:08Z
+2212,CLOSED,securing the scheduler,wontfix,2018-08-14T04:20:02Z
+2211,CLOSED,Task doesn't check existence of data from output(),wontfix,2018-08-14T04:20:01Z
+2209,CLOSED,RPCError: Received null response from remote scheduler,wontfix,2018-08-14T04:19:59Z
+2204,CLOSED,`output()` executes before `requires()`,,2020-07-13T15:21:42Z
+2203,CLOSED,Sending notifications to Hipchat, Slack, etc.,,2017-10-02T07:22:05Z
+2202,CLOSED,Feature: Integration with Databricks API,wontfix,2020-04-09T14:35:51Z
+2201,CLOSED,I am missing a note about the data storage,wontfix,2018-08-14T04:19:58Z
+2200,CLOSED,Tasks get stuck in running state without them actually running,wontfix,2018-09-04T15:10:41Z
+2198,CLOSED,AssertionError: PID check failed. RNG must be re-initialized after fork(). Hint: Try Random.atfork(),wontfix,2018-08-14T04:19:56Z
+2195,CLOSED,rdbms.CopyToTable.create_table fails silently when columns is a list of strings,wontfix,2018-08-14T04:19:57Z
+2194,CLOSED,SQLAlchemy concurrent DB access,wontfix,2019-03-21T18:47:57Z
+2183,CLOSED,Move HDFS file to encrypted zone failed.,,2017-07-14T20:11:42Z
+2180,CLOSED,S3's _get_s3_config() restricts the use of [DEFAULT] ConfigParser section,bug, Affects contrib (only),2017-07-31T13:39:53Z
+2179,CLOSED,scheduling large amounts of files,,2017-07-12T21:46:37Z
+2178,CLOSED,Tuple Parameter with string,wontfix,2018-08-14T04:19:54Z
+2174,CLOSED,Luigi master is falling down due to JSON serialisation errors in task state output.,wontfix,2018-08-14T04:19:53Z
+2172,CLOSED,Recode the visualizer,wontfix,2018-08-14T04:20:06Z
+2171,OPEN,Separate out AWS into a separate repo,Big code change, Affects contrib (only), pinned,2018-07-31T13:00:07Z
+2170,OPEN,Separate out HDFS into a separate repo,Big code change, Affects contrib (only), pinned,2018-07-31T13:00:17Z
+2167,CLOSED,Debian build files removed, what would it take to get them back?,wontfix,2018-08-14T05:20:01Z
+2166,CLOSED,Cannot write to HDFS using webhdfs client,Affects contrib (only), wontfix,2018-08-14T05:20:04Z
+2164,CLOSED,Significant parameters shown in GUI.,wontfix,2018-08-26T13:02:12Z
+2163,CLOSED,Unfulfilled dependencies at runtime with `--workers=2`,wontfix,2018-09-22T09:17:05Z
+2161,CLOSED,luigi.Wrappertask to initialize all the tasks first,wontfix,2018-08-14T05:19:59Z
+2156,CLOSED,HivePartitionTarget does not guard against wrong parition name!,Affects contrib (only), wontfix,2018-08-14T05:20:05Z
+2155,CLOSED,always use subprocess for worker timeout,,2017-06-13T13:04:24Z
+2154,CLOSED,HTTP 500 Error on API call,bug, wontfix,2019-03-22T20:33:17Z
+2153,CLOSED,Is luigi expected to honor task priorities for multiple independent workflow executions?,,2017-07-09T15:53:54Z
+2142,CLOSED,is it distributed?,,2017-06-01T07:33:42Z
+2140,CLOSED,cdh tests too slow,wontfix,2018-08-14T05:20:08Z
+2137,CLOSED,How to schedule periodic tasks that runs hourly for example ?,,2017-05-27T10:30:25Z
+2135,CLOSED,Azure support,Affects contrib (only), wontfix,2018-08-14T05:20:07Z
+2133,CLOSED,Wrong configuration documentation,in progress,2017-11-07T19:30:40Z
+2129,CLOSED,Feature Request?? modify fields shows in the visualizer for central scheduler,wontfix,2018-08-14T05:19:57Z
+2122,CLOSED,S3 target: resources = {'overwrite_resource': 1} does not work,Small code change, Affects contrib (only),2017-07-09T21:06:04Z
+2118,CLOSED,HdfsAtomicWritePipe silently fails when target file exists,,2017-05-22T09:34:04Z
+2116,CLOSED,Superfluos project_id parameter in BigQuery job definition,,2017-06-25T08:29:34Z
+2112,CLOSED,Success on missing output,,2019-06-15T18:48:32Z
+2111,CLOSED,RemoteFileSystem of luigi.contrib.ftp does not implement the listdir method.,,2017-05-30T01:43:08Z
+2110,CLOSED,Document prune_on_get_work (maybe add config for server's prune period?),wontfix,2019-04-14T19:07:57Z
+2106,CLOSED,contrib.postgres.CopyToTable does not create missing columns if table exists,Small code change, Affects contrib (only), wontfix,2018-08-14T05:20:06Z
+2105,CLOSED,Luigi failure events with multiple workers,,2022-05-27T16:44:17Z
+2103,CLOSED,Luigi's handling of dynamic dependencies,wontfix,2018-08-14T05:20:03Z
+2100,CLOSED,Tracking data lineage,wontfix,2018-08-14T05:19:54Z
+2098,CLOSED,_parse_qsub_job_id doesn't parse properly,wontfix,2018-08-14T05:19:53Z
+2097,CLOSED,_build_qsub_command with kwarg flexibility,wontfix,2018-08-14T05:19:52Z
+2096,CLOSED,sge.SGEJobTask._build_qsub_command inconsistency,wontfix,2018-08-14T06:20:19Z
+2095,CLOSED,Cannot run multiple processing in a task,wontfix,2019-08-28T08:25:25Z
+2094,CLOSED,DictParameter fails when containing empty lists,,2017-07-02T15:13:49Z
+2087,OPEN,luigi.target.AtomicLocalFile not so atomic after all,bug, Affects core, pinned,2018-12-08T03:31:33Z
+2085,CLOSED,ssl.CertificateError: hostname 's3-us-west-2.amazonaws.com.s3.amazonaws.com' doesn't match either of '*.s3.amazonaws.com', 's3.amazonaws.com',,2017-04-05T05:04:25Z
+2084,CLOSED,Executing 2 pipeline jobs, (Must be in SYNC, not paralelly),,2017-04-05T05:01:56Z
+2080,CLOSED,Error with redshift does_table_exist(),,2017-07-01T19:59:46Z
+2075,CLOSED,CopyToIndex to luigi.contrib.esindex dont use requires ?,,2017-04-05T04:10:40Z
+2073,CLOSED,DeprecationWarning: inspect.getargspec() is deprecated,wontfix,2018-08-14T06:20:14Z
+2070,CLOSED,Worker thinks a failed job is still pending and never quits when keep-alive is enabled,wontfix,2022-08-18T14:56:32Z
+2060,CLOSED,Avoid exception handling for PostgresTarget.create_marker_table() with "CREATE TABLE IF NOT EXISTS",,2017-07-09T15:58:01Z
+2059,CLOSED,GCSClient.remove() fails with "Request Entity Too Large",bug, Affects contrib (only), wontfix,2018-08-14T04:20:05Z
+2055,CLOSED,can't install luigi,,2017-03-07T12:28:08Z
+2054,CLOSED,util.inherits and requires use inheritence, breaking the MRO,bug, Affects core,2017-12-13T19:40:01Z
+2052,CLOSED,Trying to implement dynamic building of task dependencies from config results in the scheduler not running the tasks,,2017-07-09T16:03:06Z
+2051,CLOSED,Advise of readme or notifications.py,,2017-03-05T03:22:50Z
+2050,CLOSED,LocalTarget and temporary_path,,2017-03-08T21:38:14Z
+2048,CLOSED,Delay instantiating S3Client when generating S3Targets,,2017-04-29T14:10:05Z
+2047,CLOSED,Set transaction flag for database queries,Affects contrib (only), FeatureRequest,2017-09-28T11:04:39Z
+2043,CLOSED,Recursively resolve dependencies,FeatureRequest,2017-08-29T18:15:50Z
+2041,CLOSED,luigi 2.6.0 install failed,,2017-02-27T12:37:43Z
+2039,CLOSED,Raise FileExistsError when running multiple workers,wontfix,2018-08-14T06:20:16Z
+2036,CLOSED,Expose Central Scheduler metrics for easy ingestion,wontfix,2018-10-17T13:53:27Z
+2035,CLOSED,force reschedule from web app,,2017-08-29T08:09:08Z
+2029,CLOSED,pip install lugi does not install it properly,,2017-02-13T10:13:23Z
+2028,CLOSED,Failed building wheel for luigi,,2017-03-01T01:38:24Z
+2027,CLOSED,Failed to build luigi,,2017-02-13T10:14:00Z
+2024,CLOSED,[visualizer] Wrong links to task graph in worker tab.,,2018-07-31T09:30:17Z
+2022,CLOSED,Luigi Visulizer Pruning : Turning off,,2017-03-05T03:30:12Z
+2019,CLOSED,Visualizer Task History Web Page Clipped on Left for Info,,2017-04-18T00:17:20Z
+2017,CLOSED,Issue when upgrading luigi version,,2017-03-14T11:59:59Z
+2014,CLOSED,run method is start over again.,,2017-02-06T04:20:04Z
+2010,CLOSED,Python 2.6 compatibility,,2017-02-07T17:55:21Z
+2008,CLOSED,Luigi Visulizer Stuck,,2017-07-09T16:08:37Z
+2005,CLOSED,RangeDaily with luigi.WrapperTask,,2017-07-09T16:10:04Z
+2001,CLOSED,luigi.s3.S3Client.listdir docstring talks of copying,,2017-02-02T02:40:47Z
+1996,CLOSED,Structuring the project - problem with changing PYTHONPATH to find tasks,,2017-01-24T01:59:11Z
+1991,CLOSED,Error when prunning workers from old scheduler states,,2017-01-19T09:48:00Z
+1989,CLOSED,DictParameter cannot be loaded from a configfile,,2017-01-23T09:50:11Z
+1988,CLOSED,PySparkTask crashs to start,,2017-07-13T13:19:09Z
+1985,CLOSED,can't subtract offset-naive and offset-aware datetimes,wontfix,2018-08-14T06:20:04Z
+1984,CLOSED,Allow schema to be specified for target table in sqla.CopyToTable,Affects contrib (only), FeatureRequest,2017-08-25T12:36:49Z
+1983,CLOSED,Binary or Gzip Write S3Target,,2017-07-09T16:11:38Z
+1969,CLOSED,listdir command crash,wontfix,2018-08-14T06:20:03Z
+1966,CLOSED,TimeDeltaParameter can't be passed to dynamic dependencies,,2017-07-09T16:12:37Z
+1964,CLOSED,Uncaught exception when task is finished.,wontfix,2018-08-14T06:20:09Z
+1961,CLOSED,Running a group of ExternalProgramTasks,,2016-12-14T02:52:40Z
+1958,CLOSED,Checking if task is complete takes a very long time,,2016-12-07T03:27:16Z
+1957,CLOSED,Batch notifier can stall the scheduler,bug,2018-02-02T07:58:22Z
+1956,CLOSED,Sendgrid email notifications broken by new Sendgrid API,bug, Affects contrib (only),2017-07-09T16:15:41Z
+1950,CLOSED,task_namespace lost during inheritance,,2017-01-10T04:56:11Z
+1948,CLOSED,retry_count configuration documentation is incorrect,wontfix,2018-08-14T06:20:01Z
+1947,CLOSED,task_id_str can throw an exception if upstream=None for a task,wontfix,2018-08-14T06:20:02Z
+1945,CLOSED,Ability to pre-instantiate TaskParameters?,wontfix,2019-01-27T17:25:48Z
+1943,CLOSED,sqla CopyToTable performance suggestion,wontfix,2018-08-14T06:19:59Z
+1942,CLOSED,TODO: Display where parameters with non-string values are implemented in the warning in parameters.py,FeatureRequest, wontfix,2018-08-14T05:20:17Z
+1941,CLOSED,unix sockets probably broken for requests 2.12.2,wontfix,2018-08-14T06:20:00Z
+1940,CLOSED,Worker and Scheduler notifications,FeatureRequest,2017-07-09T16:18:39Z
+1939,CLOSED,sqla how to set schema of table,Affects contrib (only), FeatureRequest,2017-07-09T16:19:45Z
+1938,CLOSED,Luigi coupled with IPyParalell,wontfix,2018-08-14T06:19:57Z
+1937,CLOSED,contrib.gcs does not solve atomic handling of "directories",,2018-05-30T15:33:40Z
+1936,CLOSED,Add LSF Support,,2018-03-13T10:55:12Z
+1935,CLOSED,Segfault in luigi when task raises exception,wontfix,2018-08-14T06:19:58Z
+1934,CLOSED,Feature request: list of tasks for @requires,,2018-08-06T11:02:37Z
+1933,CLOSED,Config class and @inherits don't mix,wontfix,2018-08-14T06:20:13Z
+1932,CLOSED,The retcode configuration does not consider task retry,,2017-01-05T03:03:53Z
+1924,CLOSED,Luigi doesn't output FAILURE processing time, end time and start time,,2017-03-03T01:18:47Z
+1921,CLOSED,Luigi task history SQL error ("task.task_id" is invalid in the select list..),wontfix,2018-08-14T06:20:10Z
+1920,CLOSED,i use petl.appenddb() insert into mysql db with MySqlTarget, but get "mysql.connector.errors.ProgrammingError: Not all parameters were used in the SQL statement",wontfix,2018-08-14T06:19:56Z
+1914,CLOSED,Cannot run luigi on AWS Lambda,FeatureRequest, wontfix,2021-11-27T16:12:12Z
+1911,CLOSED,Luigi Job Hangs even when hadoop job is completed,,,2016-11-07T02:31:59Z
+1905,CLOSED,Redshift: Serializable isolation violation,,2017-08-25T11:18:22Z
+1904,CLOSED,How to run the program?,wontfix,2018-08-14T06:19:53Z
+1903,CLOSED,Proxy issues when using luigid,wontfix,2018-08-14T06:19:52Z
+1899,CLOSED,Workflow for asynchronous work, use ExternalTasks or other?,,2016-11-08T01:12:12Z
+1898,CLOSED,Hashing nested dicts fails,,2017-12-04T06:49:43Z
+1897,CLOSED,Plugins support,Medium code change, FeatureRequest, wontfix,2018-08-14T03:19:57Z
+1894,CLOSED,Failed connecting to remote scheduler,,2018-08-10T08:59:26Z
+1889,CLOSED,Scheduler doesn't hand out unique jobs,wontfix,2018-08-14T07:20:08Z
+1884,CLOSED,Inline Spark job fails when depedency reads a manually set configuration value,wontfix,2018-08-14T07:20:04Z
+1879,CLOSED,How can I pass a path to the archives parameter of HadoopJobRunner?,wontfix,2018-08-14T07:20:06Z
+1875,CLOSED,Add a chat on Gitter icon?,,2018-07-24T10:36:23Z
+1874,CLOSED,Guidelines for profiling/timing performance?,wontfix,2018-08-14T06:19:55Z
+1873,CLOSED,History only works after killing and restarting.,wontfix,2018-08-14T07:20:05Z
+1872,CLOSED,Assistant dynamic resources,wontfix,2018-08-14T06:19:54Z
+1869,CLOSED,Unable to import module,wontfix,2021-01-10T21:43:18Z
+1865,CLOSED,Running the per_task_retry_policy example fails,wontfix,2018-08-14T06:20:11Z
+1852,CLOSED,Issue when importing another .py file into a luigi script,wontfix,2018-08-14T07:20:02Z
+1834,CLOSED,How to Dynamically create a Luigi Task,wontfix,2019-11-05T20:38:52Z
+1831,CLOSED,Dataproc image-version param not supported,,2016-11-28T09:17:34Z
+1823,CLOSED,luigi.contrib.ssh- Using an integer for the port number for RemoteContext causes a confusing and unhelpful error message in Popen.,wontfix,2018-08-14T07:19:59Z
+1822,CLOSED,Single worker behavior considered dangerous,wontfix,2020-10-06T09:41:34Z
+1812,CLOSED,Having custom task_family for dynamic dependencies,wontfix,2018-07-31T16:34:40Z
+1811,CLOSED,Luigi triggers run method twice for tasks yields some dynamic dependencies,,2016-08-09T15:35:47Z
+1810,CLOSED,HdfsTarget warns: Parameter None is not of type string,Affects contrib (only),2017-07-09T16:27:04Z
+1808,CLOSED,Terminal Width affects Lock identification under Centos 6.5,,2016-08-26T21:22:42Z
+1807,CLOSED,Time column is not sorted correctly in the UI,bug,2017-07-09T16:27:47Z
+1806,CLOSED,Add dry run flag,,2016-08-08T02:31:43Z
+1787,CLOSED,HdfsReadPipe silently fails when unable to read,wontfix,2018-08-14T07:19:57Z
+1780,CLOSED,unhashable type dict,,2016-07-28T02:17:23Z
+1776,CLOSED,Meaning of DEPENDENCY_PRESENT event unclear,wontfix,2018-08-14T16:07:55Z
+1775,CLOSED,Adding DateSecondParameter to parameter.py,,2016-07-28T02:29:18Z
+1768,CLOSED,Dataproc module assumes Google application credentials exist,wontfix,2018-08-14T07:19:56Z
+1765,CLOSED,TypeError: can't pickle function objects with v2.2.0 PySparkTask,,2016-08-30T03:27:39Z
+1764,CLOSED,#1607 - luigi.Task.clone casts parameters to destination type,wontfix,2018-08-14T07:19:55Z
+1763,CLOSED,Help required with understanding workflow,,2017-02-01T11:59:40Z
+1758,CLOSED,Cacheing returns of __repr__ function of luigi.Task,wontfix,2018-08-14T07:19:54Z
+1752,CLOSED,No control over tuning of luigi-server.log.,,2016-08-22T06:18:36Z
+1750,CLOSED,Scalability problem: unworkable scheduler slowdown when requiring many tasks,wontfix,2018-08-14T05:19:55Z
+1748,CLOSED,How to programmatically restart a specific task after failure?,,2017-07-08T04:22:59Z
+1746,CLOSED,Add mention of conda-forge build to readme,Documentation, wontfix,2018-11-20T21:21:52Z
+1741,CLOSED,S3 Feature Addition - will break current usage of list and listdir,,2016-07-01T12:40:05Z
+1740,CLOSED,HdfsTarget commands fail when many targets are instantiated,,2016-07-01T14:54:37Z
+1739,CLOSED,If a worker times out and the task is marked as "FAILED", the history still shows it as "RUNNING",,2017-07-09T07:36:32Z
+1738,CLOSED,task.complete() for BigqueryTarget,,2016-10-21T14:11:14Z
+1736,CLOSED,Redundant calls to task.get_params() in util.common_params(),,2016-06-28T14:11:29Z
+1730,CLOSED,Inconsistent filename references to LocalTarget and MockTarget,,2016-06-28T14:12:01Z
+1728,CLOSED,Problems with command line arguments (with underscore in name),,2017-07-09T16:28:27Z
+1727,CLOSED,Luigi doesnt show help with --help,,2017-07-09T07:33:42Z
+1726,CLOSED,Parameter must be defined for outer task in luigi.cfg when using @inherits or @requires,wontfix,2018-08-14T06:20:05Z
+1725,CLOSED,Rerun task with same parameters without removing outputs,FeatureRequest,2017-07-08T04:16:02Z
+1721,CLOSED,Failed job doesn't give non-zero exit code,,2016-06-16T17:30:20Z
+1714,CLOSED,can't pickle function objects with SGEJobTask,,2017-07-09T07:20:45Z
+1712,CLOSED,Hive Examples Needed,wontfix,2018-08-14T07:20:01Z
+1707,CLOSED,Cython + 'unexpected keyword argument' hack,,2016-06-24T02:20:24Z
+1706,CLOSED,ImportError when using pinject on Linux machine,,2016-06-07T02:31:12Z
+1697,CLOSED,about mysql or redis,,2017-07-09T07:15:41Z
+1688,CLOSED,SFTP target doesn't allow custom port,,2016-05-18T02:23:12Z
+1687,CLOSED,TravisCI cdh builds are failing,,2016-05-16T07:12:38Z
+1685,CLOSED,[WIP] Salesforce does not download all results for large result set,,2016-05-19T02:27:19Z
+1684,CLOSED,Generic database target,,2017-07-07T15:40:47Z
+1683,CLOSED,contrib/sge - Python 3.5 breaks pickling (v2.1.1),,2017-02-24T01:53:52Z
+1682,CLOSED,Dictionary Parameter giving me an error,,2016-05-06T19:37:00Z
+1678,CLOSED,Dynamically change number of workers once a workflow has been launched,,2017-05-07T17:24:24Z
+1671,CLOSED,Logs raise crtiical instead of warning on worker <> scheduler retry,wontfix,2018-08-14T07:19:53Z
+1668,CLOSED,Wrong partition name leads to erroneous task finish status,Affects contrib (only),2017-07-08T04:12:09Z
+1665,CLOSED,SGEJobTask can fail on NFS due to use of shutil.rmtree,,2017-07-09T07:16:47Z
+1663,CLOSED,Specifying a config file with an environment variable is broken,bug, Small code change, wontfix,2018-08-14T05:20:12Z
+1661,CLOSED,500 Error on api/ping or when sending tasks to the central scheduler,,2021-07-20T21:29:37Z
+1660,CLOSED,When worker-task-limit is exceeded, return code is 0 even though tasks are left pending,,2016-07-20T08:33:26Z
+1658,CLOSED,How do you get the new visualiser?,,2016-04-21T22:07:14Z
+1657,CLOSED,Task finished yet the luigi failed.,,2016-06-08T02:26:56Z
+1654,CLOSED,Intellij under osx failed to pass pid lock (lock.getpcmd),,2018-06-06T18:22:55Z
+1647,CLOSED,Cannot write to a binary file (LocalStorage),wontfix,2018-10-23T12:09:02Z
+1629,CLOSED,Multiple Luigi.cfg Issues,bug, Documentation,2017-07-09T15:41:18Z
+1627,CLOSED,Visualizer fails with similar range targets.,,2016-07-13T18:47:48Z
+1622,CLOSED,Feature: auto-refresh visualizer,wontfix,2018-08-14T05:19:58Z
+1618,CLOSED,Add B,,2016-03-31T04:27:22Z
+1617,CLOSED,[Feature request/discussion] Spark context worker,FeatureRequest, wontfix,2018-08-14T04:19:55Z
+1615,CLOSED,Do not show non-significant parameters in history,,2017-07-09T07:06:36Z
+1613,CLOSED,Task History Not Working,,2019-09-20T17:50:12Z
+1611,CLOSED,Unify the DISABLED modes,FeatureRequest, wontfix,2018-08-14T05:20:14Z
+1608,CLOSED,Parallel scheduling can't handle externalized dependencies,,2019-06-12T01:19:37Z
+1607,CLOSED,Dynamic Requires incorrectly treats all luigi.Parameter as strings,,2016-04-11T01:54:40Z
+1605,CLOSED,job control,,2017-07-09T06:59:56Z
+1604,CLOSED,Dependency graph visualization does not display arrows in chrome.,,2016-04-11T14:16:59Z
+1599,CLOSED,Range is sensitive to trailing slash,bug,2017-07-09T06:52:41Z
+1594,CLOSED,Use Waiters in ECS Task,wontfix,2018-08-14T07:20:00Z
+1591,CLOSED,Design: serialization of none parameters,,2017-07-09T06:50:57Z
+1590,CLOSED,Help, Could I build and run async tasks with pure python?,,2016-03-16T16:09:29Z
+1582,CLOSED,S3 multipart directory copy not working,,2016-03-11T02:22:32Z
+1578,CLOSED,CopyToPostgres inserts data twice because of updated update_id,bug,2017-07-09T07:22:19Z
+1576,CLOSED,pyspark_runner.py can't un-pickle a PySparkTask sub-class,wontfix,2018-08-14T05:20:02Z
+1575,CLOSED,Salesforce - Handling large datasets,,2016-04-02T02:53:51Z
+1573,CLOSED,Execution summary crashes on a date parameter being None,,2016-03-07T15:27:40Z
+1559,CLOSED,send_email doesn't trim recipient's email address,,2016-02-24T02:37:02Z
+1553,CLOSED,About the "task statistics",,2017-07-09T06:49:31Z
+1552,CLOSED,Unfulfilled dependencies at run time,,2018-11-30T17:33:39Z
+1551,CLOSED,Global luigi params passed through command line,,2019-07-03T10:26:42Z
+1550,CLOSED,luigi scheduler server does not work behind appengine managed vm,,2017-07-08T04:02:58Z
+1549,CLOSED,Proposal: Kubernetes wrapper,,2017-03-15T20:42:29Z
+1548,CLOSED,task always "running",,2017-07-08T04:25:25Z
+1546,CLOSED,Routing workflows to different assistant pools,wontfix,2018-08-14T05:20:16Z
+1539,CLOSED,[Spark Configuration] Can't pass Spark property using the conf when the option contains an equals,,2016-02-22T02:59:23Z
+1535,CLOSED,Docs are wrong, Python is Strongly typed...,,2016-03-22T10:37:30Z
+1534,CLOSED,Question: wrap hadoop/spark call in ssh,Medium code change, FeatureRequest, wontfix,2018-08-14T05:20:15Z
+1529,CLOSED,Problems with mysql.connector dependencies installation,wontfix,2018-08-14T06:20:07Z
+1526,CLOSED,Inaccurate Documentation of Chief Maintainer,,2016-04-10T02:04:32Z
+1523,CLOSED,Distributed central scheduler support,wontfix,2019-09-18T12:27:38Z
+1521,CLOSED,test_external_task_retries in worker_test fails since #1449,,2016-02-01T22:51:12Z
+1519,CLOSED,Temporary files are messed up,wontfix,2018-08-14T06:20:08Z
+1516,CLOSED,The number on visualiser web page is all 0,,2017-07-08T04:01:56Z
+1512,CLOSED,Access task logs in luigid,,2017-01-17T09:54:23Z
+1507,CLOSED,Question: Triggering tasks over HTTP?,wontfix,2018-08-14T07:20:03Z
+1496,CLOSED,Disable Task History when using --local-scheduler,,2016-01-12T02:35:47Z
+1495,CLOSED,RemoteTarget creates a non-existant file/directory, but its test expects a raised error,,2017-07-08T04:19:17Z
+1492,CLOSED,Task dependancies running slowly,,2016-01-13T13:50:16Z
+1491,CLOSED,Python 3.5 support,,2016-01-10T03:03:10Z
+1485,CLOSED,"missing boto" warning for hadoop import,,2016-01-06T02:11:48Z
+1483,CLOSED,Broken: S3 List & ListDir,,2016-04-02T02:54:27Z
+1481,CLOSED,RQ backend viable ?,,2017-07-09T07:10:56Z
+1476,CLOSED,basic task example from docs fails,,2015-12-31T03:56:38Z
+1474,CLOSED,init_mapper/init_reducer will be called twice for LocalJobRunner,,2015-12-30T09:27:27Z
+1470,CLOSED,no more tasks when requires_local done,,2017-07-07T16:04:17Z
+1467,CLOSED,Memory leak when reading from huge gzipped S3Target,,2015-12-24T18:54:55Z
+1459,CLOSED,Proposal: redshift.CreateTableAs and redshift.CreateView,FeatureRequest,2017-07-09T07:09:51Z
+1454,CLOSED,How to control the parallelism of each jobs?,,2017-07-08T04:00:58Z
+1450,CLOSED,Managing result targets from within luigi,FeatureRequest,2017-07-07T18:06:26Z
+1437,CLOSED,Scheduler only hosts on unix socket when run in the background,,2015-12-03T01:51:57Z
+1424,CLOSED,Confusing positional parameter advice,,2015-11-25T12:41:39Z
+1423,CLOSED,Pickle crashing when trying to pickle "update_tracking_url" in luigi.worker?,wontfix,2018-08-14T06:20:06Z
+1416,CLOSED,Issues with command line parameters in luigi 2.0.0 and base classes,,2017-07-07T16:02:09Z
+1415,CLOSED,bb,,2015-11-26T00:03:17Z
+1409,CLOSED,Left over artifacts after running tests,,2017-07-07T18:03:59Z
+1407,CLOSED,Using bcolz as output format?,FeatureRequest,2017-07-07T16:05:51Z
+1401,CLOSED,logging configuration not causing output to stdout,,2017-07-08T03:58:52Z
+1398,CLOSED,luigi.contrib.pig.PigJobTask pig_parameters not working,,2015-11-13T14:53:05Z
+1396,CLOSED,Add global resource utilizations to UI,,2016-02-25T04:03:56Z
+1394,CLOSED,tornado < 4 consistently makes requests to luigid fail with 500 Internal server error,,2015-11-17T11:40:07Z
+1387,CLOSED,Execution summary breaks for unhashable parameters,bug,2017-07-09T06:54:25Z
+1385,CLOSED,dynamic resources,,2015-11-12T08:36:21Z
+1381,CLOSED,ReadTheDocs - Latest (Incorrect Page titles),,2015-11-18T07:32:42Z
+1379,CLOSED,DateIntervalParameter not ISO8601 interval?,,2016-01-14T15:51:44Z
+1375,CLOSED,KeyboardInterrupt doesn't interrupt (parallel scheduling),bug,2017-07-09T09:07:25Z
+1374,CLOSED,Top Artists Example Refers to HDFSTarget in AggregateArtists,,2015-11-06T18:04:53Z
+1373,CLOSED,@luigi.Task.event_handler for a method,,2017-01-22T08:28:30Z
+1371,CLOSED,Add method to S3Target to get back path,,2015-11-06T15:58:38Z
+1368,CLOSED,FTP RemoteTarget tries to create local temp file in root,,2016-02-23T04:06:30Z
+1365,CLOSED,Hierarchical Wrapper Tasks Check All Child Dependencies Repetitively,,2015-11-03T17:22:55Z
+1364,CLOSED,Dependency graph fails sometimes,,2016-04-10T16:35:42Z
+1362,CLOSED,how to define dynamic resources according to luigi parameters?,wontfix,2018-07-31T12:34:03Z
+1360,CLOSED,PR #1137 yields SIGUSR1 AttributeError on Windows,,2016-10-17T15:20:27Z
+1359,CLOSED,2.0.0 doesn't run on Windows due to missing SIGUSR1,,2015-10-29T01:22:28Z
+1355,CLOSED,Wrong escaping in hive partition spec,wontfix,2018-08-14T07:19:58Z
+1353,CLOSED,assistant shouldn't require specifying task,wontfix,2018-08-14T05:20:13Z
+1350,CLOSED,Argument parsing failing during execution summary,,2015-11-01T23:47:03Z
+1346,CLOSED,Dependency graph failing on firefox,,2015-11-01T23:47:14Z
+1344,CLOSED,Update S3 client to use Boto3,,2018-07-13T20:20:06Z
+1339,CLOSED,Python 2.7.10 Boto S3 Issue,,2015-11-11T08:50:32Z
+1335,CLOSED,Parameters named "task" no longer working on CLI,,2015-10-22T14:06:33Z
+1333,CLOSED,RemoteScheduler timeout needs to be configurable,FeatureRequest,2017-07-07T18:03:12Z
+1328,CLOSED,download dependancy graph,WebUI, FeatureRequest,2017-07-07T15:56:50Z
+1322,CLOSED,Cryptic message 'No handlers could be found for logger "luigi-interface"',bug,2015-10-20T11:14:25Z
+1321,CLOSED,No module named top_artists,,2019-09-05T23:50:32Z
+1312,CLOSED,Proposal to change task_id serialisation,,2016-07-27T08:24:39Z
+1307,CLOSED,Task history should have an HTTP API,Medium code change, FeatureRequest, wontfix,2018-08-14T05:20:11Z
+1304,CLOSED,Unexpected behavior with command-line overrides of parameters with default values,,2015-11-02T09:24:23Z
+1301,CLOSED,New svg layout algorithm broken,bug,2015-10-09T18:16:31Z
+1297,CLOSED,postgres - use timestamps,,2015-11-01T23:48:42Z
+1284,CLOSED,makedirs uses LBYL rather than EAFP, which causes errors with multiple concurrent workers,,2015-10-08T07:56:12Z
+1283,CLOSED,Visualization gets messy in some cases,,2015-10-08T08:46:23Z
+1282,CLOSED,Highlight root tasks in UI,WebUI, FeatureRequest,2017-07-07T15:54:24Z
+1280,CLOSED,python-pip is an "install requirement",,2015-10-09T15:37:05Z
+1278,CLOSED,debian/control should include python-setuptools in Build-Depends,,2015-10-09T15:34:57Z
+1273,CLOSED,Parameters aren't validated when passed via constructor,,2017-02-14T19:38:00Z
+1270,CLOSED,Unable to use empty parameters,,2015-10-19T21:27:50Z
+1268,CLOSED,Why assert default is not True for BoolParameter?,,2015-10-07T14:06:31Z
+1261,CLOSED,execution summary limits are hard coded,,2015-10-09T15:35:48Z
+1260,CLOSED,execution summary output is very different depending on number of results,,2015-10-09T15:35:30Z
+1253,CLOSED,Composition of parameters,,2015-11-01T23:49:29Z
+1247,CLOSED,Release early, release often,,2015-11-01T23:49:05Z
+1239,CLOSED,unicode Bug in luigi.postgres.CopyToTable,,2017-07-07T18:02:11Z
+1238,CLOSED,Pending Tasks: 0 Unique Pending Tasks: 0 Running Tasks: 0,,2015-11-01T23:49:49Z
+1237,CLOSED,for scheduler, what if task.workers are killed?,,2015-09-20T13:47:58Z
+1236,CLOSED,workers limit?,,2017-07-07T15:51:37Z
+1230,CLOSED,About the connection error,,2015-11-01T23:53:44Z
+1227,CLOSED,Workers dying on errors that can't be unpickled,,2015-09-19T07:54:03Z
+1226,CLOSED,Runtime change in parameters is not fully respected by luigi,,2015-09-17T20:41:28Z
+1225,CLOSED,About the "early quit",,2020-04-09T08:37:46Z
+1224,CLOSED,how to re-enable a task from the command line?,,2017-07-08T09:40:12Z
+1223,CLOSED,Parameter containing unicode chars fail to serialize (MS Windows),,2019-06-04T17:15:01Z
+1221,CLOSED,gcs._DeleteOnCloseFile().close() cannot be called more than once,,2015-09-21T20:49:08Z
+1218,CLOSED,GCSClient.download()/.put() is unusably slow for large files,,2015-09-16T18:23:29Z
+1217,CLOSED,what's "assistant"?,,2020-01-29T15:09:58Z
+1215,CLOSED,Many pending tasks, but no worker will process them.,,2015-11-01T23:57:40Z
+1213,CLOSED,help, tasks do not be inserted into mysql table any more.,,2017-07-07T15:46:55Z
+1212,CLOSED,Bug: Null sequence in postgres.CopyTable not recognized,,2015-09-25T14:54:06Z
+1203,CLOSED,Luigi Slackbot,,2015-09-10T22:28:39Z
+1201,CLOSED,Add an option to prevent Worker from catching exceptions from Task.run(),,2015-09-18T20:45:29Z
+1195,CLOSED,launch task to center planner of different port,,2015-09-03T14:37:47Z
+1192,CLOSED,Execution Summary Failing,,2015-09-09T08:31:48Z
+1189,CLOSED,Log also missing targets, not only missing tasks? (In RuntimeError: Unfulfilled dependency at run time),wontfix,2018-08-14T07:19:52Z
+1185,CLOSED,Problem with running PySpark task,,2017-03-04T00:09:35Z
+1184,CLOSED,run two luigid in the same machine with different port,,2015-09-01T11:37:30Z
+1183,CLOSED,puzzled with task.complete() function,,2015-11-01T23:53:09Z
+1171,CLOSED,Task history breaks if you specify an empty string as a parameter value,,2015-10-30T19:29:35Z
+1168,CLOSED,Singleton task,,2015-08-31T07:45:42Z
+1163,CLOSED,Add "History Tasks" tag to the website,WebUI,2017-07-07T15:44:59Z
+1162,CLOSED,Support for resources for limiting parallelism on a per worker basis,,2018-11-22T12:52:41Z
+1161,CLOSED,how to configure beeline for hive related task :(,,2017-07-07T15:43:55Z
+1160,CLOSED,Suggestion: Warn for non-string keys or values in kwargs in <class>.from_str_params(),,2017-07-07T15:43:20Z
+1158,CLOSED,TypeError: 'set' object has no attribute '__getitem__' on creating task with cls.from_str_params(),,2015-08-24T12:42:30Z
+1152,CLOSED,how to get task id of each Task?,,2015-08-24T12:35:11Z
+1151,CLOSED,restart scheduler is required when index.html is edited?,,2015-08-25T11:19:06Z
+1149,CLOSED,Suggestion on RecordTarget for RDBMS,,2017-07-07T15:41:08Z
+1148,CLOSED,Config: `error-email` is not recognized by luigid,,2015-08-20T13:58:50Z
+1144,CLOSED,Issues Opening Local Target as Output,,2015-08-19T00:34:42Z
+1141,CLOSED,exceptions in Task.output() don't show up in the Central Scheduler website,,2017-07-07T15:39:15Z
+1132,CLOSED,WARNING: Error saving Task history,,2017-07-07T15:38:00Z
+1123,CLOSED,Long tuples in map reduce,,2015-08-13T07:29:28Z
+1120,CLOSED,Luigi Truck Factor,,2015-08-11T23:28:51Z
+1118,CLOSED,Support unix sockets for faster internal connections,,2021-08-19T15:42:31Z
+1116,CLOSED,How to cancel/stop a pending task?,,2023-09-12T17:34:01Z
+1114,CLOSED,Configurable number of processes used for parallel processing,FeatureRequest,2017-07-09T07:31:51Z
+1113,CLOSED,Luigi on top of AWS,,2015-08-05T08:55:49Z
+1110,CLOSED,RangeBase executes tasks out of order,,2015-08-02T17:29:34Z
+1105,CLOSED,hadoop streaming stuck on 0%,,2015-08-06T16:07:21Z
+1102,CLOSED,hadoop streaming stuck on 0%,,2015-07-30T04:45:26Z
+1100,CLOSED,Truthiness of luigi.Parameter is unexpected.,,2015-07-30T03:05:23Z
+1095,CLOSED,luigi hadoop streaming didn't get to run,,2015-07-28T05:51:01Z
+1093,CLOSED,Using RangeDailyBase with dummy task fails with "Unfulfilled dependencies",,2015-07-28T05:52:23Z
+1092,CLOSED,A __repr__ somewhere in the HdfsTarget chain conflicts with the Google Cloud Storage naming convention,,2015-08-31T21:21:37Z
+1088,CLOSED,Clean-up hooks on worker shutdown,,2016-10-24T15:16:16Z
+1078,CLOSED,S3CopyToTable does not support AWS temporary security credentials,,2017-02-14T19:29:54Z
+1073,CLOSED,Retry settings/logic at task level instead of at "global" scheduler level,,2017-07-07T15:15:41Z
+1070,CLOSED,PySpark error - "OSError: [Errno 2] No such file or directory",,2015-07-16T16:15:50Z
+1057,CLOSED,Run daily task,,2015-07-14T13:52:16Z
+1055,CLOSED,How to tag the Task as failed in run() function?,,2015-07-10T07:53:47Z
+1054,CLOSED,Task done twice,,2018-03-23T18:54:56Z
+1053,CLOSED,support of neo4j / implementation of neo4jTarget,FeatureRequest,2017-07-07T15:46:09Z
+1052,CLOSED,d3 and mixed content,,2017-07-07T17:58:47Z
+1029,CLOSED,Why is configuration file called 'client.cfg',,2015-09-28T07:56:53Z
+1023,CLOSED,Local scheduler does not prune automatically,,2015-07-01T15:24:36Z
+1017,CLOSED,Error saving task when classmethod named parse_session exists in namespace,,2017-07-07T15:13:21Z
+1012,CLOSED,TypeError: 'str' does not support the buffer interface in luigi.contrib.hive,,2018-01-16T19:34:43Z
+1009,CLOSED,About client.cfg,,2015-06-18T15:09:53Z
+1008,CLOSED,Access task logs in luigid,,2017-07-09T15:44:16Z
+1007,CLOSED,record the task history to a file,,2017-07-07T15:53:18Z
+1003,CLOSED,RedshiftTarget update_id too long for marker table,,2019-06-04T11:47:27Z
+995,CLOSED,S3CopyToTable.s3_load_path TypeError,,2016-04-10T16:35:10Z
+994,CLOSED,Task is not test as complete once scheduled,,2015-06-08T09:35:59Z
+987,CLOSED,luigi with python2.7 problem:,,2015-06-14T11:35:22Z
+985,CLOSED,Can I setup luigi offline?,,2016-01-12T03:00:03Z
+984,CLOSED,Usability issue: Make --local-scheduler default when no remote scheduler is configured,Small code change, Affects core,2017-07-06T09:53:23Z
+979,CLOSED,SQLAlchemyTarget only works with single SQLAlchemy engine,,2015-06-03T22:32:40Z
+970,CLOSED,Documentation for Hadoop jobs ahead of where release on PyPI is,,2015-05-27T12:40:24Z
+963,CLOSED,Luigi memory consumption causing spark jobs to crash,,2015-06-04T20:12:57Z
+953,CLOSED,Current build issues,,2015-05-19T10:40:56Z
+951,CLOSED,Test `test_get_info` is failing,,2015-05-26T10:12:14Z
+946,CLOSED,S3FlagTarget doesn't pass client to super constructor,,2017-02-14T19:24:45Z
+919,CLOSED,Failed to import 'db_task_history',,2015-04-29T19:55:00Z
+905,CLOSED,Tasks that complete in <1s may display as RUNNING or PENDING in task history,,2015-04-24T15:32:21Z
+901,CLOSED,Exception when a command-line parametter contains a non-ascii character,,2015-04-29T12:16:09Z
+896,CLOSED,hive table_exists should be case insensitive?,,2015-04-21T07:56:08Z
+892,CLOSED,RemoteFileSystem.put/get don't work for directories,,2015-04-16T11:25:52Z
+891,CLOSED,RemoteFileSystem uses wrong path separator,,2015-04-20T12:46:39Z
+887,CLOSED,python setup.py install leads to exception,,2015-08-07T16:30:56Z
+886,CLOSED,Success emails - notifications,,2018-03-23T16:21:07Z
+884,CLOSED,Submit Hadoop job with luigi as the current user and not as YARN,,2016-05-17T02:35:05Z
+876,CLOSED,specifying ssh port for RemoteTarget,,2015-04-13T11:38:26Z
+873,CLOSED,Luigi doesn't check default arguments when deciding whether a job is already running,,2017-07-06T04:37:05Z
+869,CLOSED,Boolean CLI arguments should be parsed as such,,2019-11-16T18:02:38Z
+868,CLOSED,Custom date interval behavior confusing,,2015-03-24T23:54:21Z
+866,CLOSED,Luigi Compatibility issue with Spark 1.3?,,2015-05-05T19:07:04Z
+859,CLOSED,List pass to Luigi as parameter become tuple type.,,2017-10-12T00:38:45Z
+857,CLOSED,PyPI released version 1.1.1 breaks because `logger` is not defined in task_register.py,,2015-03-18T02:29:59Z
+848,CLOSED,Luigi and Cassandra,,2015-03-13T12:15:21Z
+838,CLOSED,Improve packaging of "entrypoints",,2015-03-13T12:14:46Z
+824,CLOSED,New Tornado RPC prevents scheduling from completing successfully,,2015-05-27T01:15:57Z
+822,CLOSED,How is Luigi Parameter name decided?,,2015-07-10T12:42:20Z
+821,CLOSED,What is the point of target_table in sqla.SQLAlchemyTarget?,,2015-03-06T16:53:29Z
+815,CLOSED,Cannot run more than 2 workers at the same time,,2015-03-05T16:18:19Z
+814,CLOSED,Yielding task with no output causes infinite loop,bug, wontfix,2018-08-14T05:20:10Z
+791,CLOSED,Backward incompatible changes in pipe_writer in hdfs.py,,2015-03-06T15:44:21Z
+790,CLOSED,Still encoding issues with 2.6,,2015-03-06T15:00:14Z
+786,CLOSED,Did python 3 refactoring break backwards compat?,,2015-02-25T07:42:29Z
+765,CLOSED,`S3FlagTarget` checks for slash terminated path with `is` instead of `==`,,2015-02-18T23:57:29Z
+761,CLOSED,running test/runtests.py create side effect on unit test,,2015-02-18T15:57:36Z
+759,CLOSED,[Critical] Travis gives green on failures,bug,2015-02-24T09:52:39Z
+744,CLOSED,Negative task priority is silently ignored,bug, Small code change, wontfix,2021-02-01T01:00:31Z
+743,CLOSED,BoolParameters without config_path set to default value by set_global_parameters,,2015-02-14T09:35:18Z
+740,CLOSED,Allow specification of input() and output() filenames.,,2015-02-19T02:03:55Z
+738,CLOSED,Latest Luigi version breaks my hadoop jobs,,2015-02-22T19:48:32Z
+734,CLOSED,Override _requires leads to infinite recursion.,,2015-02-19T02:05:24Z
+719,CLOSED,README not in readthedocs,,2015-03-16T13:50:23Z
+717,CLOSED,Support for notifications through Amazon SNS,,2015-11-25T15:50:58Z
+713,CLOSED,hadoop --config cannot be set in client.cfg,,2015-02-05T11:47:52Z
+706,CLOSED,apache license on the header of the files?,,2015-02-05T21:51:08Z
+704,CLOSED,Problem to check the existing of a Hive partition,bug, Affects contrib (only),2017-07-06T04:38:55Z
+699,CLOSED,bug on luigi.contrib.ftp.AtomicFtpfile,,2015-02-03T22:37:57Z
+687,CLOSED,Task scripts should return non-zero if any tasks were DISABLED or FAILED,,2015-10-09T08:38:07Z
+683,CLOSED,Proposal for re-evaluating completion of ExternalTasks,,2015-02-05T12:14:50Z
+662,CLOSED,It is possible for Travis to *comment* as well build status?,,2015-01-26T11:31:21Z
+643,CLOSED,Update SQLA module,,2015-02-11T22:19:45Z
+640,CLOSED,Documentation error,,2015-01-25T20:20:02Z
+635,CLOSED,Per-task max-reschedules,,2016-09-01T09:38:23Z
+595,CLOSED,Cleanup Targets / Rerun tasks,FeatureRequest, wontfix,2021-03-22T14:27:48Z
+592,CLOSED,Provide RDBMS target using SQLAlchemy,,2015-02-19T02:05:43Z
+586,CLOSED,Redshift: InternalError: Cannot COPY into nonexistent table,,2015-02-04T08:56:36Z
+578,CLOSED,os.getuid on Windows,,2014-12-15T07:45:25Z
+571,CLOSED,test_dynamic_dependencies is flaky on Travis CI,,2015-02-08T14:55:48Z
+558,CLOSED,Some Docs Have Disappeared,,2014-12-07T17:16:18Z
+542,CLOSED,Extend deps.py to find all upstream dependency,,2019-02-12T04:07:47Z
+531,CLOSED,Support for basic_authentification for ElasticSearch CopyToIndex task,,2015-03-01T21:33:39Z
+521,CLOSED,Luigi command line runner not displaying paramaters,,2015-03-16T17:25:34Z
+520,CLOSED,mkdir error when using HdfsClientCdh3,,2017-07-06T04:32:59Z
+519,CLOSED,Scheduler spammed by workers which have no tasks to run,Small code change, Affects core, wontfix,2018-08-14T05:20:09Z
+514,CLOSED,hadoop streaming job -files option (extra files),,2014-10-30T12:14:20Z
+511,CLOSED,Spark job written in Python support,,2015-03-16T17:52:52Z
+506,CLOSED,A task can run twice if it fails to create output (without error),,2018-01-31T15:43:01Z
+502,CLOSED,Worker finishes before completion no resources are available,,2017-07-05T15:38:54Z
+498,CLOSED,Scheduler failing during priority update,,2014-10-16T01:50:21Z
+468,CLOSED,TestCmd.test_getpcmd is flaky in Travis CI,,2015-02-19T02:06:28Z
+466,CLOSED,Job Tracking URL in yarn/MRv2/new API,Affects contrib (only), FeatureRequest,2017-07-08T03:40:56Z
+459,CLOSED,add input file name and line number to error message,,2017-07-13T19:52:28Z
+451,CLOSED,Code organization,,2015-03-05T14:41:01Z
+449,CLOSED,Occational 500 errors from server on /api/add_worker,,2016-11-23T02:47:30Z
+443,CLOSED,Luigi workers should report dead workers to scheduler,,2017-07-05T15:41:03Z
+436,CLOSED,Pig support,,2017-07-05T15:42:07Z
+435,CLOSED,hardcoded unix tyle tmp directory cause failure on Windows,,2015-01-21T23:08:57Z
+434,CLOSED,Scheduler gets "stuck", tasks are running (though done) or pending (though ready) indefinitely,,2015-05-26T13:53:45Z
+430,CLOSED,Memory leak at the manager,,2017-12-05T20:06:31Z
+426,CLOSED,deprecation warning when importing luigi.hdfs,,2014-10-10T13:38:24Z
+420,CLOSED,Indirect Require by Data Path,,2017-07-05T15:42:29Z
+412,CLOSED,Luigi will sometimes reschedule broken task indefinetely,,2017-07-05T15:47:21Z
+391,CLOSED,Use of mutable default values in HadoopJobRunner (and others),,2017-07-05T15:47:43Z
+390,CLOSED,Exception adding worker - scheduler might be running an older version,,2017-07-05T15:48:03Z
+382,CLOSED,Adding Python 3 support,,2015-03-16T11:51:12Z
+380,CLOSED,Issues running tests,,2016-11-23T02:43:06Z
+372,CLOSED,Allow to capture luigi-interface logger without it spawning a stream handler,,2017-11-14T17:24:53Z
+367,CLOSED,LuigiConfigParser::add_config_path() raises if instance() hasn't been accessed,,2014-07-02T11:35:45Z
+366,CLOSED,Multiple test failures when running via pytest (e.g. customized_run_test),,2017-07-05T15:50:38Z
+360,CLOSED,Stop work flow when an exception occurred in a worker,,2017-07-05T15:50:55Z
+357,CLOSED,Luigi visualiser should draw arrows to reflect dependencies direction,,2017-02-14T19:20:01Z
+350,CLOSED,The new priority argument causes incompatibility b/w worker and scheduler versions,,2014-06-12T12:04:38Z
+347,CLOSED,hdfs.py#tmppath(path=None) function incorrectly works for URIs with schema,,2014-06-28T14:53:35Z
+345,CLOSED,Add "execution time" info to Done tasks in the Web UI,Small code change, Affects core, wontfix,2018-08-14T03:19:59Z
+341,CLOSED,AttributeError: 'float' object has no attribute 'last_active',,2016-09-01T09:31:50Z
+333,CLOSED,Hadoop version configuration is not delivered to nodes,,2017-07-05T15:51:35Z
+331,CLOSED,A dependency failed does not cause job fail cascade,,2017-07-05T15:52:21Z
+328,CLOSED,a Chinese manual about Luigi and wish that it is helpful to somebody,,2014-05-30T03:00:52Z
+315,CLOSED,Changing parameter based file format API to Inheritance based API,,2017-07-05T15:54:09Z
+311,CLOSED,Document DB Task History,,2016-09-01T09:29:39Z
+302,CLOSED,How to wrap luigi task,,2016-09-01T09:30:02Z
+294,CLOSED,MRJob adaptation,,2018-03-29T02:12:59Z
+289,CLOSED,Optparse is deprecated,,2016-03-23T02:28:51Z
+286,CLOSED,Feature Request: In the UI show which tasks depend on the current task,,2016-09-01T09:30:33Z
+285,CLOSED,`from __future__ import absolute_import` throws Luigi off,,2014-04-06T15:57:56Z
+267,CLOSED,SIGQUIT in luigid on Windows,,2015-01-27T21:13:57Z
+266,CLOSED,New release to pypi?,,2014-02-19T19:23:38Z
+265,CLOSED,HdfsClient.exists() throws HDFSCliError when file does not exist,,2014-01-29T14:23:12Z
+256,CLOSED,snakebite vs. cdh4 in luigi.hdfs.Target,,2016-09-01T09:37:37Z
+232,CLOSED,no documentation of python-daemon requirement for --background,,2017-07-05T15:54:21Z
+226,CLOSED,Error in examples/top_artists.py,,2016-11-23T02:43:13Z
+222,CLOSED,Workers quit before all pending tasks are done,,2015-12-02T00:22:27Z
+216,CLOSED,BaseHadoopJobTask always turns off reducers for hadoop jar tasks,,2017-07-05T15:54:35Z
+215,CLOSED,Don't use hard-coded tmp_dir, use tempfile.mkdtemp,,2016-09-01T09:36:32Z
+213,CLOSED,Failed dependency reported only once,,2017-07-05T15:55:15Z
+212,CLOSED,hadoop mapper should be able to return None to filter input rows,,2013-10-23T02:53:06Z
+211,CLOSED,Passing lists in on the command-line doesn't work properly,,2017-06-14T14:22:48Z
+206,CLOSED,top_artists example inconsistent with observed output,,2013-10-21T02:27:56Z
+201,CLOSED,Scheduler colors are bad for colorblindness,,2017-07-05T15:59:34Z
+199,CLOSED,Scalding jobs fail with object has no attribute 'reducer',,2017-07-05T16:00:00Z
+197,CLOSED,Unable to run hadoop map reduce job using luigi,,2013-10-15T18:02:16Z
+193,CLOSED,Cannot pass BooleanParameter in as argument from commandline,,2016-03-16T16:02:42Z
+192,CLOSED,LocalTarget.exists no-permission fails silently and returns False,,2017-07-05T16:00:14Z
+188,CLOSED,luigid state file should have configurable path,,2015-03-07T18:20:25Z
+183,CLOSED,Checking downstream "dependencies".,,2016-09-01T09:33:11Z
+173,CLOSED,Enable overriding of retry_delay when running stuff manually,,2017-07-05T16:11:33Z
+167,CLOSED,Deadlock in unit tests,bug,2016-09-01T09:34:05Z
+161,CLOSED,Move all non-core things to luigi.toolbox,,2016-10-24T14:56:34Z
+154,CLOSED,No timestamps in server logs,,2016-09-01T09:35:48Z
+150,CLOSED,Scheduler not working for jobs with many dependencies,,2013-08-06T09:34:28Z
+141,CLOSED,Fix up tornado import guards,,2013-07-26T18:11:41Z
+138,CLOSED,Can exception handling be extensible?,,2017-07-05T16:02:21Z
+137,CLOSED,Make logging configurable,,2015-01-27T21:14:48Z
+130,CLOSED,Issues with tasks containing spaces/parentheses/etc,,2017-07-05T16:03:47Z
+122,CLOSED,KeyError with new visualizer,,2013-07-26T18:11:53Z
+114,CLOSED,Faster UI with thousands of tasks,,2016-09-01T09:33:44Z
+113,CLOSED,document worker config,,2013-07-24T18:23:48Z
+101,CLOSED,RawConfigParser -> ConfigParser,,2013-07-04T12:17:53Z
+100,CLOSED,Document new scheduler UI,,2013-07-24T18:24:02Z
+99,CLOSED,There should be a way to specify jobs which could affect other jobs,,2017-07-05T15:35:48Z
+98,CLOSED,Execution should begin in parallel with scheduling,,2017-07-05T15:34:17Z
+96,CLOSED,Central scheduler crashes on startup if state file broken,,2017-07-02T15:18:58Z
+94,CLOSED,Deprecate global parameters?,,2016-09-01T09:27:51Z
+77,CLOSED,A wrapper for a wrapper checks all dependencies twice,,2017-07-05T15:33:47Z
+66,CLOSED,HiveQueryTask doesn't create parent dirs,bug,2017-07-05T15:31:27Z
+63,CLOSED,luigi should allow for a user level config, not just a root path and system level,,2017-07-05T15:31:01Z
+60,CLOSED,HiveQueryTask doesn't use output/isn't atomic,bug,2017-07-05T15:29:22Z
+59,CLOSED,luigi-grep,,2013-05-14T14:21:13Z
+51,CLOSED,RFC: Luigi Task History,,2017-02-09T19:06:06Z
+46,CLOSED,setup borks trying to open missing README.md,,2013-04-25T17:22:21Z
+29,CLOSED,LocalTarget(is_tmp=True) always reports as complete,,2013-03-29T17:38:05Z
+28,CLOSED,visualizer failing regular expression search,,2013-03-22T22:58:57Z
+24,CLOSED,self in static method,,2013-04-03T20:04:45Z
+18,CLOSED,luigi Task class and abc,,2013-04-03T19:59:46Z
+14,CLOSED,"Interface" tasks,,2013-04-08T03:42:01Z
+13,CLOSED,Visualizer does a bad job rendering large graphs,,2013-07-04T16:01:47Z
+12,CLOSED,support for per-task emails,,2015-10-02T16:12:08Z
+11,CLOSED,task complete with no inputs,,2013-03-11T16:28:37Z
+4,CLOSED,python 2.7 incompatibilities,,2013-01-03T15:24:16Z
+3,CLOSED,where is `./bin/spluigid` from the docs?,,2012-12-10T19:26:45Z
+1,CLOSED,'maximum recursion depth exceeded' when running unit tests,,2012-12-28T08:07:03Z
